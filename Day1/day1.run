@@ -1,0 +1,21 @@
+reset;
+option solver highsa;
+option highs_options ("threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=0.01 time_limit=1800");
+
+#option solver cplexamp;
+option cplex_options ("mipgap=0.01 display=1 timing=1 mipdisplay=3");
+
+model day1.mod;
+data day1.dat;
+
+solve;
+
+display NumberOfRooms;
+#display assign;
+
+
+for {r in ROOMS: sum{e in EVENTS: e >= r} assign[e, r] > 0.1} {
+    printf "Room %d:\n", r;
+    printf {e in EVENTS : e >= r and assign[e, r] > 0.1 } "%d ", e;
+    printf "\n"; 
+}
