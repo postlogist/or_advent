@@ -1,4 +1,4 @@
-# Day 1 of the Advent of hashtag#OperationsResearch 🤠
+# Day 1 of the Advent
 
 I'm struggling to organize a series of events...
 
