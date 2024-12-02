@@ -1,0 +1,46 @@
+
+Shortest route for a budget of 20 Eur
+1>37>56>14>100
+TotalDistance = 241
+MaxFuel.body = 13
+
+
+Shortest route for a budget of 21 Eur
+1>37>41>41>79>54>100
+TotalDistance = 238
+MaxFuel.body = 21
+
+
+Shortest route for a budget of 22 Eur
+1>72>53>80>100
+TotalDistance = 211
+MaxFuel.body = 22
+
+
+Shortest route for a budget of 23 Eur
+1>72>5>34>100
+TotalDistance = 197
+MaxFuel.body = 23
+
+Shortest route for a budget of 24 Eur
+1>72>17>100
+TotalDistance = 172
+MaxFuel.body = 24
+
+
+Shortest route for a budget of 26 Eur
+1>72>53>100
+TotalDistance = 142
+MaxFuel.body = 26
+
+
+Shortest route for a budget of 44 Eur
+1>37>41>2>100
+TotalDistance = 131
+MaxFuel.body = 44
+
+
+Shortest route for a budget of 81 Eur
+1>59>2>100
+TotalDistance = 80
+MaxFuel.body = 81

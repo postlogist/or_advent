@@ -5,14 +5,16 @@ data day2.dat;
 
 option solver highsa;
 
-for {cost in 60 .. 85 by 1} {
+printf "Computing the route...\n" > solution.log; 
 
-    printf "\n\nShortest route for a budget of %d Eur\n", cost;
+for {cost in 20 .. 85 by 1} {
+
+    printf "\n\nShortest route for a budget of %d Eur\n", cost >> solution.log;
     let fuel_budget := cost;
     solve;
 
-    display {(o, d) in LINKS : z[o, d] > 0.1 } (z[o, d], z[o, d] * distance[o, d], z[o, d] * fuel_cost[o, d]);
-    display TotalDistance;
-    display MaxFuel.body;
+    display {(o, d) in LINKS : z[o, d] > 0.1 } (z[o, d], z[o, d] * distance[o, d], z[o, d] * fuel_cost[o, d]) >> solution.log;
+    display TotalDistance >> solution.log; 
+    display MaxFuel.body >> solution.log;
 
 }
