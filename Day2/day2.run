@@ -1,0 +1,18 @@
+reset;
+
+model day2.mod;
+data day2.dat;
+
+option solver highsa;
+
+for {cost in 60 .. 85 by 1} {
+
+    printf "\n\nShortest route for a budget of %d Eur\n", cost;
+    let fuel_budget := cost;
+    solve;
+
+    display {(o, d) in LINKS : z[o, d] > 0.1 } (z[o, d], z[o, d] * distance[o, d], z[o, d] * fuel_cost[o, d]);
+    display TotalDistance;
+    display MaxFuel.body;
+
+}
