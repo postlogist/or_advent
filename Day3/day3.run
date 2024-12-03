@@ -1,0 +1,17 @@
+reset;
+option solver highsa;
+model day3.mod;
+
+read N < instance_clean.txt;
+read {t in TASKS, e in EMPLOYEES} cost[t, e] < instance_clean.txt;
+
+
+solve;
+
+printf "Scheduling %d tasks...\n", N > solution.txt;
+display TotalCost > solution.txt;
+
+for {t in TASKS, e in EMPLOYEES: assign[t, e] > 0.1} {
+    printf "Task %d assigned to employee %d\n", t, e >> solution.txt;
+}
+
