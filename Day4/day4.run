@@ -11,36 +11,36 @@ read {r in ROOMS, i in CLASSES, j in TEACHERS} requirement[r, i, j] < day4/insta
 
 solve;
 
-printf "Scheduling completed.\n" > schedule.txt;
-printf "Total clashes: %d\n", TotalClashes >> schedule.txt;
+printf "Scheduling completed.\n" > day4/schedule.txt;
+printf "Total clashes: %d\n", TotalClashes >> day4/schedule.txt;
 
 for {j in TEACHERS} {
 
-    printf "Teacher %d's schedule:\n", j >> schedule.txt;
+    printf "Teacher %d's schedule:\n", j >> day4/schedule.txt;
 
-    printf "%-4s", "Day" >> schedule.txt;
-    printf {i in CLASSES} "  c%d", i >> schedule.txt;
-    printf "\n" >> schedule.txt;
+    printf "%-4s", "Day" >> day4/schedule.txt;
+    printf {i in CLASSES} "  c%d", i >> day4/schedule.txt;
+    printf "\n" >> day4/schedule.txt;
     for {t in PERIODS} {
-        printf "%4d", t >> schedule.txt;
+        printf "%4d", t >> day4/schedule.txt;
         printf {i in CLASSES} " %3d", if sum {r in ROOMS} assign[r, i, j, t] < 0.1 then 0 
-                                    else sum {r in ROOMS} r * assign[r, i, j, t] >> schedule.txt;
-        printf "\n" >> schedule.txt;
+                                    else sum {r in ROOMS} r * assign[r, i, j, t] >> day4/schedule.txt;
+        printf "\n" >> day4/schedule.txt;
     }
 }
     
 for {i in CLASSES} {
 
-    printf "Class %d's schedule:\n", i >> schedule.txt;
+    printf "Class %d's schedule:\n", i >> day4/schedule.txt;
 
-    printf "%-4s", "Day" >> schedule.txt;
-    printf {j in TEACHERS} "  t%d", j >> schedule.txt;
-    printf "\n" >> schedule.txt;
+    printf "%-4s", "Day" >> day4/schedule.txt;
+    printf {j in TEACHERS} "  t%d", j >> day4/schedule.txt;
+    printf "\n" >> day4/schedule.txt;
     for {t in PERIODS} {
-        printf "%4d", t >> schedule.txt;
+        printf "%4d", t >> day4/schedule.txt;
         printf {j in TEACHERS} " %3d", if sum {r in ROOMS} assign[r, i, j, t] < 0.1 then 0 
-                                    else sum {r in ROOMS} r * assign[r, i, j, t] >> schedule.txt;
-        printf "\n" >> schedule.txt;
+                                    else sum {r in ROOMS} r * assign[r, i, j, t] >> day4/schedule.txt;
+        printf "\n" >> day4/schedule.txt;
     }
 }
     
