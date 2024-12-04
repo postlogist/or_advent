@@ -1,0 +1,5 @@
+param n_rooms := 4;
+param n_classes := 4;
+param n_teachers := 4;
+param n_periods := 30;
+

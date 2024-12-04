@@ -1,0 +1,46 @@
+reset;
+option solver highsa;
+option highs_options ("threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=0.01 time_limit=1800");
+
+model day4/day4.mod;
+data day4/day4.dat;
+
+read {r in ROOMS, i in CLASSES, j in TEACHERS} requirement[r, i, j] < day4/instance_req_clean.txt;
+
+
+
+solve;
+
+printf "Scheduling completed.\n" > schedule.txt;
+printf "Total clashes: %d\n", TotalClashes >> schedule.txt;
+
+for {j in TEACHERS} {
+
+    printf "Teacher %d's schedule:\n", j >> schedule.txt;
+
+    printf "%-4s", "Day" >> schedule.txt;
+    printf {i in CLASSES} "  c%d", i >> schedule.txt;
+    printf "\n" >> schedule.txt;
+    for {t in PERIODS} {
+        printf "%4d", t >> schedule.txt;
+        printf {i in CLASSES} " %3d", if sum {r in ROOMS} assign[r, i, j, t] < 0.1 then 0 
+                                    else sum {r in ROOMS} r * assign[r, i, j, t] >> schedule.txt;
+        printf "\n" >> schedule.txt;
+    }
+}
+    
+for {i in CLASSES} {
+
+    printf "Class %d's schedule:\n", i >> schedule.txt;
+
+    printf "%-4s", "Day" >> schedule.txt;
+    printf {j in TEACHERS} "  t%d", j >> schedule.txt;
+    printf "\n" >> schedule.txt;
+    for {t in PERIODS} {
+        printf "%4d", t >> schedule.txt;
+        printf {j in TEACHERS} " %3d", if sum {r in ROOMS} assign[r, i, j, t] < 0.1 then 0 
+                                    else sum {r in ROOMS} r * assign[r, i, j, t] >> schedule.txt;
+        printf "\n" >> schedule.txt;
+    }
+}
+    
