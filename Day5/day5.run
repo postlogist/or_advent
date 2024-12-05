@@ -33,7 +33,12 @@ solve;
 printf "Solving a facility location problem\n" > Day5/solution.txt;
 
 
-display TotalCost >> Day5/solution.txt; 
+printf "Total cost: %.1fK\n", TotalCost / 1e3>> Day5/solution.txt; 
+
+printf "Fixed cost: %.1fK\n", sum {w in WAREHOUSES} (fixed_cost[w] * open[w]) / 1e3 >> Day5/solution.txt; 
+
+printf "Allocation cost: %.1fK\n", sum {c in CUSTOMERS, w in WAREHOUSES} (source[c, w]  * allocation_cost[c, w] / demand[c]) / 1e3 >> Day5/solution.txt; 
+
 
 printf "Warehouses to open: " >> Day5/solution.txt;
 printf {w in WAREHOUSES : open[w] > 0.1} " %d", w >> Day5/solution.txt;

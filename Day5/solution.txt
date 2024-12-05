@@ -1,6 +1,7 @@
 Solving a facility location problem
-TotalCost = 1078610
-
+Total cost: 1078.6K
+Fixed cost: 90.0K
+Allocation cost: 988.6K
 Warehouses to open:  1 2 3 4 5 6 7 8 9 11 12 13 14
 Customer to warehouse allocations:
 Customer 1 (demand 146) gets shipments from warehouse(s):  8 (146)
