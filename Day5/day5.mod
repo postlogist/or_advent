@@ -21,6 +21,9 @@ param max_capacity := max {w in WAREHOUSES} capacity[w];
 subject to AllocateToSource {c in CUSTOMERS, w in WAREHOUSES}:
     source[c, w] <= allocate[c, w] * demand[c];
 
+subject to MaxAllocation {c in CUSTOMERS}:
+    sum {w in WAREHOUSES} allocate[c, w] <= ceil(demand[c] / max_capacity);
+
 subject to AllocateToOpen {w in WAREHOUSES, c in CUSTOMERS}:
     allocate[c, w] <= open[w];
 
@@ -42,6 +45,6 @@ subject to Capacity {w in WAREHOUSES}:
 
 
 minimize TotalCost:
-    sum {w in WAREHOUSES} (fixed_cost[w] * open[w] + sum{c in CUSTOMERS} allocate[c, w] * allocation_cost[c, w]);
+    sum {w in WAREHOUSES} (fixed_cost[w] * open[w] + sum{c in CUSTOMERS} source[c, w] / demand[c] * allocation_cost[c, w]);
 
 

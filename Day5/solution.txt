@@ -1,55 +1,55 @@
 Solving a facility location problem
-TotalCost = 1556340
+TotalCost = 1078610
 
 Warehouses to open:  1 2 3 4 5 6 7 8 9 11 12 13 14
 Customer to warehouse allocations:
-Customer 1 gets shipments from warehouse(s):  8
-Customer 2 gets shipments from warehouse(s):  12
-Customer 3 gets shipments from warehouse(s):  1
-Customer 4 gets shipments from warehouse(s):  1
-Customer 5 gets shipments from warehouse(s):  8
-Customer 6 gets shipments from warehouse(s):  14
-Customer 7 gets shipments from warehouse(s):  5
-Customer 8 gets shipments from warehouse(s):  9
-Customer 9 gets shipments from warehouse(s):  8
-Customer 10 gets shipments from warehouse(s):  8
-Customer 11 gets shipments from warehouse(s):  4 11
-Customer 12 gets shipments from warehouse(s):  5 9
-Customer 13 gets shipments from warehouse(s):  6
-Customer 14 gets shipments from warehouse(s):  1
-Customer 15 gets shipments from warehouse(s):  7
-Customer 16 gets shipments from warehouse(s):  8
-Customer 17 gets shipments from warehouse(s):  12
-Customer 18 gets shipments from warehouse(s):  9
-Customer 19 gets shipments from warehouse(s):  12
-Customer 20 gets shipments from warehouse(s):  7
-Customer 21 gets shipments from warehouse(s):  4
-Customer 22 gets shipments from warehouse(s):  7
-Customer 23 gets shipments from warehouse(s):  5 11
-Customer 24 gets shipments from warehouse(s):  1
-Customer 25 gets shipments from warehouse(s):  12
-Customer 26 gets shipments from warehouse(s):  1
-Customer 27 gets shipments from warehouse(s):  13
-Customer 28 gets shipments from warehouse(s):  11
-Customer 29 gets shipments from warehouse(s):  14
-Customer 30 gets shipments from warehouse(s):  1
-Customer 31 gets shipments from warehouse(s):  14
-Customer 32 gets shipments from warehouse(s):  14
-Customer 33 gets shipments from warehouse(s):  14
-Customer 34 gets shipments from warehouse(s):  2 3 6
-Customer 35 gets shipments from warehouse(s):  12
-Customer 36 gets shipments from warehouse(s):  12
-Customer 37 gets shipments from warehouse(s):  11
-Customer 38 gets shipments from warehouse(s):  5
-Customer 39 gets shipments from warehouse(s):  8
-Customer 40 gets shipments from warehouse(s):  6
-Customer 41 gets shipments from warehouse(s):  14
-Customer 42 gets shipments from warehouse(s):  12
-Customer 43 gets shipments from warehouse(s):  8
-Customer 44 gets shipments from warehouse(s):  7
-Customer 45 gets shipments from warehouse(s):  8
-Customer 46 gets shipments from warehouse(s):  8
-Customer 47 gets shipments from warehouse(s):  8
-Customer 48 gets shipments from warehouse(s):  7
-Customer 49 gets shipments from warehouse(s):  1
-Customer 50 gets shipments from warehouse(s):  12
+Customer 1 (demand 146) gets shipments from warehouse(s):  8 (146)
+Customer 2 (demand 87) gets shipments from warehouse(s):  12 (87)
+Customer 3 (demand 672) gets shipments from warehouse(s):  1 (672)
+Customer 4 (demand 1337) gets shipments from warehouse(s):  1 (1337)
+Customer 5 (demand 31) gets shipments from warehouse(s):  8 (31)
+Customer 6 (demand 559) gets shipments from warehouse(s):  14 (559)
+Customer 7 (demand 2370) gets shipments from warehouse(s):  6 (2370)
+Customer 8 (demand 1089) gets shipments from warehouse(s):  3 (1089)
+Customer 9 (demand 33) gets shipments from warehouse(s):  8 (33)
+Customer 10 (demand 32) gets shipments from warehouse(s):  8 (32)
+Customer 11 (demand 5495) gets shipments from warehouse(s):  4 (5000) 9 (495)
+Customer 12 (demand 904) gets shipments from warehouse(s):  5 (904)
+Customer 13 (demand 1466) gets shipments from warehouse(s):  9 (1466)
+Customer 14 (demand 143) gets shipments from warehouse(s):  1 (143)
+Customer 15 (demand 615) gets shipments from warehouse(s):  7 (615)
+Customer 16 (demand 564) gets shipments from warehouse(s):  8 (564)
+Customer 17 (demand 226) gets shipments from warehouse(s):  12 (226)
+Customer 18 (demand 3016) gets shipments from warehouse(s):  9 (3016)
+Customer 19 (demand 253) gets shipments from warehouse(s):  12 (253)
+Customer 20 (demand 195) gets shipments from warehouse(s):  7 (195)
+Customer 21 (demand 38) gets shipments from warehouse(s):  11 (38)
+Customer 22 (demand 807) gets shipments from warehouse(s):  7 (807)
+Customer 23 (demand 551) gets shipments from warehouse(s):  11 (551)
+Customer 24 (demand 304) gets shipments from warehouse(s):  1 (304)
+Customer 25 (demand 814) gets shipments from warehouse(s):  12 (814)
+Customer 26 (demand 337) gets shipments from warehouse(s):  1 (337)
+Customer 27 (demand 4368) gets shipments from warehouse(s):  13 (4368)
+Customer 28 (demand 577) gets shipments from warehouse(s):  11 (577)
+Customer 29 (demand 482) gets shipments from warehouse(s):  14 (482)
+Customer 30 (demand 495) gets shipments from warehouse(s):  1 (495)
+Customer 31 (demand 231) gets shipments from warehouse(s):  14 (231)
+Customer 32 (demand 322) gets shipments from warehouse(s):  14 (322)
+Customer 33 (demand 685) gets shipments from warehouse(s):  14 (685)
+Customer 34 (demand 12912) gets shipments from warehouse(s):  2 (5000) 3 (3911) 5 (4001)
+Customer 35 (demand 325) gets shipments from warehouse(s):  12 (325)
+Customer 36 (demand 366) gets shipments from warehouse(s):  12 (366)
+Customer 37 (demand 3671) gets shipments from warehouse(s):  11 (3671)
+Customer 38 (demand 2213) gets shipments from warehouse(s):  6 (2213)
+Customer 39 (demand 705) gets shipments from warehouse(s):  8 (705)
+Customer 40 (demand 328) gets shipments from warehouse(s):  6 (328)
+Customer 41 (demand 1681) gets shipments from warehouse(s):  14 (1681)
+Customer 42 (demand 1117) gets shipments from warehouse(s):  12 (1117)
+Customer 43 (demand 275) gets shipments from warehouse(s):  8 (275)
+Customer 44 (demand 500) gets shipments from warehouse(s):  7 (500)
+Customer 45 (demand 2241) gets shipments from warehouse(s):  8 (2241)
+Customer 46 (demand 733) gets shipments from warehouse(s):  8 (733)
+Customer 47 (demand 222) gets shipments from warehouse(s):  8 (222)
+Customer 48 (demand 49) gets shipments from warehouse(s):  7 (49)
+Customer 49 (demand 1464) gets shipments from warehouse(s):  1 (1464)
+Customer 50 (demand 222) gets shipments from warehouse(s):  12 (222)
