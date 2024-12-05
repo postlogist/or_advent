@@ -1,0 +1,66 @@
+reset;
+option solver highsa;
+option highs_options ("threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=0.001 time_limit=1800");
+option show_stats 1;
+
+model Day5/day5.mod;
+
+read num_warehouses < Day5/instance_clean.txt;
+read num_customers < Day5/instance_clean.txt;
+
+display num_warehouses, num_customers;
+
+read {w in WAREHOUSES} (capacity[w], fixed_cost[w]) < Day5/instance_clean.txt;
+
+read {c in CUSTOMERS} (demand[c], {w in WAREHOUSES} allocation_cost[c, w]) < Day5/instance_clean.txt;
+
+
+# Integrality relaxation is needed wor customers 11 and 34, because their demand is over any warehouse's location
+
+/*
+param max_capacity := max {w in WAREHOUSES} capacity[w];
+
+for {c in CUSTOMERS : demand[c] > max_capacity} {
+
+    for {w in WAREHOUSES} {
+        let allocate[c, w].relax := 1;
+    }
+
+}
+*/
+solve;
+
+printf "Solving a facility location problem\n" > Day5/solution.txt;
+
+
+display TotalCost >> Day5/solution.txt; 
+
+printf "Warehouses to open: " >> Day5/solution.txt;
+printf {w in WAREHOUSES : open[w] > 0.1} " %d", w >> Day5/solution.txt;
+printf "\n" >> Day5/solution.txt;
+
+printf "Customer to warehouse allocations:\n" >> Day5/solution.txt;
+
+for {c in CUSTOMERS} {
+    printf "Customer %d gets shipments from warehouse(s): ", c >> Day5/solution.txt;
+    printf {w in WAREHOUSES: allocate[c, w] > 0.01} " %d", w >> Day5/solution.txt;
+    printf "\n" >> Day5/solution.txt;
+}
+
+#read {r in ROOMS, i in CLASSES, j in TEACHERS} requirement[r, i, j] < day4/instance_req_clean.txt;
+
+
+/*
+# The first line gives you the number of warehouses and the number of clients
+# The following <number of warehouses> lines give you the maximum demand a warehouse can handle and the fixed cost for opening that location
+# The rest of the lines give you:
+# - the demand for a client
+# - the cost for handling that demand to each warehouse
+
+# In this instance, you have 16 warehouses and 50 clients
+# Then, for each warehouse we have a maximum demand of 5000 and a fixed cost of 7500 (except for one warehouse)
+# After that, the demand of client 1 is 146, and the cost for handling that demand in warehouse 1 is 6739.72500, in warehouse 2 is 10355.05000, ... in warehouse 16 is 6051.70000
+# The demand of client 2 is 87, and the cost for handling that demand in warehouse 1 is 3204.86250, in warehouse 2 is 5457.07500, ... in warehouse 16 is 2838.37500 
+# and so on and so forth
+
+*/

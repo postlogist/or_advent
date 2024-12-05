@@ -1,0 +1,55 @@
+Solving a facility location problem
+TotalCost = 1556340
+
+Warehouses to open:  1 2 3 4 5 6 7 8 9 11 12 13 14
+Customer to warehouse allocations:
+Customer 1 gets shipments from warehouse(s):  8
+Customer 2 gets shipments from warehouse(s):  12
+Customer 3 gets shipments from warehouse(s):  1
+Customer 4 gets shipments from warehouse(s):  1
+Customer 5 gets shipments from warehouse(s):  8
+Customer 6 gets shipments from warehouse(s):  14
+Customer 7 gets shipments from warehouse(s):  5
+Customer 8 gets shipments from warehouse(s):  9
+Customer 9 gets shipments from warehouse(s):  8
+Customer 10 gets shipments from warehouse(s):  8
+Customer 11 gets shipments from warehouse(s):  4 11
+Customer 12 gets shipments from warehouse(s):  5 9
+Customer 13 gets shipments from warehouse(s):  6
+Customer 14 gets shipments from warehouse(s):  1
+Customer 15 gets shipments from warehouse(s):  7
+Customer 16 gets shipments from warehouse(s):  8
+Customer 17 gets shipments from warehouse(s):  12
+Customer 18 gets shipments from warehouse(s):  9
+Customer 19 gets shipments from warehouse(s):  12
+Customer 20 gets shipments from warehouse(s):  7
+Customer 21 gets shipments from warehouse(s):  4
+Customer 22 gets shipments from warehouse(s):  7
+Customer 23 gets shipments from warehouse(s):  5 11
+Customer 24 gets shipments from warehouse(s):  1
+Customer 25 gets shipments from warehouse(s):  12
+Customer 26 gets shipments from warehouse(s):  1
+Customer 27 gets shipments from warehouse(s):  13
+Customer 28 gets shipments from warehouse(s):  11
+Customer 29 gets shipments from warehouse(s):  14
+Customer 30 gets shipments from warehouse(s):  1
+Customer 31 gets shipments from warehouse(s):  14
+Customer 32 gets shipments from warehouse(s):  14
+Customer 33 gets shipments from warehouse(s):  14
+Customer 34 gets shipments from warehouse(s):  2 3 6
+Customer 35 gets shipments from warehouse(s):  12
+Customer 36 gets shipments from warehouse(s):  12
+Customer 37 gets shipments from warehouse(s):  11
+Customer 38 gets shipments from warehouse(s):  5
+Customer 39 gets shipments from warehouse(s):  8
+Customer 40 gets shipments from warehouse(s):  6
+Customer 41 gets shipments from warehouse(s):  14
+Customer 42 gets shipments from warehouse(s):  12
+Customer 43 gets shipments from warehouse(s):  8
+Customer 44 gets shipments from warehouse(s):  7
+Customer 45 gets shipments from warehouse(s):  8
+Customer 46 gets shipments from warehouse(s):  8
+Customer 47 gets shipments from warehouse(s):  8
+Customer 48 gets shipments from warehouse(s):  7
+Customer 49 gets shipments from warehouse(s):  1
+Customer 50 gets shipments from warehouse(s):  12
