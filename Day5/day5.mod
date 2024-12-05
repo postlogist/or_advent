@@ -45,6 +45,6 @@ subject to Capacity {w in WAREHOUSES}:
 
 
 minimize TotalCost:
-    sum {w in WAREHOUSES} (fixed_cost[w] * open[w] + sum{c in CUSTOMERS} source[c, w] / demand[c] * allocation_cost[c, w]);
+    sum {w in WAREHOUSES} (fixed_cost[w] * open[w] + sum{c in CUSTOMERS} source[c, w]  * allocation_cost[c, w] / demand[c]); # must use per-unit allocation cost now
 
 

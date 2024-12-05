@@ -43,7 +43,7 @@ printf "Customer to warehouse allocations:\n" >> Day5/solution.txt;
 
 for {c in CUSTOMERS} {
     printf "Customer %d (demand %.0f) gets shipments from warehouse(s): ", c, demand[c] >> Day5/solution.txt;
-    printf {w in WAREHOUSES: allocate[c, w] > 0.01} " %d (%.0f)", w, source[c, w] >> Day5/solution.txt;
+    printf {w in WAREHOUSES: source[c, w] > 0.01} " %d (%.0f)", w, source[c, w] >> Day5/solution.txt;
     printf "\n" >> Day5/solution.txt;
 }
 
