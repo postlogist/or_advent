@@ -1,0 +1,47 @@
+reset;
+option solver highsa;
+option highs_options ("threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=0.05 time_limit=1800");
+option show_stats 1;
+
+model Day6/day6.mod;
+
+
+read num_segments < Day6/instance_clean.txt;
+read num_contracts < Day6/instance_clean.txt;
+
+param s;
+param num_included;
+
+for {c in CONTRACTS} {
+    read cost[c] < Day6/instance_clean.txt;
+    #read num_included[c] < Day6/instance_clean.txt;
+    read num_included < Day6/instance_clean.txt;
+    let INCLUDED[c] := {};
+    for {i in 1.. num_included} {
+        read s < Day6/instance_clean.txt;
+        let INCLUDED[c] := INCLUDED[c] union {s};
+    }
+    #read {i in 1..num_included[c]} INCLUDED[c] < Day6/instance_clean.txt;
+}
+
+
+solve;
+
+printf "Selected maintenance contracts:\n" > Day6/solution.txt; 
+
+printf {c in CONTRACTS: pick[c] > 0.1} " %d", c >> Day6/solution.txt;
+
+
+printf "\n\nTotal cost: %.0f\n", TotalCost >> Day6/solution.txt;
+
+
+for {seg in SEGMENTS} {
+    printf "Segment %d covered by contract(s): ", seg >> Day6/solution.txt;
+    printf {c in CONTRACTS : seg in INCLUDED[c] and pick[c] > 0.1} " %d", c >> Day6/solution.txt;
+    printf "\n" >> Day6/solution.txt;
+}
+
+
+
+
+
