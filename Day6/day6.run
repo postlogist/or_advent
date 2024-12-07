@@ -1,6 +1,6 @@
 reset;
 option solver highsa;
-option highs_options ("threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=0.05 time_limit=1800");
+option highs_options ("threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=0.001 time_limit=7200");
 option show_stats 1;
 
 model Day6/day6.mod;

@@ -1,85 +1,85 @@
 Selected maintenance contracts:
- 246 352 584 611 1377 2010 2064 2326 2655 2760 2856 3022 3117 3155 3265 3458 3954 5235 5759 5891 6231 6596 6883 7179 7280 7566 7876 8987 9029 9262 9298 9964 10350 10644 10684 11098 11116 11397 11595 11959 12130 12322 12392 12496 12646 13075 13298 14411 14452 15199 15911 16411 17877 18538 19940 20647 20668 20669 24173 25974 27080 27848 30757 30827 33190 37436 37970 38065 38236 38382 38517 38910 39077 39709 40622 40833 41128 41196 41220 42320 42430 43868 44804 44977 45480 45717 46063 47885 48232 48462 48923 49228 51271 53274 53654 54872 55661 55672 55675 55760 56144 56642 56704 56922 56965 57118 57176 57336 57906 60233 61650 62301 62384 62404 62952
+ 246 247 352 582 611 1393 2010 2064 2326 2950 3028 3117 3155 3173 3265 3458 4783 5235 5765 5891 6230 6596 6853 6860 7280 7566 7635 7876 9029 9262 9345 9964 10350 10684 10882 11077 11254 11397 11595 11649 11812 11969 12130 12322 12646 12878 13075 13298 14452 15911 16393 17877 18536 18538 19940 20647 20668 20669 23573 23883 24173 25974 27080 27237 27848 30827 33190 36734 38071 38217 38382 38922 39025 40832 41165 41196 41712 41744 42315 42462 42658 43868 44905 44977 45480 45717 47882 47897 48228 48462 48923 49228 50904 51279 53276 53620 55671 55675 55760 56642 56704 56893 56965 57118 58282 60233 60915 61650 62326 62354 62404 62776
 
-Total cost: 178
+Total cost: 174
 Segment 1 covered by contract(s):  20668
-Segment 2 covered by contract(s):  12496 14411
-Segment 3 covered by contract(s):  57336
+Segment 2 covered by contract(s):  4783
+Segment 3 covered by contract(s):  23573
 Segment 4 covered by contract(s):  20647
 Segment 5 covered by contract(s):  7280
-Segment 6 covered by contract(s):  48232
+Segment 6 covered by contract(s):  48228
 Segment 7 covered by contract(s):  17877
-Segment 8 covered by contract(s):  2760
-Segment 9 covered by contract(s):  2760 3954
-Segment 10 covered by contract(s):  3954
-Segment 11 covered by contract(s):  38517
-Segment 12 covered by contract(s):  41220
-Segment 13 covered by contract(s):  41220
-Segment 14 covered by contract(s):  38517
-Segment 15 covered by contract(s):  38517
+Segment 8 covered by contract(s):  7635
+Segment 9 covered by contract(s):  7635
+Segment 10 covered by contract(s):  60915
+Segment 11 covered by contract(s):  40832
+Segment 12 covered by contract(s):  38922
+Segment 13 covered by contract(s):  4783 38922
+Segment 14 covered by contract(s):  39025
+Segment 15 covered by contract(s):  39025
 Segment 16 covered by contract(s):  246
 Segment 17 covered by contract(s):  49228
-Segment 18 covered by contract(s):  5759
-Segment 19 covered by contract(s):  5759
-Segment 20 covered by contract(s):  5759
-Segment 21 covered by contract(s):  5235 39077
-Segment 22 covered by contract(s):  5235
-Segment 23 covered by contract(s):  5235
-Segment 24 covered by contract(s):  5235
-Segment 25 covered by contract(s):  5235
+Segment 18 covered by contract(s):  23573
+Segment 19 covered by contract(s):  23573
+Segment 20 covered by contract(s):  23573
+Segment 21 covered by contract(s):  5235
+Segment 22 covered by contract(s):  5235 39025
+Segment 23 covered by contract(s):  5235 39025
+Segment 24 covered by contract(s):  5235 39025
+Segment 25 covered by contract(s):  5235 39025
 Segment 26 covered by contract(s):  5235
 Segment 27 covered by contract(s):  5235
-Segment 28 covered by contract(s):  39709
-Segment 29 covered by contract(s):  38517 39077
-Segment 30 covered by contract(s):  5759
-Segment 31 covered by contract(s):  5759
-Segment 32 covered by contract(s):  5759
+Segment 28 covered by contract(s):  42462
+Segment 29 covered by contract(s):  39025
+Segment 30 covered by contract(s):  5765
+Segment 31 covered by contract(s):  5765
+Segment 32 covered by contract(s):  5765
 Segment 33 covered by contract(s):  5891
 Segment 34 covered by contract(s):  5891 45480
-Segment 35 covered by contract(s):  2326 41220
-Segment 36 covered by contract(s):  2326 41220
+Segment 35 covered by contract(s):  2326
+Segment 36 covered by contract(s):  2326
 Segment 37 covered by contract(s):  2326
 Segment 38 covered by contract(s):  611
 Segment 39 covered by contract(s):  611
 Segment 40 covered by contract(s):  55675
 Segment 41 covered by contract(s):  55675
 Segment 42 covered by contract(s):  41196
-Segment 43 covered by contract(s):  16411 39709 40622
-Segment 44 covered by contract(s):  16411
-Segment 45 covered by contract(s):  51271
-Segment 46 covered by contract(s):  62952
+Segment 43 covered by contract(s):  16393 38922
+Segment 44 covered by contract(s):  16393
+Segment 45 covered by contract(s):  51279
+Segment 46 covered by contract(s):  51279
 Segment 47 covered by contract(s):  246
 Segment 48 covered by contract(s):  246
 Segment 49 covered by contract(s):  5235
 Segment 50 covered by contract(s):  5235
 Segment 51 covered by contract(s):  7280
-Segment 52 covered by contract(s):  10644
+Segment 52 covered by contract(s):  18536
 Segment 53 covered by contract(s):  15911
 Segment 54 covered by contract(s):  15911
 Segment 55 covered by contract(s):  49228
-Segment 56 covered by contract(s):  39709
+Segment 56 covered by contract(s):  42462 62776
 Segment 57 covered by contract(s):  61650
 Segment 58 covered by contract(s):  61650
 Segment 59 covered by contract(s):  61650
 Segment 60 covered by contract(s):  45480
 Segment 61 covered by contract(s):  45717
 Segment 62 covered by contract(s):  38382
-Segment 63 covered by contract(s):  6231
+Segment 63 covered by contract(s):  6230
 Segment 64 covered by contract(s):  10684
 Segment 65 covered by contract(s):  3458
-Segment 66 covered by contract(s):  8987
-Segment 67 covered by contract(s):  14411
-Segment 68 covered by contract(s):  14411
+Segment 66 covered by contract(s):  7635
+Segment 67 covered by contract(s):  23883
+Segment 68 covered by contract(s):  38217
 Segment 69 covered by contract(s):  18538
 Segment 70 covered by contract(s):  19940
-Segment 71 covered by contract(s):  3954
-Segment 72 covered by contract(s):  3954 30757
-Segment 73 covered by contract(s):  56144
-Segment 74 covered by contract(s):  25974 56144
-Segment 75 covered by contract(s):  56144
-Segment 76 covered by contract(s):  55661
-Segment 77 covered by contract(s):  24173 55661
-Segment 78 covered by contract(s):  46063
+Segment 71 covered by contract(s):  38217
+Segment 72 covered by contract(s):  5765 38217
+Segment 73 covered by contract(s):  16393
+Segment 74 covered by contract(s):  25974
+Segment 75 covered by contract(s):  23883
+Segment 76 covered by contract(s):  56893
+Segment 77 covered by contract(s):  24173 56893
+Segment 78 covered by contract(s):  56893
 Segment 79 covered by contract(s):  10350
 Segment 80 covered by contract(s):  10350
 Segment 81 covered by contract(s):  48462
@@ -88,203 +88,203 @@ Segment 83 covered by contract(s):  25974
 Segment 84 covered by contract(s):  25974
 Segment 85 covered by contract(s):  10350 14452
 Segment 86 covered by contract(s):  6596
-Segment 87 covered by contract(s):  8987
+Segment 87 covered by contract(s):  10882
 Segment 88 covered by contract(s):  11397
 Segment 89 covered by contract(s):  11397
 Segment 90 covered by contract(s):  2064
 Segment 91 covered by contract(s):  2064
-Segment 92 covered by contract(s):  6883 41220
-Segment 93 covered by contract(s):  6883 54872
+Segment 92 covered by contract(s):  6853 6860
+Segment 93 covered by contract(s):  6853 6860
 Segment 94 covered by contract(s):  56642
-Segment 95 covered by contract(s):  12392
-Segment 96 covered by contract(s):  12392
+Segment 95 covered by contract(s):  11649
+Segment 96 covered by contract(s):  27237
 Segment 97 covered by contract(s):  49228
-Segment 98 covered by contract(s):  7179 49228
-Segment 99 covered by contract(s):  7179 60233
+Segment 98 covered by contract(s):  49228
+Segment 99 covered by contract(s):  60233
 Segment 100 covered by contract(s):  7280
-Segment 101 covered by contract(s):  7280 7876 42430
+Segment 101 covered by contract(s):  7280 7876 41165
 Segment 102 covered by contract(s):  10684
-Segment 103 covered by contract(s):  47885 56704
+Segment 103 covered by contract(s):  47882 56704
 Segment 104 covered by contract(s):  56704
 Segment 105 covered by contract(s):  56704
 Segment 106 covered by contract(s):  56965
 Segment 107 covered by contract(s):  56965
 Segment 108 covered by contract(s):  56965
 Segment 109 covered by contract(s):  7566
-Segment 110 covered by contract(s):  11116
-Segment 111 covered by contract(s):  55672
-Segment 112 covered by contract(s):  55672
-Segment 113 covered by contract(s):  3458 55672
-Segment 114 covered by contract(s):  9298
-Segment 115 covered by contract(s):  55672
-Segment 116 covered by contract(s):  55672
-Segment 117 covered by contract(s):  3022
-Segment 118 covered by contract(s):  3022
-Segment 119 covered by contract(s):  2856 3022
-Segment 120 covered by contract(s):  2856 7876
-Segment 121 covered by contract(s):  2856
-Segment 122 covered by contract(s):  2856
+Segment 110 covered by contract(s):  6230
+Segment 111 covered by contract(s):  55671
+Segment 112 covered by contract(s):  55671
+Segment 113 covered by contract(s):  3458 55671
+Segment 114 covered by contract(s):  55671
+Segment 115 covered by contract(s):  55671
+Segment 116 covered by contract(s):  55671
+Segment 117 covered by contract(s):  6853
+Segment 118 covered by contract(s):  6853
+Segment 119 covered by contract(s):  7635
+Segment 120 covered by contract(s):  7876
+Segment 121 covered by contract(s):  50904
+Segment 122 covered by contract(s):  50904
 Segment 123 covered by contract(s):  352
-Segment 124 covered by contract(s):  352
+Segment 124 covered by contract(s):  352 62354
 Segment 125 covered by contract(s):  352
-Segment 126 covered by contract(s):  2655
-Segment 127 covered by contract(s):  2655
+Segment 126 covered by contract(s):  247
+Segment 127 covered by contract(s):  247
 Segment 128 covered by contract(s):  352
-Segment 129 covered by contract(s):  352 62952
+Segment 129 covered by contract(s):  352
 Segment 130 covered by contract(s):  352
 Segment 131 covered by contract(s):  246
-Segment 132 covered by contract(s):  584
+Segment 132 covered by contract(s):  582
 Segment 133 covered by contract(s):  611
-Segment 134 covered by contract(s):  39077
-Segment 135 covered by contract(s):  39077
-Segment 136 covered by contract(s):  39077
+Segment 134 covered by contract(s):  11254
+Segment 135 covered by contract(s):  11254
+Segment 136 covered by contract(s):  11254
 Segment 137 covered by contract(s):  611
 Segment 138 covered by contract(s):  9029
-Segment 139 covered by contract(s):  584
-Segment 140 covered by contract(s):  584
-Segment 141 covered by contract(s):  39077
-Segment 142 covered by contract(s):  39077
-Segment 143 covered by contract(s):  39077
-Segment 144 covered by contract(s):  3954
-Segment 145 covered by contract(s):  3954
-Segment 146 covered by contract(s):  7876
-Segment 147 covered by contract(s):  2760
-Segment 148 covered by contract(s):  2760
-Segment 149 covered by contract(s):  2760
-Segment 150 covered by contract(s):  2760
-Segment 151 covered by contract(s):  10644
-Segment 152 covered by contract(s):  10644
-Segment 153 covered by contract(s):  2760
-Segment 154 covered by contract(s):  2760 38236
-Segment 155 covered by contract(s):  54872
-Segment 156 covered by contract(s):  11116
-Segment 157 covered by contract(s):  11116
-Segment 158 covered by contract(s):  3022
-Segment 159 covered by contract(s):  3022
-Segment 160 covered by contract(s):  47885
+Segment 139 covered by contract(s):  582
+Segment 140 covered by contract(s):  582
+Segment 141 covered by contract(s):  11254
+Segment 142 covered by contract(s):  11254
+Segment 143 covered by contract(s):  11254
+Segment 144 covered by contract(s):  5765
+Segment 145 covered by contract(s):  5765
+Segment 146 covered by contract(s):  7876 23573
+Segment 147 covered by contract(s):  2950
+Segment 148 covered by contract(s):  2950
+Segment 149 covered by contract(s):  2950
+Segment 150 covered by contract(s):  2950
+Segment 151 covered by contract(s):  2950
+Segment 152 covered by contract(s):  2950
+Segment 153 covered by contract(s):  2950
+Segment 154 covered by contract(s):  2950
+Segment 155 covered by contract(s):  6860
+Segment 156 covered by contract(s):  6860
+Segment 157 covered by contract(s):  3028
+Segment 158 covered by contract(s):  3028
+Segment 159 covered by contract(s):  3028
+Segment 160 covered by contract(s):  47882
 Segment 161 covered by contract(s):  27080
 Segment 162 covered by contract(s):  27080
 Segment 163 covered by contract(s):  27080
 Segment 164 covered by contract(s):  27080
-Segment 165 covered by contract(s):  37436
-Segment 166 covered by contract(s):  37436
-Segment 167 covered by contract(s):  55661
-Segment 168 covered by contract(s):  56144
-Segment 169 covered by contract(s):  56144
-Segment 170 covered by contract(s):  56144
-Segment 171 covered by contract(s):  38065
-Segment 172 covered by contract(s):  38065
-Segment 173 covered by contract(s):  38065
-Segment 174 covered by contract(s):  38065
-Segment 175 covered by contract(s):  38065
+Segment 165 covered by contract(s):  56893
+Segment 166 covered by contract(s):  56893
+Segment 167 covered by contract(s):  56893
+Segment 168 covered by contract(s):  23883
+Segment 169 covered by contract(s):  27237
+Segment 170 covered by contract(s):  47897
+Segment 171 covered by contract(s):  38071
+Segment 172 covered by contract(s):  38071
+Segment 173 covered by contract(s):  38071
+Segment 174 covered by contract(s):  38071
+Segment 175 covered by contract(s):  38071
 Segment 176 covered by contract(s):  7876
 Segment 177 covered by contract(s):  3458
-Segment 178 covered by contract(s):  42430
-Segment 179 covered by contract(s):  8987
-Segment 180 covered by contract(s):  6231
+Segment 178 covered by contract(s):  41165
+Segment 179 covered by contract(s):  58282
+Segment 180 covered by contract(s):  6230
 Segment 181 covered by contract(s):  7876
 Segment 182 covered by contract(s):  3265
 Segment 183 covered by contract(s):  27848
 Segment 184 covered by contract(s):  27848
-Segment 185 covered by contract(s):  3954
+Segment 185 covered by contract(s):  5765
 Segment 186 covered by contract(s):  45717
 Segment 187 covered by contract(s):  45717
 Segment 188 covered by contract(s):  27848 45717
 Segment 189 covered by contract(s):  27848
 Segment 190 covered by contract(s):  27848
-Segment 191 covered by contract(s):  9029 12496
-Segment 192 covered by contract(s):  44804
+Segment 191 covered by contract(s):  9029
+Segment 192 covered by contract(s):  44905
 Segment 193 covered by contract(s):  13298
 Segment 194 covered by contract(s):  13298
 Segment 195 covered by contract(s):  20668
 Segment 196 covered by contract(s):  20669
-Segment 197 covered by contract(s):  56922
-Segment 198 covered by contract(s):  37970
+Segment 197 covered by contract(s):  18536
+Segment 198 covered by contract(s):  18536
 Segment 199 covered by contract(s):  19940
 Segment 200 covered by contract(s):  17877 18538
-Segment 201 covered by contract(s):  57336
-Segment 202 covered by contract(s):  56922
+Segment 201 covered by contract(s):  53620
+Segment 202 covered by contract(s):  53620
 Segment 203 covered by contract(s):  56965
 Segment 204 covered by contract(s):  56965
 Segment 205 covered by contract(s):  14452 56965
 Segment 206 covered by contract(s):  56704
 Segment 207 covered by contract(s):  56704
 Segment 208 covered by contract(s):  56704
-Segment 209 covered by contract(s):  11959
-Segment 210 covered by contract(s):  11959
-Segment 211 covered by contract(s):  9298
-Segment 212 covered by contract(s):  6231
-Segment 213 covered by contract(s):  6231
-Segment 214 covered by contract(s):  57336
+Segment 209 covered by contract(s):  3028
+Segment 210 covered by contract(s):  3028
+Segment 211 covered by contract(s):  9345
+Segment 212 covered by contract(s):  58282
+Segment 213 covered by contract(s):  58282
+Segment 214 covered by contract(s):  58282
 Segment 215 covered by contract(s):  3265
-Segment 216 covered by contract(s):  55672
+Segment 216 covered by contract(s):  9345
 Segment 217 covered by contract(s):  3458
 Segment 218 covered by contract(s):  9262
-Segment 219 covered by contract(s):  9298
-Segment 220 covered by contract(s):  9298
+Segment 219 covered by contract(s):  9345
+Segment 220 covered by contract(s):  9345
 Segment 221 covered by contract(s):  3117
-Segment 222 covered by contract(s):  3117 5759 53274
-Segment 223 covered by contract(s):  53274
-Segment 224 covered by contract(s):  41220
+Segment 222 covered by contract(s):  3117 11254 47882
+Segment 223 covered by contract(s):  47882
+Segment 224 covered by contract(s):  10882
 Segment 225 covered by contract(s):  57118
-Segment 226 covered by contract(s):  48232
+Segment 226 covered by contract(s):  48228
 Segment 227 covered by contract(s):  9964
 Segment 228 covered by contract(s):  9964
 Segment 229 covered by contract(s):  3155
 Segment 230 covered by contract(s):  3155
 Segment 231 covered by contract(s):  57118
-Segment 232 covered by contract(s):  11098
-Segment 233 covered by contract(s):  11098
+Segment 232 covered by contract(s):  12878
+Segment 233 covered by contract(s):  12878
 Segment 234 covered by contract(s):  3117
 Segment 235 covered by contract(s):  3265
-Segment 236 covered by contract(s):  3265
+Segment 236 covered by contract(s):  3173 3265
 Segment 237 covered by contract(s):  3458
-Segment 238 covered by contract(s):  11116
-Segment 239 covered by contract(s):  10644
+Segment 238 covered by contract(s):  23573
+Segment 239 covered by contract(s):  3173
 Segment 240 covered by contract(s):  3265
 Segment 241 covered by contract(s):  3155
 Segment 242 covered by contract(s):  6596
 Segment 243 covered by contract(s):  10350
 Segment 244 covered by contract(s):  9964
-Segment 245 covered by contract(s):  9298
+Segment 245 covered by contract(s):  9345
 Segment 246 covered by contract(s):  7566
 Segment 247 covered by contract(s):  3265
 Segment 248 covered by contract(s):  3458
-Segment 249 covered by contract(s):  11116
-Segment 250 covered by contract(s):  9298
+Segment 249 covered by contract(s):  6230
+Segment 250 covered by contract(s):  9345
 Segment 251 covered by contract(s):  9262
 Segment 252 covered by contract(s):  33190
 Segment 253 covered by contract(s):  33190
 Segment 254 covered by contract(s):  33190
-Segment 255 covered by contract(s):  27848
-Segment 256 covered by contract(s):  30757
-Segment 257 covered by contract(s):  30757
-Segment 258 covered by contract(s):  6231
-Segment 259 covered by contract(s):  40622
-Segment 260 covered by contract(s):  40622
-Segment 261 covered by contract(s):  15911 38910
-Segment 262 covered by contract(s):  40833
-Segment 263 covered by contract(s):  40622 40833
-Segment 264 covered by contract(s):  40622
-Segment 265 covered by contract(s):  62301
-Segment 266 covered by contract(s):  40833 62301
-Segment 267 covered by contract(s):  40833
-Segment 268 covered by contract(s):  38910
-Segment 269 covered by contract(s):  38910
-Segment 270 covered by contract(s):  38910
-Segment 271 covered by contract(s):  10644
+Segment 255 covered by contract(s):  27848 53620
+Segment 256 covered by contract(s):  53620
+Segment 257 covered by contract(s):  7635
+Segment 258 covered by contract(s):  7635
+Segment 259 covered by contract(s):  42315
+Segment 260 covered by contract(s):  42315
+Segment 261 covered by contract(s):  15911
+Segment 262 covered by contract(s):  62776
+Segment 263 covered by contract(s):  62776
+Segment 264 covered by contract(s):  62776
+Segment 265 covered by contract(s):  62326
+Segment 266 covered by contract(s):  40832
+Segment 267 covered by contract(s):  40832
+Segment 268 covered by contract(s):  39025
+Segment 269 covered by contract(s):  39025 62354
+Segment 270 covered by contract(s):  62354
+Segment 271 covered by contract(s):  3173
 Segment 272 covered by contract(s):  10684
-Segment 273 covered by contract(s):  41128
+Segment 273 covered by contract(s):  41165 41712
 Segment 274 covered by contract(s):  41196
 Segment 275 covered by contract(s):  10684
-Segment 276 covered by contract(s):  10644
+Segment 276 covered by contract(s):  3173
 Segment 277 covered by contract(s):  49228
-Segment 278 covered by contract(s):  12392
-Segment 279 covered by contract(s):  6231
-Segment 280 covered by contract(s):  8987
+Segment 278 covered by contract(s):  27237
+Segment 279 covered by contract(s):  27237
+Segment 280 covered by contract(s):  10882
 Segment 281 covered by contract(s):  7876
-Segment 282 covered by contract(s):  48232
-Segment 283 covered by contract(s):  9029 44804
+Segment 282 covered by contract(s):  53276
+Segment 283 covered by contract(s):  9029 44905
 Segment 284 covered by contract(s):  2010
 Segment 285 covered by contract(s):  2010
 Segment 286 covered by contract(s):  13298
@@ -293,14 +293,14 @@ Segment 288 covered by contract(s):  48462
 Segment 289 covered by contract(s):  20647
 Segment 290 covered by contract(s):  20669
 Segment 291 covered by contract(s):  20668 20669
-Segment 292 covered by contract(s):  57176
-Segment 293 covered by contract(s):  57176
-Segment 294 covered by contract(s):  30827
+Segment 292 covered by contract(s):  47897
+Segment 293 covered by contract(s):  47897
+Segment 294 covered by contract(s):  23883 30827
 Segment 295 covered by contract(s):  30827
 Segment 296 covered by contract(s):  30827
-Segment 297 covered by contract(s):  11098
-Segment 298 covered by contract(s):  3022
-Segment 299 covered by contract(s):  30827 57336
+Segment 297 covered by contract(s):  11077
+Segment 298 covered by contract(s):  3028
+Segment 299 covered by contract(s):  30827
 Segment 300 covered by contract(s):  30827
 Segment 301 covered by contract(s):  30827
 Segment 302 covered by contract(s):  48923
@@ -311,92 +311,92 @@ Segment 306 covered by contract(s):  45717
 Segment 307 covered by contract(s):  45717
 Segment 308 covered by contract(s):  48923
 Segment 309 covered by contract(s):  24173
-Segment 310 covered by contract(s):  24173 46063
-Segment 311 covered by contract(s):  24173 46063
-Segment 312 covered by contract(s):  6883
-Segment 313 covered by contract(s):  6883
-Segment 314 covered by contract(s):  11116 56642
-Segment 315 covered by contract(s):  11098 56642
+Segment 310 covered by contract(s):  24173
+Segment 311 covered by contract(s):  24173
+Segment 312 covered by contract(s):  47882
+Segment 313 covered by contract(s):  47882
+Segment 314 covered by contract(s):  56642
+Segment 315 covered by contract(s):  56642
 Segment 316 covered by contract(s):  611
 Segment 317 covered by contract(s):  49228
-Segment 318 covered by contract(s):  57906
-Segment 319 covered by contract(s):  57906
+Segment 318 covered by contract(s):  10882
+Segment 319 covered by contract(s):  10882
 Segment 320 covered by contract(s):  3155
-Segment 321 covered by contract(s):  11098
-Segment 322 covered by contract(s):  57336
-Segment 323 covered by contract(s):  11397
+Segment 321 covered by contract(s):  50904
+Segment 322 covered by contract(s):  16393
+Segment 323 covered by contract(s):  11254 11397 12878
 Segment 324 covered by contract(s):  11397
 Segment 325 covered by contract(s):  11397
-Segment 326 covered by contract(s):  11595 12322 46063 48923
+Segment 326 covered by contract(s):  11595 12322 48923 58282
 Segment 327 covered by contract(s):  12322
 Segment 328 covered by contract(s):  11595
 Segment 329 covered by contract(s):  11595 12322
-Segment 330 covered by contract(s):  15199
-Segment 331 covered by contract(s):  15199
-Segment 332 covered by contract(s):  15199
-Segment 333 covered by contract(s):  15199
+Segment 330 covered by contract(s):  11649
+Segment 331 covered by contract(s):  58282
+Segment 332 covered by contract(s):  11649
+Segment 333 covered by contract(s):  11649
 Segment 334 covered by contract(s):  3155
 Segment 335 covered by contract(s):  3155
 Segment 336 covered by contract(s):  48462
-Segment 337 covered by contract(s):  47885
-Segment 338 covered by contract(s):  54872
-Segment 339 covered by contract(s):  12496
-Segment 340 covered by contract(s):  57906
-Segment 341 covered by contract(s):  57906
-Segment 342 covered by contract(s):  7179
-Segment 343 covered by contract(s):  7179
-Segment 344 covered by contract(s):  57176
-Segment 345 covered by contract(s):  57176
+Segment 337 covered by contract(s):  47882
+Segment 338 covered by contract(s):  11812
+Segment 339 covered by contract(s):  11812
+Segment 340 covered by contract(s):  18536
+Segment 341 covered by contract(s):  18536
+Segment 342 covered by contract(s):  50904
+Segment 343 covered by contract(s):  50904
+Segment 344 covered by contract(s):  11812
+Segment 345 covered by contract(s):  11812 50904
 Segment 346 covered by contract(s):  60233
 Segment 347 covered by contract(s):  611
 Segment 348 covered by contract(s):  5891
 Segment 349 covered by contract(s):  5891
-Segment 350 covered by contract(s):  11959
-Segment 351 covered by contract(s):  11959 51271
-Segment 352 covered by contract(s):  2856 46063
-Segment 353 covered by contract(s):  2856
+Segment 350 covered by contract(s):  11969
+Segment 351 covered by contract(s):  11969 51279
+Segment 352 covered by contract(s):  11969
+Segment 353 covered by contract(s):  11969
 Segment 354 covered by contract(s):  12130
 Segment 355 covered by contract(s):  12130 24173
 Segment 356 covered by contract(s):  2326
 Segment 357 covered by contract(s):  2326
 Segment 358 covered by contract(s):  45480
-Segment 359 covered by contract(s):  16411
+Segment 359 covered by contract(s):  11077
 Segment 360 covered by contract(s):  12322
 Segment 361 covered by contract(s):  11595
 Segment 362 covered by contract(s):  56642
-Segment 363 covered by contract(s):  51271
-Segment 364 covered by contract(s):  12392
-Segment 365 covered by contract(s):  53274
+Segment 363 covered by contract(s):  51279
+Segment 364 covered by contract(s):  47897
+Segment 365 covered by contract(s):  53276
 Segment 366 covered by contract(s):  12130
-Segment 367 covered by contract(s):  12496
-Segment 368 covered by contract(s):  62384
-Segment 369 covered by contract(s):  41220
-Segment 370 covered by contract(s):  41128
+Segment 367 covered by contract(s):  10882
+Segment 368 covered by contract(s):  62354
+Segment 369 covered by contract(s):  62354
+Segment 370 covered by contract(s):  41712
 Segment 371 covered by contract(s):  62404
-Segment 372 covered by contract(s):  1377 62404
-Segment 373 covered by contract(s):  1377
-Segment 374 covered by contract(s):  1377
-Segment 375 covered by contract(s):  1377
-Segment 376 covered by contract(s):  62952
-Segment 377 covered by contract(s):  38910
-Segment 378 covered by contract(s):  15911 38910 44804
-Segment 379 covered by contract(s):  44804
-Segment 380 covered by contract(s):  1377 42320 42430
-Segment 381 covered by contract(s):  42320
-Segment 382 covered by contract(s):  42320
-Segment 383 covered by contract(s):  584
-Segment 384 covered by contract(s):  584
+Segment 372 covered by contract(s):  62404
+Segment 373 covered by contract(s):  1393
+Segment 374 covered by contract(s):  1393
+Segment 375 covered by contract(s):  1393 41712 41744
+Segment 376 covered by contract(s):  41744
+Segment 377 covered by contract(s):  41744
+Segment 378 covered by contract(s):  15911 41744
+Segment 379 covered by contract(s):  44905
+Segment 380 covered by contract(s):  1393 42315
+Segment 381 covered by contract(s):  42315
+Segment 382 covered by contract(s):  62776
+Segment 383 covered by contract(s):  4783 42462 62776
+Segment 384 covered by contract(s):  4783
 Segment 385 covered by contract(s):  43868
-Segment 386 covered by contract(s):  43868 62301
-Segment 387 covered by contract(s):  62384
-Segment 388 covered by contract(s):  62952
-Segment 389 covered by contract(s):  62952
-Segment 390 covered by contract(s):  44804
-Segment 391 covered by contract(s):  44804 62404
+Segment 386 covered by contract(s):  42658 43868 62354
+Segment 387 covered by contract(s):  42658
+Segment 388 covered by contract(s):  42658
+Segment 389 covered by contract(s):  38922 42658
+Segment 390 covered by contract(s):  44905
+Segment 391 covered by contract(s):  44905 62326 62404
 Segment 392 covered by contract(s):  62404
-Segment 393 covered by contract(s):  41128
-Segment 394 covered by contract(s):  41128
-Segment 395 covered by contract(s):  62301
+Segment 393 covered by contract(s):  41712
+Segment 394 covered by contract(s):  62326
+Segment 395 covered by contract(s):  62326
 Segment 396 covered by contract(s):  12646
 Segment 397 covered by contract(s):  12646
 Segment 398 covered by contract(s):  12646
@@ -405,78 +405,78 @@ Segment 400 covered by contract(s):  48462
 Segment 401 covered by contract(s):  48462
 Segment 402 covered by contract(s):  43868
 Segment 403 covered by contract(s):  2010 43868
-Segment 404 covered by contract(s):  8987
-Segment 405 covered by contract(s):  8987 12496
-Segment 406 covered by contract(s):  12496
-Segment 407 covered by contract(s):  37970
-Segment 408 covered by contract(s):  5759 27848
+Segment 404 covered by contract(s):  247
+Segment 405 covered by contract(s):  4783
+Segment 406 covered by contract(s):  4783 12878
+Segment 407 covered by contract(s):  12878
+Segment 408 covered by contract(s):  5765 27848
 Segment 409 covered by contract(s):  2064
 Segment 410 covered by contract(s):  2064
-Segment 411 covered by contract(s):  38236
+Segment 411 covered by contract(s):  38217
 Segment 412 covered by contract(s):  33190
 Segment 413 covered by contract(s):  33190
 Segment 414 covered by contract(s):  2326 9029
 Segment 415 covered by contract(s):  9029
 Segment 416 covered by contract(s):  13075
-Segment 417 covered by contract(s):  13075
-Segment 418 covered by contract(s):  13075 48462
-Segment 419 covered by contract(s):  3954 44977
-Segment 420 covered by contract(s):  3954 44977
+Segment 417 covered by contract(s):  13075 48228
+Segment 418 covered by contract(s):  13075 48228 48462
+Segment 419 covered by contract(s):  44977
+Segment 420 covered by contract(s):  44977
 Segment 421 covered by contract(s):  44977
 Segment 422 covered by contract(s):  13298
-Segment 423 covered by contract(s):  13298 44804
+Segment 423 covered by contract(s):  13298 44905
 Segment 424 covered by contract(s):  2326 13298
 Segment 425 covered by contract(s):  2326
-Segment 426 covered by contract(s):  30757
-Segment 427 covered by contract(s):  30757
-Segment 428 covered by contract(s):  38065 61650
+Segment 426 covered by contract(s):  582
+Segment 427 covered by contract(s):  23573
+Segment 428 covered by contract(s):  38071 61650
 Segment 429 covered by contract(s):  61650
-Segment 430 covered by contract(s):  12646 53654
+Segment 430 covered by contract(s):  12646 23883
 Segment 431 covered by contract(s):  12646
 Segment 432 covered by contract(s):  12646
 Segment 433 covered by contract(s):  41196
 Segment 434 covered by contract(s):  41196
 Segment 435 covered by contract(s):  2064
 Segment 436 covered by contract(s):  2010
-Segment 437 covered by contract(s):  14411 44977
-Segment 438 covered by contract(s):  38236 44977
-Segment 439 covered by contract(s):  38236
+Segment 437 covered by contract(s):  44977
+Segment 438 covered by contract(s):  44977
+Segment 439 covered by contract(s):  38217
 Segment 440 covered by contract(s):  38382
-Segment 441 covered by contract(s):  38065 38236 38382
-Segment 442 covered by contract(s):  38236
-Segment 443 covered by contract(s):  48232
-Segment 444 covered by contract(s):  8987
-Segment 445 covered by contract(s):  2655 8987
+Segment 441 covered by contract(s):  38382 60915
+Segment 442 covered by contract(s):  60915
+Segment 443 covered by contract(s):  582
+Segment 444 covered by contract(s):  582
+Segment 445 covered by contract(s):  582
 Segment 446 covered by contract(s):  5235
 Segment 447 covered by contract(s):  5235
-Segment 448 covered by contract(s):  14452
-Segment 449 covered by contract(s):  14411
-Segment 450 covered by contract(s):  14411 27080
+Segment 448 covered by contract(s):  14452 27237
+Segment 449 covered by contract(s):  27237
+Segment 450 covered by contract(s):  27080 36734
 Segment 451 covered by contract(s):  13075
 Segment 452 covered by contract(s):  13075
 Segment 453 covered by contract(s):  13075
 Segment 454 covered by contract(s):  55760
 Segment 455 covered by contract(s):  55760
-Segment 456 covered by contract(s):  42430
-Segment 457 covered by contract(s):  42430
+Segment 456 covered by contract(s):  41165
+Segment 457 covered by contract(s):  42315
 Segment 458 covered by contract(s):  43868
 Segment 459 covered by contract(s):  43868
-Segment 460 covered by contract(s):  15199 43868
+Segment 460 covered by contract(s):  43868
 Segment 461 covered by contract(s):  55760
-Segment 462 covered by contract(s):  51271 55760
-Segment 463 covered by contract(s):  51271
-Segment 464 covered by contract(s):  51271
+Segment 462 covered by contract(s):  55760 62326
+Segment 463 covered by contract(s):  51279
+Segment 464 covered by contract(s):  51279
 Segment 465 covered by contract(s):  44977
-Segment 466 covered by contract(s):  38517 44977
-Segment 467 covered by contract(s):  42430
-Segment 468 covered by contract(s):  42430
+Segment 466 covered by contract(s):  44977
+Segment 467 covered by contract(s):  1393
+Segment 468 covered by contract(s):  41165
 Segment 469 covered by contract(s):  15911
-Segment 470 covered by contract(s):  15911 38517 44804 62301
-Segment 471 covered by contract(s):  44977
+Segment 470 covered by contract(s):  15911
+Segment 471 covered by contract(s):  44905 44977 62326
 Segment 472 covered by contract(s):  44977
-Segment 473 covered by contract(s):  584 16411
-Segment 474 covered by contract(s):  584 16411
-Segment 475 covered by contract(s):  584
+Segment 473 covered by contract(s):  4783 16393 38922
+Segment 474 covered by contract(s):  4783 16393 38922
+Segment 475 covered by contract(s):  4783
 Segment 476 covered by contract(s):  55760
 Segment 477 covered by contract(s):  55760
 Segment 478 covered by contract(s):  55760
@@ -488,24 +488,24 @@ Segment 483 covered by contract(s):  60233
 Segment 484 covered by contract(s):  60233
 Segment 485 covered by contract(s):  60233
 Segment 486 covered by contract(s):  60233
-Segment 487 covered by contract(s):  16411
-Segment 488 covered by contract(s):  53654
-Segment 489 covered by contract(s):  53654
-Segment 490 covered by contract(s):  46063
-Segment 491 covered by contract(s):  46063
-Segment 492 covered by contract(s):  11098 46063
-Segment 493 covered by contract(s):  47885
-Segment 494 covered by contract(s):  37970
-Segment 495 covered by contract(s):  37970
-Segment 496 covered by contract(s):  37970 53654
-Segment 497 covered by contract(s):  54872
+Segment 487 covered by contract(s):  53620
+Segment 488 covered by contract(s):  53620
+Segment 489 covered by contract(s):  23883 38071 53620
+Segment 490 covered by contract(s):  23883
+Segment 491 covered by contract(s):  60915
+Segment 492 covered by contract(s):  60915
+Segment 493 covered by contract(s):  60915
+Segment 494 covered by contract(s):  60915
+Segment 495 covered by contract(s):  36734
+Segment 496 covered by contract(s):  12878
+Segment 497 covered by contract(s):  12878
 Segment 498 covered by contract(s):  61650
 Segment 499 covered by contract(s):  61650
-Segment 500 covered by contract(s):  2760 37436
-Segment 501 covered by contract(s):  37436
-Segment 502 covered by contract(s):  37436 45480
+Segment 500 covered by contract(s):  2950 36734 38071
+Segment 501 covered by contract(s):  36734
+Segment 502 covered by contract(s):  45480
 Segment 503 covered by contract(s):  12130
-Segment 504 covered by contract(s):  55661
-Segment 505 covered by contract(s):  44977 55661
-Segment 506 covered by contract(s):  38382
-Segment 507 covered by contract(s):  37970
+Segment 504 covered by contract(s):  36734
+Segment 505 covered by contract(s):  44977
+Segment 506 covered by contract(s):  38382 48228
+Segment 507 covered by contract(s):  48228
