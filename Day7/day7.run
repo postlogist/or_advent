@@ -1,0 +1,45 @@
+reset;
+option solver highsa;
+option highs_options ("threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=0.001 time_limit=600");
+option show_stats 1;
+
+model Day7/day7.mod;
+
+
+read num_products < Day7/instance_clean.txt;
+read num_subsets < Day7/instance_clean.txt;
+
+param p;
+param num_included;
+
+for {s in SUBSETS} {
+    read cost[s] < Day7/instance_clean.txt;    
+    read num_included < Day7/instance_clean.txt;
+    let INCLUDED[s] := {};
+    for {i in 1..num_included} {
+        read p < Day7/instance_clean.txt;
+        let INCLUDED[s] := INCLUDED[s] union {p};
+    }
+}
+
+
+solve;
+
+printf "Selected product subsets:\n" > Day7/solution.txt; 
+
+printf {s in SUBSETS: pick[s] > 0.1} " %d", s >> Day7/solution.txt;
+
+
+printf "\n\nTotal cost: %.0f\n", TotalCost >> Day7/solution.txt;
+
+
+for {pr in PRODUCTS} {
+    printf "Product %d included in subset: ", pr >> Day7/solution.txt;
+    printf {s in SUBSETS : pr in INCLUDED[s] and pick[s] > 0.1} " %d", s >> Day7/solution.txt;
+    printf "\n" >> Day7/solution.txt;
+}
+
+
+
+
+
