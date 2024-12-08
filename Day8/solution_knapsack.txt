@@ -1,0 +1,2203 @@
+Solving 20 bin packing problems
+Solving problem instance u120_00... Items to pack: 120
+Bin 1: 3 items, 150 capacity
+Items to pack: 117
+Bin 2: 3 items, 150 capacity
+Items to pack: 114
+Bin 3: 3 items, 150 capacity
+Items to pack: 111
+Bin 4: 3 items, 150 capacity
+Items to pack: 108
+Bin 5: 1 items, 149 capacity
+Items to pack: 106
+Bin 6: 3 items, 149 capacity
+Items to pack: 103
+Bin 7: 4 items, 150 capacity
+Items to pack: 99
+Bin 8: 3 items, 150 capacity
+Items to pack: 96
+Bin 9: 5 items, 149 capacity
+Items to pack: 91
+Bin 10: 3 items, 150 capacity
+Items to pack: 88
+Bin 11: 3 items, 150 capacity
+Items to pack: 85
+Bin 12: 3 items, 150 capacity
+Items to pack: 82
+Bin 13: 4 items, 149 capacity
+Items to pack: 78
+Bin 14: 3 items, 150 capacity
+Items to pack: 75
+Bin 15: 3 items, 150 capacity
+Items to pack: 72
+Bin 16: 2 items, 150 capacity
+Items to pack: 70
+Bin 17: 3 items, 150 capacity
+Items to pack: 67
+Bin 18: 2 items, 149 capacity
+Items to pack: 65
+Bin 19: 2 items, 150 capacity
+Items to pack: 63
+Bin 20: 2 items, 150 capacity
+Items to pack: 61
+Bin 21: 2 items, 150 capacity
+Items to pack: 59
+Bin 22: 3 items, 150 capacity
+Items to pack: 56
+Bin 23: 3 items, 150 capacity
+Items to pack: 53
+Bin 24: 3 items, 149 capacity
+Items to pack: 50
+Bin 25: 3 items, 150 capacity
+Items to pack: 47
+Bin 26: 3 items, 149 capacity
+Items to pack: 44
+Bin 27: 2 items, 149 capacity
+Items to pack: 41
+Bin 28: 2 items, 149 capacity
+Items to pack: 39
+Bin 29: 3 items, 149 capacity
+Items to pack: 36
+Bin 30: 2 items, 150 capacity
+Items to pack: 34
+Bin 31: 2 items, 149 capacity
+Items to pack: 32
+Bin 32: 2 items, 149 capacity
+Items to pack: 29
+Bin 33: 2 items, 148 capacity
+Items to pack: 27
+Bin 34: 2 items, 147 capacity
+Items to pack: 25
+Bin 35: 2 items, 147 capacity
+Items to pack: 23
+Bin 36: 2 items, 146 capacity
+Items to pack: 21
+Bin 37: 2 items, 146 capacity
+Items to pack: 19
+Bin 38: 2 items, 142 capacity
+Items to pack: 17
+Bin 39: 2 items, 137 capacity
+Items to pack: 15
+Bin 40: 1 items, 96 capacity
+Items to pack: 14
+Bin 41: 1 items, 93 capacity
+Items to pack: 13
+Bin 42: 1 items, 91 capacity
+Items to pack: 12
+Bin 43: 1 items, 90 capacity
+Items to pack: 11
+Bin 44: 1 items, 85 capacity
+Items to pack: 10
+Bin 45: 1 items, 85 capacity
+Items to pack: 9
+Bin 46: 1 items, 84 capacity
+Items to pack: 8
+Bin 47: 1 items, 84 capacity
+Items to pack: 7
+Bin 48: 1 items, 84 capacity
+Items to pack: 6
+Bin 49: 1 items, 84 capacity
+Items to pack: 5
+Bin 50: 1 items, 82 capacity
+Items to pack: 4
+Bin 51: 1 items, 82 capacity
+Items to pack: 3
+Bin 52: 1 items, 79 capacity
+Items to pack: 2
+Bin 53: 1 items, 78 capacity
+Items to pack: 1
+Bin 54: 1 items, 78 capacity
+Total bins required: 54
+Solving problem instance u120_01... Items to pack: 120
+Bin 1: 2 items, 150 capacity
+Items to pack: 118
+Bin 2: 2 items, 150 capacity
+Items to pack: 116
+Bin 3: 3 items, 150 capacity
+Items to pack: 113
+Bin 4: 2 items, 150 capacity
+Items to pack: 111
+Bin 5: 4 items, 150 capacity
+Items to pack: 107
+Bin 6: 1 items, 150 capacity
+Items to pack: 105
+Bin 7: 3 items, 149 capacity
+Items to pack: 102
+Bin 8: 4 items, 150 capacity
+Items to pack: 98
+Bin 9: 3 items, 149 capacity
+Items to pack: 95
+Bin 10: 4 items, 149 capacity
+Items to pack: 91
+Bin 11: 3 items, 150 capacity
+Items to pack: 88
+Bin 12: 3 items, 150 capacity
+Items to pack: 85
+Bin 13: 3 items, 150 capacity
+Items to pack: 82
+Bin 14: 3 items, 149 capacity
+Items to pack: 79
+Bin 15: 3 items, 150 capacity
+Items to pack: 76
+Bin 16: 3 items, 150 capacity
+Items to pack: 73
+Bin 17: 4 items, 149 capacity
+Items to pack: 69
+Bin 18: 2 items, 149 capacity
+Items to pack: 67
+Bin 19: 2 items, 150 capacity
+Items to pack: 65
+Bin 20: 2 items, 150 capacity
+Items to pack: 63
+Bin 21: 3 items, 150 capacity
+Items to pack: 60
+Bin 22: 2 items, 150 capacity
+Items to pack: 58
+Bin 23: 3 items, 150 capacity
+Items to pack: 55
+Bin 24: 3 items, 150 capacity
+Items to pack: 52
+Bin 25: 4 items, 150 capacity
+Items to pack: 48
+Bin 26: 3 items, 150 capacity
+Items to pack: 45
+Bin 27: 3 items, 149 capacity
+Items to pack: 42
+Bin 28: 2 items, 150 capacity
+Items to pack: 40
+Bin 29: 3 items, 149 capacity
+Items to pack: 37
+Bin 30: 1 items, 149 capacity
+Items to pack: 35
+Bin 31: 3 items, 149 capacity
+Items to pack: 32
+Bin 32: 2 items, 150 capacity
+Items to pack: 30
+Bin 33: 2 items, 148 capacity
+Items to pack: 28
+Bin 34: 2 items, 148 capacity
+Items to pack: 26
+Bin 35: 1 items, 147 capacity
+Items to pack: 24
+Bin 36: 2 items, 148 capacity
+Items to pack: 22
+Bin 37: 2 items, 147 capacity
+Items to pack: 20
+Bin 38: 2 items, 147 capacity
+Items to pack: 18
+Bin 39: 2 items, 147 capacity
+Items to pack: 16
+Bin 40: 2 items, 145 capacity
+Items to pack: 14
+Bin 41: 1 items, 144 capacity
+Items to pack: 12
+Bin 42: 2 items, 145 capacity
+Items to pack: 10
+Bin 43: 1 items, 99 capacity
+Items to pack: 9
+Bin 44: 1 items, 99 capacity
+Items to pack: 8
+Bin 45: 1 items, 98 capacity
+Items to pack: 7
+Bin 46: 1 items, 98 capacity
+Items to pack: 6
+Bin 47: 1 items, 98 capacity
+Items to pack: 5
+Bin 48: 1 items, 98 capacity
+Items to pack: 4
+Bin 49: 1 items, 98 capacity
+Items to pack: 3
+Bin 50: 1 items, 94 capacity
+Items to pack: 2
+Bin 51: 1 items, 88 capacity
+Items to pack: 1
+Bin 52: 1 items, 76 capacity
+Total bins required: 52
+Solving problem instance u120_02... Items to pack: 120
+Bin 1: 2 items, 150 capacity
+Items to pack: 118
+Bin 2: 2 items, 150 capacity
+Items to pack: 116
+Bin 3: 5 items, 150 capacity
+Items to pack: 111
+Bin 4: 3 items, 150 capacity
+Items to pack: 108
+Bin 5: 2 items, 150 capacity
+Items to pack: 106
+Bin 6: 3 items, 150 capacity
+Items to pack: 103
+Bin 7: 2 items, 150 capacity
+Items to pack: 101
+Bin 8: 3 items, 150 capacity
+Items to pack: 97
+Bin 9: 3 items, 149 capacity
+Items to pack: 94
+Bin 10: 3 items, 149 capacity
+Items to pack: 91
+Bin 11: 3 items, 149 capacity
+Items to pack: 88
+Bin 12: 4 items, 150 capacity
+Items to pack: 84
+Bin 13: 3 items, 150 capacity
+Items to pack: 81
+Bin 14: 2 items, 149 capacity
+Items to pack: 79
+Bin 15: 2 items, 149 capacity
+Items to pack: 76
+Bin 16: 3 items, 150 capacity
+Items to pack: 73
+Bin 17: 4 items, 149 capacity
+Items to pack: 69
+Bin 18: 3 items, 149 capacity
+Items to pack: 66
+Bin 19: 3 items, 149 capacity
+Items to pack: 63
+Bin 20: 4 items, 150 capacity
+Items to pack: 59
+Bin 21: 3 items, 149 capacity
+Items to pack: 56
+Bin 22: 4 items, 150 capacity
+Items to pack: 52
+Bin 23: 3 items, 150 capacity
+Items to pack: 49
+Bin 24: 2 items, 148 capacity
+Items to pack: 46
+Bin 25: 2 items, 149 capacity
+Items to pack: 44
+Bin 26: 3 items, 150 capacity
+Items to pack: 41
+Bin 27: 3 items, 150 capacity
+Items to pack: 38
+Bin 28: 2 items, 150 capacity
+Items to pack: 36
+Bin 29: 3 items, 149 capacity
+Items to pack: 33
+Bin 30: 2 items, 150 capacity
+Items to pack: 31
+Bin 31: 2 items, 150 capacity
+Items to pack: 29
+Bin 32: 2 items, 149 capacity
+Items to pack: 27
+Bin 33: 2 items, 149 capacity
+Items to pack: 25
+Bin 34: 2 items, 148 capacity
+Items to pack: 23
+Bin 35: 3 items, 147 capacity
+Items to pack: 20
+Bin 36: 2 items, 147 capacity
+Items to pack: 18
+Bin 37: 2 items, 147 capacity
+Items to pack: 16
+Bin 38: 2 items, 143 capacity
+Items to pack: 14
+Bin 39: 2 items, 131 capacity
+Items to pack: 12
+Bin 40: 2 items, 128 capacity
+Items to pack: 10
+Bin 41: 1 items, 125 capacity
+Items to pack: 8
+Bin 42: 1 items, 97 capacity
+Items to pack: 7
+Bin 43: 1 items, 96 capacity
+Items to pack: 6
+Bin 44: 1 items, 94 capacity
+Items to pack: 5
+Bin 45: 1 items, 92 capacity
+Items to pack: 4
+Bin 46: 1 items, 92 capacity
+Items to pack: 3
+Bin 47: 1 items, 90 capacity
+Items to pack: 2
+Bin 48: 1 items, 90 capacity
+Items to pack: 1
+Bin 49: 1 items, 90 capacity
+Total bins required: 49
+Solving problem instance u120_03... Items to pack: 120
+Bin 1: 4 items, 150 capacity
+Items to pack: 116
+Bin 2: 2 items, 150 capacity
+Items to pack: 113
+Bin 3: 3 items, 149 capacity
+Items to pack: 110
+Bin 4: 3 items, 150 capacity
+Items to pack: 107
+Bin 5: 2 items, 150 capacity
+Items to pack: 105
+Bin 6: 3 items, 150 capacity
+Items to pack: 102
+Bin 7: 2 items, 148 capacity
+Items to pack: 99
+Bin 8: 3 items, 150 capacity
+Items to pack: 96
+Bin 9: 3 items, 150 capacity
+Items to pack: 93
+Bin 10: 2 items, 150 capacity
+Items to pack: 90
+Bin 11: 3 items, 150 capacity
+Items to pack: 87
+Bin 12: 3 items, 150 capacity
+Items to pack: 84
+Bin 13: 3 items, 150 capacity
+Items to pack: 81
+Bin 14: 3 items, 149 capacity
+Items to pack: 77
+Bin 15: 2 items, 149 capacity
+Items to pack: 75
+Bin 16: 3 items, 150 capacity
+Items to pack: 72
+Bin 17: 5 items, 150 capacity
+Items to pack: 67
+Bin 18: 3 items, 150 capacity
+Items to pack: 64
+Bin 19: 2 items, 150 capacity
+Items to pack: 62
+Bin 20: 3 items, 150 capacity
+Items to pack: 59
+Bin 21: 3 items, 150 capacity
+Items to pack: 56
+Bin 22: 2 items, 150 capacity
+Items to pack: 54
+Bin 23: 3 items, 150 capacity
+Items to pack: 51
+Bin 24: 1 items, 150 capacity
+Items to pack: 49
+Bin 25: 2 items, 150 capacity
+Items to pack: 47
+Bin 26: 3 items, 150 capacity
+Items to pack: 44
+Bin 27: 2 items, 150 capacity
+Items to pack: 42
+Bin 28: 2 items, 149 capacity
+Items to pack: 40
+Bin 29: 2 items, 149 capacity
+Items to pack: 38
+Bin 30: 3 items, 150 capacity
+Items to pack: 35
+Bin 31: 2 items, 150 capacity
+Items to pack: 33
+Bin 32: 2 items, 149 capacity
+Items to pack: 31
+Bin 33: 2 items, 150 capacity
+Items to pack: 29
+Bin 34: 2 items, 149 capacity
+Items to pack: 27
+Bin 35: 2 items, 146 capacity
+Items to pack: 25
+Bin 36: 2 items, 146 capacity
+Items to pack: 23
+Bin 37: 2 items, 143 capacity
+Items to pack: 21
+Bin 38: 2 items, 143 capacity
+Items to pack: 19
+Bin 39: 2 items, 142 capacity
+Items to pack: 17
+Bin 40: 2 items, 141 capacity
+Items to pack: 15
+Bin 41: 1 items, 95 capacity
+Items to pack: 14
+Bin 42: 1 items, 95 capacity
+Items to pack: 13
+Bin 43: 1 items, 95 capacity
+Items to pack: 12
+Bin 44: 1 items, 92 capacity
+Items to pack: 11
+Bin 45: 1 items, 92 capacity
+Items to pack: 10
+Bin 46: 1 items, 91 capacity
+Items to pack: 9
+Bin 47: 1 items, 90 capacity
+Items to pack: 8
+Bin 48: 1 items, 90 capacity
+Items to pack: 7
+Bin 49: 1 items, 89 capacity
+Items to pack: 6
+Bin 50: 1 items, 88 capacity
+Items to pack: 5
+Bin 51: 1 items, 84 capacity
+Items to pack: 4
+Bin 52: 1 items, 84 capacity
+Items to pack: 3
+Bin 53: 1 items, 84 capacity
+Items to pack: 2
+Bin 54: 1 items, 82 capacity
+Items to pack: 1
+Bin 55: 1 items, 80 capacity
+Total bins required: 55
+Solving problem instance u120_04... Items to pack: 120
+Bin 1: 3 items, 150 capacity
+Items to pack: 117
+Bin 2: 2 items, 150 capacity
+Items to pack: 115
+Bin 3: 2 items, 150 capacity
+Items to pack: 113
+Bin 4: 3 items, 150 capacity
+Items to pack: 110
+Bin 5: 3 items, 149 capacity
+Items to pack: 107
+Bin 6: 2 items, 150 capacity
+Items to pack: 104
+Bin 7: 5 items, 150 capacity
+Items to pack: 99
+Bin 8: 3 items, 150 capacity
+Items to pack: 96
+Bin 9: 3 items, 150 capacity
+Items to pack: 93
+Bin 10: 2 items, 148 capacity
+Items to pack: 90
+Bin 11: 4 items, 150 capacity
+Items to pack: 86
+Bin 12: 1 items, 150 capacity
+Items to pack: 84
+Bin 13: 3 items, 149 capacity
+Items to pack: 81
+Bin 14: 3 items, 149 capacity
+Items to pack: 78
+Bin 15: 3 items, 150 capacity
+Items to pack: 75
+Bin 16: 2 items, 149 capacity
+Items to pack: 73
+Bin 17: 3 items, 150 capacity
+Items to pack: 70
+Bin 18: 3 items, 150 capacity
+Items to pack: 66
+Bin 19: 3 items, 150 capacity
+Items to pack: 63
+Bin 20: 3 items, 150 capacity
+Items to pack: 60
+Bin 21: 3 items, 149 capacity
+Items to pack: 57
+Bin 22: 3 items, 150 capacity
+Items to pack: 54
+Bin 23: 3 items, 150 capacity
+Items to pack: 51
+Bin 24: 2 items, 149 capacity
+Items to pack: 49
+Bin 25: 3 items, 150 capacity
+Items to pack: 46
+Bin 26: 2 items, 150 capacity
+Items to pack: 44
+Bin 27: 2 items, 149 capacity
+Items to pack: 42
+Bin 28: 1 items, 149 capacity
+Items to pack: 40
+Bin 29: 2 items, 149 capacity
+Items to pack: 38
+Bin 30: 2 items, 149 capacity
+Items to pack: 36
+Bin 31: 2 items, 149 capacity
+Items to pack: 34
+Bin 32: 2 items, 149 capacity
+Items to pack: 32
+Bin 33: 2 items, 149 capacity
+Items to pack: 30
+Bin 34: 1 items, 148 capacity
+Items to pack: 28
+Bin 35: 1 items, 147 capacity
+Items to pack: 26
+Bin 36: 2 items, 147 capacity
+Items to pack: 24
+Bin 37: 2 items, 144 capacity
+Items to pack: 22
+Bin 38: 2 items, 144 capacity
+Items to pack: 20
+Bin 39: 2 items, 142 capacity
+Items to pack: 18
+Bin 40: 2 items, 138 capacity
+Items to pack: 16
+Bin 41: 1 items, 97 capacity
+Items to pack: 15
+Bin 42: 1 items, 96 capacity
+Items to pack: 14
+Bin 43: 1 items, 95 capacity
+Items to pack: 13
+Bin 44: 1 items, 91 capacity
+Items to pack: 12
+Bin 45: 1 items, 91 capacity
+Items to pack: 11
+Bin 46: 1 items, 89 capacity
+Items to pack: 10
+Bin 47: 1 items, 89 capacity
+Items to pack: 9
+Bin 48: 1 items, 88 capacity
+Items to pack: 8
+Bin 49: 1 items, 87 capacity
+Items to pack: 7
+Bin 50: 1 items, 87 capacity
+Items to pack: 6
+Bin 51: 1 items, 87 capacity
+Items to pack: 5
+Bin 52: 1 items, 86 capacity
+Items to pack: 4
+Bin 53: 1 items, 85 capacity
+Items to pack: 3
+Bin 54: 1 items, 84 capacity
+Items to pack: 2
+Bin 55: 1 items, 84 capacity
+Items to pack: 1
+Bin 56: 1 items, 69 capacity
+Total bins required: 56
+Solving problem instance u120_05... Items to pack: 120
+Bin 1: 2 items, 150 capacity
+Items to pack: 118
+Bin 2: 3 items, 150 capacity
+Items to pack: 115
+Bin 3: 1 items, 150 capacity
+Items to pack: 113
+Bin 4: 5 items, 150 capacity
+Items to pack: 108
+Bin 5: 3 items, 150 capacity
+Items to pack: 105
+Bin 6: 3 items, 150 capacity
+Items to pack: 102
+Bin 7: 3 items, 150 capacity
+Items to pack: 99
+Bin 8: 3 items, 150 capacity
+Items to pack: 96
+Bin 9: 2 items, 150 capacity
+Items to pack: 94
+Bin 10: 4 items, 150 capacity
+Items to pack: 90
+Bin 11: 4 items, 150 capacity
+Items to pack: 86
+Bin 12: 3 items, 149 capacity
+Items to pack: 82
+Bin 13: 2 items, 149 capacity
+Items to pack: 80
+Bin 14: 2 items, 150 capacity
+Items to pack: 78
+Bin 15: 2 items, 150 capacity
+Items to pack: 76
+Bin 16: 3 items, 150 capacity
+Items to pack: 73
+Bin 17: 2 items, 149 capacity
+Items to pack: 70
+Bin 18: 3 items, 150 capacity
+Items to pack: 67
+Bin 19: 2 items, 149 capacity
+Items to pack: 64
+Bin 20: 3 items, 150 capacity
+Items to pack: 61
+Bin 21: 2 items, 150 capacity
+Items to pack: 58
+Bin 22: 3 items, 150 capacity
+Items to pack: 55
+Bin 23: 2 items, 150 capacity
+Items to pack: 53
+Bin 24: 3 items, 149 capacity
+Items to pack: 50
+Bin 25: 2 items, 150 capacity
+Items to pack: 48
+Bin 26: 1 items, 148 capacity
+Items to pack: 46
+Bin 27: 3 items, 149 capacity
+Items to pack: 43
+Bin 28: 3 items, 149 capacity
+Items to pack: 40
+Bin 29: 4 items, 149 capacity
+Items to pack: 36
+Bin 30: 2 items, 150 capacity
+Items to pack: 34
+Bin 31: 3 items, 149 capacity
+Items to pack: 31
+Bin 32: 2 items, 150 capacity
+Items to pack: 29
+Bin 33: 2 items, 150 capacity
+Items to pack: 27
+Bin 34: 2 items, 150 capacity
+Items to pack: 25
+Bin 35: 2 items, 150 capacity
+Items to pack: 23
+Bin 36: 2 items, 149 capacity
+Items to pack: 21
+Bin 37: 1 items, 147 capacity
+Items to pack: 19
+Bin 38: 2 items, 146 capacity
+Items to pack: 17
+Bin 39: 2 items, 144 capacity
+Items to pack: 15
+Bin 40: 1 items, 143 capacity
+Items to pack: 13
+Bin 41: 1 items, 98 capacity
+Items to pack: 12
+Bin 42: 1 items, 97 capacity
+Items to pack: 11
+Bin 43: 1 items, 97 capacity
+Items to pack: 10
+Bin 44: 1 items, 97 capacity
+Items to pack: 9
+Bin 45: 1 items, 90 capacity
+Items to pack: 8
+Bin 46: 1 items, 88 capacity
+Items to pack: 7
+Bin 47: 1 items, 88 capacity
+Items to pack: 6
+Bin 48: 1 items, 88 capacity
+Items to pack: 5
+Bin 49: 1 items, 87 capacity
+Items to pack: 4
+Bin 50: 1 items, 84 capacity
+Items to pack: 3
+Bin 51: 1 items, 79 capacity
+Items to pack: 2
+Bin 52: 1 items, 79 capacity
+Items to pack: 1
+Bin 53: 1 items, 77 capacity
+Total bins required: 53
+Solving problem instance u120_06... Items to pack: 120
+Bin 1: 2 items, 150 capacity
+Items to pack: 118
+Bin 2: 3 items, 150 capacity
+Items to pack: 115
+Bin 3: 3 items, 150 capacity
+Items to pack: 112
+Bin 4: 4 items, 150 capacity
+Items to pack: 108
+Bin 5: 3 items, 150 capacity
+Items to pack: 105
+Bin 6: 2 items, 148 capacity
+Items to pack: 102
+Bin 7: 4 items, 150 capacity
+Items to pack: 98
+Bin 8: 2 items, 150 capacity
+Items to pack: 96
+Bin 9: 3 items, 150 capacity
+Items to pack: 93
+Bin 10: 3 items, 150 capacity
+Items to pack: 90
+Bin 11: 2 items, 150 capacity
+Items to pack: 87
+Bin 12: 4 items, 150 capacity
+Items to pack: 83
+Bin 13: 3 items, 150 capacity
+Items to pack: 80
+Bin 14: 3 items, 150 capacity
+Items to pack: 77
+Bin 15: 2 items, 150 capacity
+Items to pack: 75
+Bin 16: 3 items, 150 capacity
+Items to pack: 72
+Bin 17: 3 items, 149 capacity
+Items to pack: 69
+Bin 18: 3 items, 150 capacity
+Items to pack: 66
+Bin 19: 2 items, 150 capacity
+Items to pack: 64
+Bin 20: 3 items, 150 capacity
+Items to pack: 61
+Bin 21: 2 items, 150 capacity
+Items to pack: 59
+Bin 22: 3 items, 150 capacity
+Items to pack: 56
+Bin 23: 3 items, 150 capacity
+Items to pack: 53
+Bin 24: 4 items, 150 capacity
+Items to pack: 49
+Bin 25: 3 items, 150 capacity
+Items to pack: 46
+Bin 26: 2 items, 149 capacity
+Items to pack: 44
+Bin 27: 2 items, 149 capacity
+Items to pack: 42
+Bin 28: 3 items, 150 capacity
+Items to pack: 39
+Bin 29: 2 items, 149 capacity
+Items to pack: 37
+Bin 30: 1 items, 148 capacity
+Items to pack: 35
+Bin 31: 2 items, 150 capacity
+Items to pack: 33
+Bin 32: 3 items, 150 capacity
+Items to pack: 30
+Bin 33: 2 items, 150 capacity
+Items to pack: 28
+Bin 34: 2 items, 150 capacity
+Items to pack: 26
+Bin 35: 2 items, 150 capacity
+Items to pack: 24
+Bin 36: 2 items, 148 capacity
+Items to pack: 22
+Bin 37: 2 items, 144 capacity
+Items to pack: 20
+Bin 38: 2 items, 144 capacity
+Items to pack: 18
+Bin 39: 2 items, 144 capacity
+Items to pack: 16
+Bin 40: 2 items, 119 capacity
+Items to pack: 14
+Bin 41: 1 items, 91 capacity
+Items to pack: 13
+Bin 42: 1 items, 89 capacity
+Items to pack: 12
+Bin 43: 1 items, 89 capacity
+Items to pack: 11
+Bin 44: 1 items, 88 capacity
+Items to pack: 10
+Bin 45: 1 items, 88 capacity
+Items to pack: 9
+Bin 46: 1 items, 88 capacity
+Items to pack: 8
+Bin 47: 1 items, 85 capacity
+Items to pack: 7
+Bin 48: 1 items, 85 capacity
+Items to pack: 6
+Bin 49: 1 items, 83 capacity
+Items to pack: 5
+Bin 50: 1 items, 83 capacity
+Items to pack: 4
+Bin 51: 1 items, 82 capacity
+Items to pack: 3
+Bin 52: 1 items, 81 capacity
+Items to pack: 2
+Bin 53: 1 items, 81 capacity
+Items to pack: 1
+Bin 54: 1 items, 81 capacity
+Total bins required: 54
+Solving problem instance u120_07... Items to pack: 120
+Bin 1: 3 items, 150 capacity
+Items to pack: 117
+Bin 2: 3 items, 149 capacity
+Items to pack: 114
+Bin 3: 3 items, 150 capacity
+Items to pack: 111
+Bin 4: 4 items, 150 capacity
+Items to pack: 107
+Bin 5: 3 items, 149 capacity
+Items to pack: 104
+Bin 6: 2 items, 150 capacity
+Items to pack: 101
+Bin 7: 2 items, 150 capacity
+Items to pack: 98
+Bin 8: 3 items, 150 capacity
+Items to pack: 95
+Bin 9: 3 items, 149 capacity
+Items to pack: 92
+Bin 10: 4 items, 150 capacity
+Items to pack: 88
+Bin 11: 3 items, 150 capacity
+Items to pack: 85
+Bin 12: 4 items, 150 capacity
+Items to pack: 81
+Bin 13: 2 items, 150 capacity
+Items to pack: 79
+Bin 14: 2 items, 150 capacity
+Items to pack: 77
+Bin 15: 2 items, 150 capacity
+Items to pack: 75
+Bin 16: 2 items, 150 capacity
+Items to pack: 73
+Bin 17: 3 items, 150 capacity
+Items to pack: 70
+Bin 18: 1 items, 148 capacity
+Items to pack: 68
+Bin 19: 1 items, 148 capacity
+Items to pack: 66
+Bin 20: 2 items, 150 capacity
+Items to pack: 64
+Bin 21: 2 items, 150 capacity
+Items to pack: 61
+Bin 22: 3 items, 150 capacity
+Items to pack: 58
+Bin 23: 1 items, 148 capacity
+Items to pack: 56
+Bin 24: 3 items, 150 capacity
+Items to pack: 53
+Bin 25: 3 items, 149 capacity
+Items to pack: 50
+Bin 26: 2 items, 150 capacity
+Items to pack: 48
+Bin 27: 2 items, 150 capacity
+Items to pack: 45
+Bin 28: 3 items, 150 capacity
+Items to pack: 42
+Bin 29: 3 items, 150 capacity
+Items to pack: 39
+Bin 30: 2 items, 149 capacity
+Items to pack: 37
+Bin 31: 3 items, 150 capacity
+Items to pack: 34
+Bin 32: 2 items, 149 capacity
+Items to pack: 32
+Bin 33: 2 items, 149 capacity
+Items to pack: 30
+Bin 34: 2 items, 150 capacity
+Items to pack: 28
+Bin 35: 2 items, 148 capacity
+Items to pack: 26
+Bin 36: 2 items, 148 capacity
+Items to pack: 24
+Bin 37: 1 items, 147 capacity
+Items to pack: 22
+Bin 38: 2 items, 147 capacity
+Items to pack: 20
+Bin 39: 2 items, 138 capacity
+Items to pack: 18
+Bin 40: 2 items, 137 capacity
+Items to pack: 16
+Bin 41: 2 items, 128 capacity
+Items to pack: 14
+Bin 42: 2 items, 127 capacity
+Items to pack: 12
+Bin 43: 2 items, 120 capacity
+Items to pack: 10
+Bin 44: 1 items, 99 capacity
+Items to pack: 9
+Bin 45: 1 items, 99 capacity
+Items to pack: 8
+Bin 46: 1 items, 99 capacity
+Items to pack: 7
+Bin 47: 1 items, 98 capacity
+Items to pack: 6
+Bin 48: 1 items, 96 capacity
+Items to pack: 5
+Bin 49: 1 items, 96 capacity
+Items to pack: 4
+Bin 50: 1 items, 95 capacity
+Items to pack: 3
+Bin 51: 1 items, 94 capacity
+Items to pack: 2
+Bin 52: 1 items, 94 capacity
+Items to pack: 1
+Bin 53: 1 items, 94 capacity
+Total bins required: 53
+Solving problem instance u120_08... Items to pack: 120
+Bin 1: 3 items, 150 capacity
+Items to pack: 117
+Bin 2: 2 items, 150 capacity
+Items to pack: 115
+Bin 3: 2 items, 150 capacity
+Items to pack: 113
+Bin 4: 3 items, 150 capacity
+Items to pack: 110
+Bin 5: 2 items, 150 capacity
+Items to pack: 108
+Bin 6: 3 items, 150 capacity
+Items to pack: 105
+Bin 7: 4 items, 150 capacity
+Items to pack: 101
+Bin 8: 4 items, 150 capacity
+Items to pack: 97
+Bin 9: 3 items, 150 capacity
+Items to pack: 94
+Bin 10: 5 items, 150 capacity
+Items to pack: 89
+Bin 11: 2 items, 149 capacity
+Items to pack: 87
+Bin 12: 3 items, 149 capacity
+Items to pack: 84
+Bin 13: 3 items, 150 capacity
+Items to pack: 81
+Bin 14: 3 items, 150 capacity
+Items to pack: 78
+Bin 15: 3 items, 150 capacity
+Items to pack: 75
+Bin 16: 2 items, 149 capacity
+Items to pack: 73
+Bin 17: 3 items, 150 capacity
+Items to pack: 70
+Bin 18: 3 items, 150 capacity
+Items to pack: 67
+Bin 19: 3 items, 150 capacity
+Items to pack: 64
+Bin 20: 2 items, 150 capacity
+Items to pack: 62
+Bin 21: 3 items, 150 capacity
+Items to pack: 59
+Bin 22: 3 items, 149 capacity
+Items to pack: 56
+Bin 23: 3 items, 150 capacity
+Items to pack: 53
+Bin 24: 2 items, 150 capacity
+Items to pack: 51
+Bin 25: 3 items, 150 capacity
+Items to pack: 48
+Bin 26: 2 items, 150 capacity
+Items to pack: 46
+Bin 27: 3 items, 149 capacity
+Items to pack: 43
+Bin 28: 2 items, 150 capacity
+Items to pack: 41
+Bin 29: 2 items, 149 capacity
+Items to pack: 39
+Bin 30: 2 items, 150 capacity
+Items to pack: 37
+Bin 31: 3 items, 149 capacity
+Items to pack: 34
+Bin 32: 2 items, 149 capacity
+Items to pack: 32
+Bin 33: 2 items, 150 capacity
+Items to pack: 30
+Bin 34: 2 items, 150 capacity
+Items to pack: 28
+Bin 35: 1 items, 148 capacity
+Items to pack: 26
+Bin 36: 1 items, 148 capacity
+Items to pack: 24
+Bin 37: 2 items, 149 capacity
+Items to pack: 22
+Bin 38: 2 items, 148 capacity
+Items to pack: 20
+Bin 39: 2 items, 147 capacity
+Items to pack: 18
+Bin 40: 1 items, 100 capacity
+Items to pack: 17
+Bin 41: 1 items, 100 capacity
+Items to pack: 16
+Bin 42: 1 items, 100 capacity
+Items to pack: 15
+Bin 43: 1 items, 97 capacity
+Items to pack: 14
+Bin 44: 1 items, 97 capacity
+Items to pack: 13
+Bin 45: 1 items, 95 capacity
+Items to pack: 12
+Bin 46: 1 items, 95 capacity
+Items to pack: 11
+Bin 47: 1 items, 94 capacity
+Items to pack: 10
+Bin 48: 1 items, 94 capacity
+Items to pack: 9
+Bin 49: 1 items, 91 capacity
+Items to pack: 8
+Bin 50: 1 items, 91 capacity
+Items to pack: 7
+Bin 51: 1 items, 89 capacity
+Items to pack: 6
+Bin 52: 1 items, 89 capacity
+Items to pack: 5
+Bin 53: 1 items, 89 capacity
+Items to pack: 4
+Bin 54: 1 items, 86 capacity
+Items to pack: 3
+Bin 55: 1 items, 85 capacity
+Items to pack: 2
+Bin 56: 1 items, 85 capacity
+Items to pack: 1
+Bin 57: 1 items, 67 capacity
+Total bins required: 57
+Solving problem instance u120_09... Items to pack: 120
+Bin 1: 2 items, 150 capacity
+Items to pack: 118
+Bin 2: 2 items, 150 capacity
+Items to pack: 116
+Bin 3: 3 items, 149 capacity
+Items to pack: 113
+Bin 4: 3 items, 150 capacity
+Items to pack: 110
+Bin 5: 2 items, 150 capacity
+Items to pack: 107
+Bin 6: 3 items, 150 capacity
+Items to pack: 104
+Bin 7: 5 items, 150 capacity
+Items to pack: 99
+Bin 8: 3 items, 150 capacity
+Items to pack: 96
+Bin 9: 3 items, 150 capacity
+Items to pack: 92
+Bin 10: 3 items, 149 capacity
+Items to pack: 89
+Bin 11: 3 items, 149 capacity
+Items to pack: 86
+Bin 12: 3 items, 150 capacity
+Items to pack: 83
+Bin 13: 3 items, 149 capacity
+Items to pack: 80
+Bin 14: 4 items, 150 capacity
+Items to pack: 76
+Bin 15: 2 items, 150 capacity
+Items to pack: 74
+Bin 16: 2 items, 149 capacity
+Items to pack: 71
+Bin 17: 3 items, 150 capacity
+Items to pack: 68
+Bin 18: 3 items, 150 capacity
+Items to pack: 65
+Bin 19: 3 items, 150 capacity
+Items to pack: 62
+Bin 20: 3 items, 149 capacity
+Items to pack: 59
+Bin 21: 2 items, 148 capacity
+Items to pack: 56
+Bin 22: 3 items, 150 capacity
+Items to pack: 53
+Bin 23: 4 items, 150 capacity
+Items to pack: 49
+Bin 24: 3 items, 150 capacity
+Items to pack: 46
+Bin 25: 2 items, 149 capacity
+Items to pack: 44
+Bin 26: 2 items, 150 capacity
+Items to pack: 42
+Bin 27: 2 items, 149 capacity
+Items to pack: 39
+Bin 28: 1 items, 149 capacity
+Items to pack: 37
+Bin 29: 2 items, 149 capacity
+Items to pack: 35
+Bin 30: 2 items, 149 capacity
+Items to pack: 33
+Bin 31: 2 items, 149 capacity
+Items to pack: 30
+Bin 32: 2 items, 150 capacity
+Items to pack: 27
+Bin 33: 2 items, 150 capacity
+Items to pack: 25
+Bin 34: 2 items, 150 capacity
+Items to pack: 23
+Bin 35: 2 items, 150 capacity
+Items to pack: 21
+Bin 36: 2 items, 148 capacity
+Items to pack: 19
+Bin 37: 2 items, 147 capacity
+Items to pack: 17
+Bin 38: 2 items, 144 capacity
+Items to pack: 15
+Bin 39: 3 items, 142 capacity
+Items to pack: 12
+Bin 40: 2 items, 141 capacity
+Items to pack: 10
+Bin 41: 1 items, 100 capacity
+Items to pack: 9
+Bin 42: 1 items, 94 capacity
+Items to pack: 8
+Bin 43: 1 items, 93 capacity
+Items to pack: 7
+Bin 44: 1 items, 92 capacity
+Items to pack: 6
+Bin 45: 1 items, 92 capacity
+Items to pack: 5
+Bin 46: 1 items, 92 capacity
+Items to pack: 4
+Bin 47: 1 items, 91 capacity
+Items to pack: 3
+Bin 48: 1 items, 90 capacity
+Items to pack: 2
+Bin 49: 1 items, 90 capacity
+Items to pack: 1
+Bin 50: 1 items, 74 capacity
+Total bins required: 50
+Solving problem instance u120_10... Items to pack: 120
+Bin 1: 3 items, 150 capacity
+Items to pack: 117
+Bin 2: 2 items, 150 capacity
+Items to pack: 115
+Bin 3: 2 items, 150 capacity
+Items to pack: 113
+Bin 4: 2 items, 150 capacity
+Items to pack: 111
+Bin 5: 3 items, 150 capacity
+Items to pack: 108
+Bin 6: 3 items, 150 capacity
+Items to pack: 105
+Bin 7: 3 items, 149 capacity
+Items to pack: 102
+Bin 8: 3 items, 150 capacity
+Items to pack: 99
+Bin 9: 4 items, 150 capacity
+Items to pack: 95
+Bin 10: 4 items, 150 capacity
+Items to pack: 91
+Bin 11: 3 items, 149 capacity
+Items to pack: 88
+Bin 12: 3 items, 150 capacity
+Items to pack: 85
+Bin 13: 3 items, 150 capacity
+Items to pack: 82
+Bin 14: 2 items, 150 capacity
+Items to pack: 80
+Bin 15: 4 items, 150 capacity
+Items to pack: 76
+Bin 16: 3 items, 149 capacity
+Items to pack: 73
+Bin 17: 4 items, 150 capacity
+Items to pack: 69
+Bin 18: 2 items, 150 capacity
+Items to pack: 67
+Bin 19: 2 items, 150 capacity
+Items to pack: 65
+Bin 20: 2 items, 150 capacity
+Items to pack: 63
+Bin 21: 2 items, 149 capacity
+Items to pack: 61
+Bin 22: 3 items, 150 capacity
+Items to pack: 58
+Bin 23: 2 items, 150 capacity
+Items to pack: 56
+Bin 24: 2 items, 149 capacity
+Items to pack: 54
+Bin 25: 2 items, 149 capacity
+Items to pack: 52
+Bin 26: 2 items, 149 capacity
+Items to pack: 50
+Bin 27: 2 items, 149 capacity
+Items to pack: 48
+Bin 28: 2 items, 150 capacity
+Items to pack: 46
+Bin 29: 2 items, 150 capacity
+Items to pack: 44
+Bin 30: 2 items, 150 capacity
+Items to pack: 42
+Bin 31: 2 items, 150 capacity
+Items to pack: 40
+Bin 32: 2 items, 149 capacity
+Items to pack: 38
+Bin 33: 2 items, 149 capacity
+Items to pack: 36
+Bin 34: 2 items, 149 capacity
+Items to pack: 34
+Bin 35: 2 items, 149 capacity
+Items to pack: 32
+Bin 36: 1 items, 148 capacity
+Items to pack: 30
+Bin 37: 2 items, 149 capacity
+Items to pack: 28
+Bin 38: 2 items, 150 capacity
+Items to pack: 26
+Bin 39: 2 items, 149 capacity
+Items to pack: 23
+Bin 40: 2 items, 149 capacity
+Items to pack: 21
+Bin 41: 2 items, 148 capacity
+Items to pack: 19
+Bin 42: 2 items, 149 capacity
+Items to pack: 17
+Bin 43: 2 items, 147 capacity
+Items to pack: 15
+Bin 44: 2 items, 147 capacity
+Items to pack: 13
+Bin 45: 2 items, 147 capacity
+Items to pack: 11
+Bin 46: 1 items, 99 capacity
+Items to pack: 10
+Bin 47: 1 items, 99 capacity
+Items to pack: 9
+Bin 48: 1 items, 97 capacity
+Items to pack: 8
+Bin 49: 1 items, 92 capacity
+Items to pack: 7
+Bin 50: 1 items, 88 capacity
+Items to pack: 6
+Bin 51: 1 items, 84 capacity
+Items to pack: 5
+Bin 52: 1 items, 82 capacity
+Items to pack: 4
+Bin 53: 1 items, 81 capacity
+Items to pack: 3
+Bin 54: 1 items, 79 capacity
+Items to pack: 2
+Bin 55: 1 items, 78 capacity
+Items to pack: 1
+Bin 56: 1 items, 78 capacity
+Total bins required: 56
+Solving problem instance u120_11... Items to pack: 120
+Bin 1: 2 items, 150 capacity
+Items to pack: 118
+Bin 2: 2 items, 150 capacity
+Items to pack: 116
+Bin 3: 2 items, 150 capacity
+Items to pack: 114
+Bin 4: 3 items, 150 capacity
+Items to pack: 111
+Bin 5: 2 items, 150 capacity
+Items to pack: 109
+Bin 6: 4 items, 149 capacity
+Items to pack: 104
+Bin 7: 2 items, 150 capacity
+Items to pack: 102
+Bin 8: 3 items, 150 capacity
+Items to pack: 99
+Bin 9: 4 items, 150 capacity
+Items to pack: 95
+Bin 10: 4 items, 150 capacity
+Items to pack: 91
+Bin 11: 4 items, 150 capacity
+Items to pack: 87
+Bin 12: 3 items, 149 capacity
+Items to pack: 84
+Bin 13: 2 items, 149 capacity
+Items to pack: 82
+Bin 14: 2 items, 149 capacity
+Items to pack: 80
+Bin 15: 4 items, 150 capacity
+Items to pack: 76
+Bin 16: 3 items, 150 capacity
+Items to pack: 73
+Bin 17: 3 items, 150 capacity
+Items to pack: 70
+Bin 18: 2 items, 150 capacity
+Items to pack: 68
+Bin 19: 1 items, 150 capacity
+Items to pack: 66
+Bin 20: 1 items, 150 capacity
+Items to pack: 64
+Bin 21: 3 items, 150 capacity
+Items to pack: 61
+Bin 22: 2 items, 150 capacity
+Items to pack: 59
+Bin 23: 3 items, 150 capacity
+Items to pack: 56
+Bin 24: 2 items, 150 capacity
+Items to pack: 54
+Bin 25: 3 items, 150 capacity
+Items to pack: 51
+Bin 26: 3 items, 149 capacity
+Items to pack: 47
+Bin 27: 3 items, 150 capacity
+Items to pack: 44
+Bin 28: 3 items, 150 capacity
+Items to pack: 41
+Bin 29: 2 items, 148 capacity
+Items to pack: 38
+Bin 30: 3 items, 149 capacity
+Items to pack: 35
+Bin 31: 2 items, 149 capacity
+Items to pack: 33
+Bin 32: 1 items, 148 capacity
+Items to pack: 31
+Bin 33: 2 items, 150 capacity
+Items to pack: 29
+Bin 34: 2 items, 148 capacity
+Items to pack: 26
+Bin 35: 2 items, 133 capacity
+Items to pack: 24
+Bin 36: 1 items, 98 capacity
+Items to pack: 23
+Bin 37: 1 items, 98 capacity
+Items to pack: 22
+Bin 38: 1 items, 97 capacity
+Items to pack: 21
+Bin 39: 1 items, 97 capacity
+Items to pack: 20
+Bin 40: 1 items, 94 capacity
+Items to pack: 19
+Bin 41: 1 items, 94 capacity
+Items to pack: 18
+Bin 42: 1 items, 91 capacity
+Items to pack: 17
+Bin 43: 1 items, 90 capacity
+Items to pack: 16
+Bin 44: 1 items, 85 capacity
+Items to pack: 15
+Bin 45: 1 items, 83 capacity
+Items to pack: 14
+Bin 46: 1 items, 83 capacity
+Items to pack: 13
+Bin 47: 1 items, 79 capacity
+Items to pack: 12
+Bin 48: 1 items, 79 capacity
+Items to pack: 11
+Bin 49: 1 items, 79 capacity
+Items to pack: 10
+Bin 50: 1 items, 79 capacity
+Items to pack: 9
+Bin 51: 1 items, 78 capacity
+Items to pack: 8
+Bin 52: 1 items, 78 capacity
+Items to pack: 7
+Bin 53: 1 items, 78 capacity
+Items to pack: 6
+Bin 54: 1 items, 78 capacity
+Items to pack: 5
+Bin 55: 1 items, 78 capacity
+Items to pack: 4
+Bin 56: 1 items, 78 capacity
+Items to pack: 3
+Bin 57: 1 items, 77 capacity
+Items to pack: 2
+Bin 58: 1 items, 76 capacity
+Items to pack: 1
+Bin 59: 1 items, 76 capacity
+Total bins required: 59
+Solving problem instance u120_12... Items to pack: 120
+Bin 1: 3 items, 150 capacity
+Items to pack: 117
+Bin 2: 3 items, 150 capacity
+Items to pack: 114
+Bin 3: 3 items, 150 capacity
+Items to pack: 111
+Bin 4: 2 items, 150 capacity
+Items to pack: 108
+Bin 5: 3 items, 150 capacity
+Items to pack: 105
+Bin 6: 3 items, 150 capacity
+Items to pack: 102
+Bin 7: 2 items, 150 capacity
+Items to pack: 99
+Bin 8: 3 items, 150 capacity
+Items to pack: 96
+Bin 9: 4 items, 149 capacity
+Items to pack: 92
+Bin 10: 4 items, 150 capacity
+Items to pack: 88
+Bin 11: 3 items, 149 capacity
+Items to pack: 85
+Bin 12: 3 items, 150 capacity
+Items to pack: 82
+Bin 13: 2 items, 150 capacity
+Items to pack: 79
+Bin 14: 2 items, 150 capacity
+Items to pack: 77
+Bin 15: 3 items, 150 capacity
+Items to pack: 74
+Bin 16: 3 items, 150 capacity
+Items to pack: 71
+Bin 17: 3 items, 150 capacity
+Items to pack: 68
+Bin 18: 3 items, 149 capacity
+Items to pack: 65
+Bin 19: 2 items, 150 capacity
+Items to pack: 63
+Bin 20: 2 items, 150 capacity
+Items to pack: 61
+Bin 21: 2 items, 150 capacity
+Items to pack: 59
+Bin 22: 3 items, 150 capacity
+Items to pack: 56
+Bin 23: 2 items, 150 capacity
+Items to pack: 54
+Bin 24: 3 items, 149 capacity
+Items to pack: 51
+Bin 25: 3 items, 150 capacity
+Items to pack: 48
+Bin 26: 3 items, 150 capacity
+Items to pack: 45
+Bin 27: 2 items, 149 capacity
+Items to pack: 43
+Bin 28: 3 items, 150 capacity
+Items to pack: 40
+Bin 29: 2 items, 150 capacity
+Items to pack: 38
+Bin 30: 2 items, 150 capacity
+Items to pack: 36
+Bin 31: 2 items, 150 capacity
+Items to pack: 34
+Bin 32: 2 items, 149 capacity
+Items to pack: 32
+Bin 33: 2 items, 150 capacity
+Items to pack: 30
+Bin 34: 2 items, 149 capacity
+Items to pack: 28
+Bin 35: 2 items, 149 capacity
+Items to pack: 26
+Bin 36: 2 items, 150 capacity
+Items to pack: 24
+Bin 37: 2 items, 149 capacity
+Items to pack: 22
+Bin 38: 2 items, 150 capacity
+Items to pack: 20
+Bin 39: 1 items, 149 capacity
+Items to pack: 18
+Bin 40: 2 items, 150 capacity
+Items to pack: 16
+Bin 41: 2 items, 149 capacity
+Items to pack: 14
+Bin 42: 2 items, 148 capacity
+Items to pack: 12
+Bin 43: 2 items, 147 capacity
+Items to pack: 10
+Bin 44: 2 items, 147 capacity
+Items to pack: 8
+Bin 45: 2 items, 143 capacity
+Items to pack: 6
+Bin 46: 2 items, 136 capacity
+Items to pack: 4
+Bin 47: 1 items, 82 capacity
+Items to pack: 3
+Bin 48: 1 items, 82 capacity
+Items to pack: 2
+Bin 49: 1 items, 78 capacity
+Items to pack: 1
+Bin 50: 1 items, 74 capacity
+Total bins required: 50
+Solving problem instance u120_13... Items to pack: 120
+Bin 1: 3 items, 150 capacity
+Items to pack: 117
+Bin 2: 2 items, 150 capacity
+Items to pack: 115
+Bin 3: 2 items, 150 capacity
+Items to pack: 113
+Bin 4: 4 items, 150 capacity
+Items to pack: 109
+Bin 5: 2 items, 149 capacity
+Items to pack: 106
+Bin 6: 2 items, 149 capacity
+Items to pack: 104
+Bin 7: 2 items, 150 capacity
+Items to pack: 101
+Bin 8: 3 items, 150 capacity
+Items to pack: 98
+Bin 9: 3 items, 150 capacity
+Items to pack: 95
+Bin 10: 3 items, 150 capacity
+Items to pack: 92
+Bin 11: 3 items, 150 capacity
+Items to pack: 89
+Bin 12: 5 items, 150 capacity
+Items to pack: 84
+Bin 13: 4 items, 150 capacity
+Items to pack: 80
+Bin 14: 4 items, 149 capacity
+Items to pack: 76
+Bin 15: 4 items, 149 capacity
+Items to pack: 72
+Bin 16: 3 items, 150 capacity
+Items to pack: 69
+Bin 17: 2 items, 150 capacity
+Items to pack: 67
+Bin 18: 2 items, 149 capacity
+Items to pack: 65
+Bin 19: 2 items, 149 capacity
+Items to pack: 63
+Bin 20: 3 items, 150 capacity
+Items to pack: 60
+Bin 21: 3 items, 150 capacity
+Items to pack: 57
+Bin 22: 3 items, 150 capacity
+Items to pack: 54
+Bin 23: 3 items, 149 capacity
+Items to pack: 51
+Bin 24: 1 items, 149 capacity
+Items to pack: 49
+Bin 25: 2 items, 150 capacity
+Items to pack: 47
+Bin 26: 3 items, 150 capacity
+Items to pack: 44
+Bin 27: 3 items, 150 capacity
+Items to pack: 41
+Bin 28: 3 items, 150 capacity
+Items to pack: 38
+Bin 29: 2 items, 149 capacity
+Items to pack: 36
+Bin 30: 2 items, 150 capacity
+Items to pack: 34
+Bin 31: 3 items, 150 capacity
+Items to pack: 31
+Bin 32: 2 items, 150 capacity
+Items to pack: 29
+Bin 33: 1 items, 150 capacity
+Items to pack: 27
+Bin 34: 2 items, 150 capacity
+Items to pack: 25
+Bin 35: 1 items, 149 capacity
+Items to pack: 23
+Bin 36: 2 items, 150 capacity
+Items to pack: 21
+Bin 37: 2 items, 150 capacity
+Items to pack: 19
+Bin 38: 2 items, 142 capacity
+Items to pack: 17
+Bin 39: 1 items, 98 capacity
+Items to pack: 16
+Bin 40: 1 items, 98 capacity
+Items to pack: 15
+Bin 41: 1 items, 97 capacity
+Items to pack: 14
+Bin 42: 1 items, 96 capacity
+Items to pack: 13
+Bin 43: 1 items, 95 capacity
+Items to pack: 12
+Bin 44: 1 items, 95 capacity
+Items to pack: 11
+Bin 45: 1 items, 95 capacity
+Items to pack: 10
+Bin 46: 1 items, 90 capacity
+Items to pack: 9
+Bin 47: 1 items, 90 capacity
+Items to pack: 8
+Bin 48: 1 items, 90 capacity
+Items to pack: 7
+Bin 49: 1 items, 84 capacity
+Items to pack: 6
+Bin 50: 1 items, 84 capacity
+Items to pack: 5
+Bin 51: 1 items, 82 capacity
+Items to pack: 4
+Bin 52: 1 items, 81 capacity
+Items to pack: 3
+Bin 53: 1 items, 81 capacity
+Items to pack: 2
+Bin 54: 1 items, 81 capacity
+Items to pack: 1
+Bin 55: 1 items, 80 capacity
+Total bins required: 55
+Solving problem instance u120_14... Items to pack: 120
+Bin 1: 3 items, 150 capacity
+Items to pack: 117
+Bin 2: 3 items, 150 capacity
+Items to pack: 114
+Bin 3: 2 items, 150 capacity
+Items to pack: 112
+Bin 4: 4 items, 150 capacity
+Items to pack: 108
+Bin 5: 3 items, 150 capacity
+Items to pack: 105
+Bin 6: 3 items, 150 capacity
+Items to pack: 102
+Bin 7: 3 items, 150 capacity
+Items to pack: 99
+Bin 8: 3 items, 150 capacity
+Items to pack: 96
+Bin 9: 3 items, 149 capacity
+Items to pack: 93
+Bin 10: 4 items, 150 capacity
+Items to pack: 89
+Bin 11: 3 items, 150 capacity
+Items to pack: 86
+Bin 12: 2 items, 150 capacity
+Items to pack: 84
+Bin 13: 4 items, 149 capacity
+Items to pack: 80
+Bin 14: 3 items, 150 capacity
+Items to pack: 77
+Bin 15: 3 items, 150 capacity
+Items to pack: 74
+Bin 16: 2 items, 150 capacity
+Items to pack: 72
+Bin 17: 2 items, 149 capacity
+Items to pack: 70
+Bin 18: 2 items, 150 capacity
+Items to pack: 67
+Bin 19: 3 items, 150 capacity
+Items to pack: 64
+Bin 20: 2 items, 150 capacity
+Items to pack: 62
+Bin 21: 2 items, 150 capacity
+Items to pack: 60
+Bin 22: 2 items, 150 capacity
+Items to pack: 58
+Bin 23: 3 items, 150 capacity
+Items to pack: 55
+Bin 24: 3 items, 150 capacity
+Items to pack: 52
+Bin 25: 3 items, 150 capacity
+Items to pack: 49
+Bin 26: 1 items, 150 capacity
+Items to pack: 47
+Bin 27: 3 items, 150 capacity
+Items to pack: 44
+Bin 28: 2 items, 149 capacity
+Items to pack: 42
+Bin 29: 3 items, 149 capacity
+Items to pack: 39
+Bin 30: 1 items, 148 capacity
+Items to pack: 37
+Bin 31: 1 items, 149 capacity
+Items to pack: 35
+Bin 32: 3 items, 149 capacity
+Items to pack: 32
+Bin 33: 2 items, 150 capacity
+Items to pack: 30
+Bin 34: 2 items, 149 capacity
+Items to pack: 28
+Bin 35: 2 items, 148 capacity
+Items to pack: 26
+Bin 36: 2 items, 148 capacity
+Items to pack: 24
+Bin 37: 2 items, 148 capacity
+Items to pack: 22
+Bin 38: 2 items, 147 capacity
+Items to pack: 20
+Bin 39: 2 items, 146 capacity
+Items to pack: 18
+Bin 40: 2 items, 146 capacity
+Items to pack: 16
+Bin 41: 2 items, 145 capacity
+Items to pack: 14
+Bin 42: 1 items, 97 capacity
+Items to pack: 13
+Bin 43: 1 items, 97 capacity
+Items to pack: 12
+Bin 44: 1 items, 96 capacity
+Items to pack: 11
+Bin 45: 1 items, 93 capacity
+Items to pack: 10
+Bin 46: 1 items, 93 capacity
+Items to pack: 9
+Bin 47: 1 items, 93 capacity
+Items to pack: 8
+Bin 48: 1 items, 93 capacity
+Items to pack: 7
+Bin 49: 1 items, 92 capacity
+Items to pack: 6
+Bin 50: 1 items, 90 capacity
+Items to pack: 5
+Bin 51: 1 items, 90 capacity
+Items to pack: 4
+Bin 52: 1 items, 85 capacity
+Items to pack: 3
+Bin 53: 1 items, 78 capacity
+Items to pack: 2
+Bin 54: 1 items, 78 capacity
+Items to pack: 1
+Bin 55: 1 items, 78 capacity
+Total bins required: 55
+Solving problem instance u120_15... Items to pack: 120
+Bin 1: 3 items, 150 capacity
+Items to pack: 117
+Bin 2: 2 items, 150 capacity
+Items to pack: 115
+Bin 3: 3 items, 150 capacity
+Items to pack: 111
+Bin 4: 3 items, 149 capacity
+Items to pack: 108
+Bin 5: 3 items, 150 capacity
+Items to pack: 105
+Bin 6: 1 items, 148 capacity
+Items to pack: 103
+Bin 7: 5 items, 150 capacity
+Items to pack: 98
+Bin 8: 3 items, 149 capacity
+Items to pack: 95
+Bin 9: 4 items, 150 capacity
+Items to pack: 91
+Bin 10: 3 items, 150 capacity
+Items to pack: 87
+Bin 11: 3 items, 149 capacity
+Items to pack: 84
+Bin 12: 3 items, 150 capacity
+Items to pack: 81
+Bin 13: 3 items, 150 capacity
+Items to pack: 78
+Bin 14: 2 items, 148 capacity
+Items to pack: 75
+Bin 15: 3 items, 150 capacity
+Items to pack: 72
+Bin 16: 3 items, 149 capacity
+Items to pack: 69
+Bin 17: 2 items, 150 capacity
+Items to pack: 67
+Bin 18: 3 items, 150 capacity
+Items to pack: 64
+Bin 19: 3 items, 150 capacity
+Items to pack: 61
+Bin 20: 2 items, 150 capacity
+Items to pack: 58
+Bin 21: 4 items, 150 capacity
+Items to pack: 54
+Bin 22: 2 items, 150 capacity
+Items to pack: 52
+Bin 23: 1 items, 149 capacity
+Items to pack: 50
+Bin 24: 4 items, 150 capacity
+Items to pack: 46
+Bin 25: 2 items, 148 capacity
+Items to pack: 43
+Bin 26: 3 items, 150 capacity
+Items to pack: 40
+Bin 27: 2 items, 150 capacity
+Items to pack: 38
+Bin 28: 2 items, 150 capacity
+Items to pack: 36
+Bin 29: 2 items, 150 capacity
+Items to pack: 33
+Bin 30: 2 items, 144 capacity
+Items to pack: 31
+Bin 31: 2 items, 143 capacity
+Items to pack: 29
+Bin 32: 2 items, 140 capacity
+Items to pack: 27
+Bin 33: 2 items, 137 capacity
+Items to pack: 25
+Bin 34: 1 items, 99 capacity
+Items to pack: 24
+Bin 35: 1 items, 98 capacity
+Items to pack: 23
+Bin 36: 1 items, 98 capacity
+Items to pack: 22
+Bin 37: 1 items, 98 capacity
+Items to pack: 21
+Bin 38: 1 items, 97 capacity
+Items to pack: 20
+Bin 39: 1 items, 97 capacity
+Items to pack: 19
+Bin 40: 1 items, 93 capacity
+Items to pack: 18
+Bin 41: 1 items, 93 capacity
+Items to pack: 17
+Bin 42: 1 items, 93 capacity
+Items to pack: 16
+Bin 43: 1 items, 91 capacity
+Items to pack: 15
+Bin 44: 1 items, 91 capacity
+Items to pack: 14
+Bin 45: 1 items, 89 capacity
+Items to pack: 13
+Bin 46: 1 items, 88 capacity
+Items to pack: 12
+Bin 47: 1 items, 88 capacity
+Items to pack: 11
+Bin 48: 1 items, 86 capacity
+Items to pack: 10
+Bin 49: 1 items, 86 capacity
+Items to pack: 9
+Bin 50: 1 items, 82 capacity
+Items to pack: 8
+Bin 51: 1 items, 81 capacity
+Items to pack: 7
+Bin 52: 1 items, 81 capacity
+Items to pack: 6
+Bin 53: 1 items, 80 capacity
+Items to pack: 5
+Bin 54: 1 items, 80 capacity
+Items to pack: 4
+Bin 55: 1 items, 78 capacity
+Items to pack: 3
+Bin 56: 1 items, 76 capacity
+Items to pack: 2
+Bin 57: 1 items, 76 capacity
+Items to pack: 1
+Bin 58: 1 items, 75 capacity
+Total bins required: 58
+Solving problem instance u120_16... Items to pack: 120
+Bin 1: 2 items, 150 capacity
+Items to pack: 118
+Bin 2: 2 items, 150 capacity
+Items to pack: 116
+Bin 3: 2 items, 150 capacity
+Items to pack: 114
+Bin 4: 2 items, 150 capacity
+Items to pack: 112
+Bin 5: 4 items, 150 capacity
+Items to pack: 107
+Bin 6: 2 items, 150 capacity
+Items to pack: 105
+Bin 7: 4 items, 150 capacity
+Items to pack: 101
+Bin 8: 4 items, 150 capacity
+Items to pack: 97
+Bin 9: 1 items, 149 capacity
+Items to pack: 95
+Bin 10: 3 items, 150 capacity
+Items to pack: 92
+Bin 11: 3 items, 150 capacity
+Items to pack: 89
+Bin 12: 3 items, 150 capacity
+Items to pack: 86
+Bin 13: 2 items, 149 capacity
+Items to pack: 83
+Bin 14: 2 items, 150 capacity
+Items to pack: 80
+Bin 15: 3 items, 150 capacity
+Items to pack: 77
+Bin 16: 3 items, 149 capacity
+Items to pack: 74
+Bin 17: 3 items, 150 capacity
+Items to pack: 71
+Bin 18: 3 items, 150 capacity
+Items to pack: 68
+Bin 19: 4 items, 150 capacity
+Items to pack: 64
+Bin 20: 2 items, 150 capacity
+Items to pack: 62
+Bin 21: 1 items, 149 capacity
+Items to pack: 60
+Bin 22: 2 items, 150 capacity
+Items to pack: 58
+Bin 23: 3 items, 150 capacity
+Items to pack: 55
+Bin 24: 2 items, 150 capacity
+Items to pack: 53
+Bin 25: 3 items, 149 capacity
+Items to pack: 50
+Bin 26: 3 items, 150 capacity
+Items to pack: 47
+Bin 27: 2 items, 150 capacity
+Items to pack: 45
+Bin 28: 2 items, 150 capacity
+Items to pack: 43
+Bin 29: 2 items, 150 capacity
+Items to pack: 41
+Bin 30: 2 items, 150 capacity
+Items to pack: 39
+Bin 31: 1 items, 149 capacity
+Items to pack: 37
+Bin 32: 2 items, 150 capacity
+Items to pack: 35
+Bin 33: 2 items, 150 capacity
+Items to pack: 33
+Bin 34: 2 items, 149 capacity
+Items to pack: 31
+Bin 35: 2 items, 149 capacity
+Items to pack: 29
+Bin 36: 2 items, 148 capacity
+Items to pack: 27
+Bin 37: 2 items, 148 capacity
+Items to pack: 25
+Bin 38: 2 items, 148 capacity
+Items to pack: 23
+Bin 39: 1 items, 147 capacity
+Items to pack: 21
+Bin 40: 1 items, 145 capacity
+Items to pack: 19
+Bin 41: 2 items, 145 capacity
+Items to pack: 17
+Bin 42: 2 items, 144 capacity
+Items to pack: 15
+Bin 43: 1 items, 100 capacity
+Items to pack: 14
+Bin 44: 1 items, 99 capacity
+Items to pack: 13
+Bin 45: 1 items, 99 capacity
+Items to pack: 12
+Bin 46: 1 items, 99 capacity
+Items to pack: 11
+Bin 47: 1 items, 99 capacity
+Items to pack: 10
+Bin 48: 1 items, 98 capacity
+Items to pack: 9
+Bin 49: 1 items, 96 capacity
+Items to pack: 8
+Bin 50: 1 items, 94 capacity
+Items to pack: 7
+Bin 51: 1 items, 94 capacity
+Items to pack: 6
+Bin 52: 1 items, 94 capacity
+Items to pack: 5
+Bin 53: 1 items, 93 capacity
+Items to pack: 4
+Bin 54: 1 items, 92 capacity
+Items to pack: 3
+Bin 55: 1 items, 92 capacity
+Items to pack: 2
+Bin 56: 1 items, 90 capacity
+Items to pack: 1
+Bin 57: 1 items, 76 capacity
+Total bins required: 57
+Solving problem instance u120_17... Items to pack: 120
+Bin 1: 4 items, 150 capacity
+Items to pack: 116
+Bin 2: 2 items, 150 capacity
+Items to pack: 114
+Bin 3: 3 items, 150 capacity
+Items to pack: 111
+Bin 4: 3 items, 150 capacity
+Items to pack: 108
+Bin 5: 3 items, 149 capacity
+Items to pack: 105
+Bin 6: 2 items, 150 capacity
+Items to pack: 103
+Bin 7: 4 items, 150 capacity
+Items to pack: 99
+Bin 8: 3 items, 150 capacity
+Items to pack: 96
+Bin 9: 2 items, 149 capacity
+Items to pack: 93
+Bin 10: 3 items, 150 capacity
+Items to pack: 90
+Bin 11: 2 items, 150 capacity
+Items to pack: 88
+Bin 12: 2 items, 149 capacity
+Items to pack: 85
+Bin 13: 2 items, 150 capacity
+Items to pack: 83
+Bin 14: 2 items, 150 capacity
+Items to pack: 81
+Bin 15: 2 items, 150 capacity
+Items to pack: 78
+Bin 16: 3 items, 150 capacity
+Items to pack: 75
+Bin 17: 3 items, 149 capacity
+Items to pack: 72
+Bin 18: 3 items, 150 capacity
+Items to pack: 69
+Bin 19: 3 items, 150 capacity
+Items to pack: 66
+Bin 20: 2 items, 150 capacity
+Items to pack: 64
+Bin 21: 2 items, 150 capacity
+Items to pack: 62
+Bin 22: 2 items, 149 capacity
+Items to pack: 59
+Bin 23: 2 items, 149 capacity
+Items to pack: 57
+Bin 24: 2 items, 150 capacity
+Items to pack: 55
+Bin 25: 2 items, 150 capacity
+Items to pack: 52
+Bin 26: 2 items, 148 capacity
+Items to pack: 49
+Bin 27: 3 items, 150 capacity
+Items to pack: 46
+Bin 28: 3 items, 149 capacity
+Items to pack: 43
+Bin 29: 2 items, 150 capacity
+Items to pack: 41
+Bin 30: 2 items, 149 capacity
+Items to pack: 39
+Bin 31: 2 items, 149 capacity
+Items to pack: 37
+Bin 32: 2 items, 149 capacity
+Items to pack: 35
+Bin 33: 2 items, 148 capacity
+Items to pack: 33
+Bin 34: 2 items, 149 capacity
+Items to pack: 31
+Bin 35: 1 items, 146 capacity
+Items to pack: 29
+Bin 36: 2 items, 147 capacity
+Items to pack: 27
+Bin 37: 2 items, 146 capacity
+Items to pack: 25
+Bin 38: 2 items, 145 capacity
+Items to pack: 23
+Bin 39: 1 items, 100 capacity
+Items to pack: 22
+Bin 40: 1 items, 100 capacity
+Items to pack: 21
+Bin 41: 1 items, 94 capacity
+Items to pack: 20
+Bin 42: 1 items, 93 capacity
+Items to pack: 19
+Bin 43: 1 items, 92 capacity
+Items to pack: 18
+Bin 44: 1 items, 92 capacity
+Items to pack: 17
+Bin 45: 1 items, 91 capacity
+Items to pack: 16
+Bin 46: 1 items, 91 capacity
+Items to pack: 15
+Bin 47: 1 items, 90 capacity
+Items to pack: 14
+Bin 48: 1 items, 89 capacity
+Items to pack: 13
+Bin 49: 1 items, 88 capacity
+Items to pack: 12
+Bin 50: 1 items, 86 capacity
+Items to pack: 11
+Bin 51: 1 items, 86 capacity
+Items to pack: 10
+Bin 52: 1 items, 86 capacity
+Items to pack: 9
+Bin 53: 1 items, 86 capacity
+Items to pack: 8
+Bin 54: 1 items, 86 capacity
+Items to pack: 7
+Bin 55: 1 items, 85 capacity
+Items to pack: 6
+Bin 56: 1 items, 85 capacity
+Items to pack: 5
+Bin 57: 1 items, 85 capacity
+Items to pack: 4
+Bin 58: 1 items, 84 capacity
+Items to pack: 3
+Bin 59: 1 items, 84 capacity
+Items to pack: 2
+Bin 60: 1 items, 83 capacity
+Items to pack: 1
+Bin 61: 1 items, 72 capacity
+Total bins required: 61
+Solving problem instance u120_18... Items to pack: 120
+Bin 1: 2 items, 150 capacity
+Items to pack: 118
+Bin 2: 2 items, 150 capacity
+Items to pack: 116
+Bin 3: 2 items, 150 capacity
+Items to pack: 114
+Bin 4: 2 items, 150 capacity
+Items to pack: 112
+Bin 5: 3 items, 150 capacity
+Items to pack: 109
+Bin 6: 3 items, 149 capacity
+Items to pack: 106
+Bin 7: 3 items, 150 capacity
+Items to pack: 103
+Bin 8: 3 items, 150 capacity
+Items to pack: 99
+Bin 9: 3 items, 150 capacity
+Items to pack: 95
+Bin 10: 3 items, 150 capacity
+Items to pack: 91
+Bin 11: 2 items, 150 capacity
+Items to pack: 89
+Bin 12: 4 items, 150 capacity
+Items to pack: 85
+Bin 13: 3 items, 150 capacity
+Items to pack: 82
+Bin 14: 3 items, 150 capacity
+Items to pack: 79
+Bin 15: 4 items, 150 capacity
+Items to pack: 75
+Bin 16: 3 items, 149 capacity
+Items to pack: 72
+Bin 17: 2 items, 149 capacity
+Items to pack: 70
+Bin 18: 3 items, 150 capacity
+Items to pack: 67
+Bin 19: 3 items, 150 capacity
+Items to pack: 64
+Bin 20: 2 items, 150 capacity
+Items to pack: 62
+Bin 21: 3 items, 150 capacity
+Items to pack: 59
+Bin 22: 3 items, 149 capacity
+Items to pack: 56
+Bin 23: 2 items, 150 capacity
+Items to pack: 53
+Bin 24: 2 items, 149 capacity
+Items to pack: 51
+Bin 25: 2 items, 150 capacity
+Items to pack: 49
+Bin 26: 2 items, 150 capacity
+Items to pack: 46
+Bin 27: 2 items, 149 capacity
+Items to pack: 44
+Bin 28: 2 items, 150 capacity
+Items to pack: 42
+Bin 29: 2 items, 149 capacity
+Items to pack: 40
+Bin 30: 1 items, 148 capacity
+Items to pack: 38
+Bin 31: 1 items, 148 capacity
+Items to pack: 36
+Bin 32: 3 items, 149 capacity
+Items to pack: 33
+Bin 33: 3 items, 150 capacity
+Items to pack: 30
+Bin 34: 2 items, 150 capacity
+Items to pack: 28
+Bin 35: 2 items, 150 capacity
+Items to pack: 26
+Bin 36: 2 items, 150 capacity
+Items to pack: 24
+Bin 37: 2 items, 148 capacity
+Items to pack: 22
+Bin 38: 2 items, 148 capacity
+Items to pack: 20
+Bin 39: 1 items, 146 capacity
+Items to pack: 18
+Bin 40: 1 items, 145 capacity
+Items to pack: 16
+Bin 41: 1 items, 146 capacity
+Items to pack: 14
+Bin 42: 2 items, 144 capacity
+Items to pack: 12
+Bin 43: 2 items, 144 capacity
+Items to pack: 10
+Bin 44: 2 items, 143 capacity
+Items to pack: 8
+Bin 45: 2 items, 142 capacity
+Items to pack: 6
+Bin 46: 1 items, 97 capacity
+Items to pack: 5
+Bin 47: 1 items, 95 capacity
+Items to pack: 4
+Bin 48: 1 items, 95 capacity
+Items to pack: 3
+Bin 49: 1 items, 92 capacity
+Items to pack: 2
+Bin 50: 1 items, 89 capacity
+Items to pack: 1
+Bin 51: 1 items, 89 capacity
+Total bins required: 51
+Solving problem instance u120_19... Items to pack: 120
+Bin 1: 2 items, 150 capacity
+Items to pack: 118
+Bin 2: 3 items, 150 capacity
+Items to pack: 115
+Bin 3: 2 items, 150 capacity
+Items to pack: 113
+Bin 4: 3 items, 150 capacity
+Items to pack: 110
+Bin 5: 3 items, 150 capacity
+Items to pack: 107
+Bin 6: 3 items, 150 capacity
+Items to pack: 104
+Bin 7: 3 items, 150 capacity
+Items to pack: 100
+Bin 8: 4 items, 150 capacity
+Items to pack: 96
+Bin 9: 4 items, 150 capacity
+Items to pack: 92
+Bin 10: 2 items, 149 capacity
+Items to pack: 89
+Bin 11: 4 items, 150 capacity
+Items to pack: 85
+Bin 12: 3 items, 150 capacity
+Items to pack: 82
+Bin 13: 3 items, 150 capacity
+Items to pack: 79
+Bin 14: 3 items, 150 capacity
+Items to pack: 76
+Bin 15: 4 items, 150 capacity
+Items to pack: 72
+Bin 16: 2 items, 148 capacity
+Items to pack: 69
+Bin 17: 2 items, 150 capacity
+Items to pack: 67
+Bin 18: 3 items, 149 capacity
+Items to pack: 64
+Bin 19: 4 items, 150 capacity
+Items to pack: 60
+Bin 20: 3 items, 150 capacity
+Items to pack: 57
+Bin 21: 2 items, 150 capacity
+Items to pack: 55
+Bin 22: 2 items, 150 capacity
+Items to pack: 53
+Bin 23: 2 items, 149 capacity
+Items to pack: 51
+Bin 24: 2 items, 149 capacity
+Items to pack: 49
+Bin 25: 2 items, 150 capacity
+Items to pack: 47
+Bin 26: 3 items, 149 capacity
+Items to pack: 44
+Bin 27: 3 items, 150 capacity
+Items to pack: 41
+Bin 28: 2 items, 150 capacity
+Items to pack: 39
+Bin 29: 1 items, 149 capacity
+Items to pack: 37
+Bin 30: 2 items, 150 capacity
+Items to pack: 35
+Bin 31: 2 items, 150 capacity
+Items to pack: 33
+Bin 32: 3 items, 149 capacity
+Items to pack: 30
+Bin 33: 1 items, 148 capacity
+Items to pack: 28
+Bin 34: 2 items, 149 capacity
+Items to pack: 26
+Bin 35: 3 items, 149 capacity
+Items to pack: 23
+Bin 36: 2 items, 148 capacity
+Items to pack: 21
+Bin 37: 2 items, 146 capacity
+Items to pack: 19
+Bin 38: 1 items, 99 capacity
+Items to pack: 18
+Bin 39: 1 items, 99 capacity
+Items to pack: 17
+Bin 40: 1 items, 99 capacity
+Items to pack: 16
+Bin 41: 1 items, 97 capacity
+Items to pack: 15
+Bin 42: 1 items, 97 capacity
+Items to pack: 14
+Bin 43: 1 items, 97 capacity
+Items to pack: 13
+Bin 44: 1 items, 97 capacity
+Items to pack: 12
+Bin 45: 1 items, 97 capacity
+Items to pack: 11
+Bin 46: 1 items, 96 capacity
+Items to pack: 10
+Bin 47: 1 items, 96 capacity
+Items to pack: 9
+Bin 48: 1 items, 95 capacity
+Items to pack: 8
+Bin 49: 1 items, 95 capacity
+Items to pack: 7
+Bin 50: 1 items, 94 capacity
+Items to pack: 6
+Bin 51: 1 items, 94 capacity
+Items to pack: 5
+Bin 52: 1 items, 90 capacity
+Items to pack: 4
+Bin 53: 1 items, 90 capacity
+Items to pack: 3
+Bin 54: 1 items, 90 capacity
+Items to pack: 2
+Bin 55: 1 items, 86 capacity
+Items to pack: 1
+Bin 56: 1 items, 79 capacity
+Total bins required: 56
