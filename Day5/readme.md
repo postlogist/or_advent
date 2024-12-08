@@ -14,7 +14,7 @@ Of course, we want to minimize our costs here...
 
 Can you help me solve this problem?
 
-Here you can find an instance of this problem.
+Link to the [post](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7270343693419597824-FTpE?utm_source=share&utm_medium=member_desktop)
 
 ## Analysis
 

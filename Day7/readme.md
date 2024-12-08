@@ -15,6 +15,8 @@ I'll give you an example with 135 products and all the 51975 subsets we built wi
 
 Can you help me solve this problem?
 
+Link to the [post](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7271068462389628928-WmJa?utm_source=share&utm_medium=member_desktop)
+
 # Analysis
 
 This problem is very similar to the Day 6's problem. The difference is there should be no overlap between different subsets of products, since each product must be delivered once. So it is a set partitioning problem.

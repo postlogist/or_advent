@@ -12,3 +12,5 @@ We want to drive from Madrid to Copenhagen and we've seen there are a lot of way
 Most probably, even if we wanted to go through Budapest, we cannot go that path. We have a limited budget for fuel of 73€, and we want to get the shortest possible way.
 
 Can you help me solve this problem?
+
+Link to the [post](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7269256528551944194-k83A?utm_source=share&utm_medium=member_desktop)

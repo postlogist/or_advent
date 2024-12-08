@@ -18,9 +18,7 @@ You can assume that each task is done by just one employee, and one employee is 
 
 Can you help me solve this problem?
 
-Here you can find an instance of this problem.
-
-https://orfrom0to1.bmenendez.com/tj/c/eyJ2Ijoie1wiYVwiOjUyODU2NixcImxcIjoxMzk2NzIxNzc0ODgxNjgxMzYsXCJyXCI6MTM5NjgzOTg4NzY2NzIxNjIzfSIsInMiOiIxMjdlZGU2ZTczYmZhZDUyIn0
+Link to the [post](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7269618917482909696-qJ_2?utm_source=share&utm_medium=member_desktop)
 
 ## Analysis
 

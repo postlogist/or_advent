@@ -28,6 +28,8 @@ PS: what strategies would you use to determine which items go into each bin?
 
 PS2: what challenges do you think arise when scaling this problem to thousands of items and multiple bin capacities?
 
+Link to the [post](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7271430871214161920-qOxc?utm_source=share&utm_medium=member_desktop)
+
 ## Analysis
 
 This is an example of bin packing problem. The decision variables are: the use of bins, and the choice of items for each bin - both binary.

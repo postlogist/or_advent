@@ -12,3 +12,4 @@ Ideally, I want to minimize the total number of rooms used.
 
 Track progress [here](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7268897908991664128-Maqe?utm_source=share&utm_medium=member_desktop)
 
+Link to the [post](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7268897908991664128-Maqe?utm_source=share&utm_medium=member_desktop)

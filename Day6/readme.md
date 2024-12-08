@@ -14,7 +14,7 @@ We want to minimize the costs of such operations.
 
 Can you help me solve this problem?
 
-Here you can find an instance of this problem.
+Link to the [post](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7270706080136003584-LGzr?utm_source=share&utm_medium=member_desktop)
 
 # Analysis
 

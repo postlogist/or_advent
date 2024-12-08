@@ -18,7 +18,7 @@ We say a timetable is optimized when it minimizes idle periods and maximizes res
 
 Can you help me solve this problem?
 
-Here you can find an instance of this problem.
+Link to the [post](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7269981309794463745-kwAo?utm_source=share&utm_medium=member_desktop)
 
 ## Analysis
 
