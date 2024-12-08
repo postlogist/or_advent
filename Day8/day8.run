@@ -33,5 +33,5 @@ for {prob in 1..num_problems}{
 
     printf "Status: %s. Number of bins: %d (%d smallest known)\n", solve_result, NumBins, min_bins >> Day8/solution.txt;
     display num_items, bin_size;
-  
+}  
 
