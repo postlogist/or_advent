@@ -1,0 +1,37 @@
+reset;
+option solver highsa;
+param mip_gap := 0.01;
+param time_limit := 180;
+option scip_options ("mipgap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 time_limit=" & time_limit);
+option highs_options ("threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option show_stats 1;
+
+
+param num_problems;
+param num_items;
+param problem_id symbolic;
+param min_bins; # best known number of bins
+
+model Day8/day8.mod;
+
+read num_problems < Day8/instance_clean.txt;
+
+printf "Solving %d bin packing problems\n", num_problems > Day8/solution.txt;
+
+for {prob in 1..num_problems}{    
+    reset data;#num_items, BINS, ITEMS, item_size, bin_size;
+    read problem_id < Day8/instance_clean.txt;
+    printf "\n\n\nSolving problem instance %s... ", problem_id;
+    
+    printf "Solving problem instance %s... ", problem_id >> Day8/solution.txt;
+    read bin_size < Day8/instance_clean.txt;
+    read num_items < Day8/instance_clean.txt;
+    read min_bins < Day8/instance_clean.txt;
+    
+    read {i in ITEMS} item_size[i] < Day8/instance_clean.txt;
+    solve;
+
+    printf "Status: %s. Number of bins: %d (%d smallest known)\n", solve_result, NumBins, min_bins >> Day8/solution.txt;
+    display num_items, bin_size;
+  
+
