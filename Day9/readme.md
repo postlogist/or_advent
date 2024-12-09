@@ -16,7 +16,7 @@ Can you help me solve this problem?
 
 PS: how would you handle irregularly shaped items?
 
-Link to the [post](https://orfrom0to1.bmenendez.com/tl/c/eyJ2Ijoie1wiYVwiOjUyODU2NixcImxcIjoxMzk2ODAxNzkxOTk5MzYzNzUsXCJyXCI6MTQwMjI3OTA3NTQ1OTkwMTc5fSIsInMiOiI3N2IyYzg4OWU5ZDM1YzBiIn0)
+Link to the [post](https://www.linkedin.com/feed/update/urn:li:activity:7271793244626145281/)
 
 ## Analysis
 
@@ -51,3 +51,11 @@ The constraints:
 - A constraint that links a rotation of the item to the relationship between the bottom left corner and the top right corner coordinates
 
 - A non-overlap constraint. This is also tricky. Basically item must be to the right of the second one, or to the left of it, or to the top, or below it. But this also must be required only when both items are placed onto the same sheet.
+
+## Results
+
+I with some help from ChatGPT managed to write a MIP model in AMPL to solve a small instance of this problem (20 items and 6 sheets). Also I did visualization of the plan.
+
+![](./solution_diagram_min_area.png)
+
+The 'Number of sheets used' objective is easier for the solver, but I believe that the cost is proportional to the sheet size, so the model should prefer using smaller sheets.
