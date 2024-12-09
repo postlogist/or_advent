@@ -1,0 +1,22 @@
+TotalSheetsUsed = 1
+
+Item 1 (item size 1x6) placed on sheet 4 (sheet size 20x30), at (0, 28), rotated: 1
+Item 2 (item size 2x8) placed on sheet 4 (sheet size 20x30), at (0, 20), rotated: 1
+Item 3 (item size 6x5) placed on sheet 4 (sheet size 20x30), at (0, 22), rotated: 0
+Item 4 (item size 4x9) placed on sheet 4 (sheet size 20x30), at (0, 0), rotated: 0
+Item 5 (item size 8x7) placed on sheet 4 (sheet size 20x30), at (0, 9), rotated: 1
+Item 6 (item size 2x8) placed on sheet 4 (sheet size 20x30), at (5, 0), rotated: 0
+Item 7 (item size 7x5) placed on sheet 4 (sheet size 20x30), at (7, 22), rotated: 1
+Item 8 (item size 3x1) placed on sheet 4 (sheet size 20x30), at (7, 2), rotated: 0
+Item 9 (item size 1x4) placed on sheet 4 (sheet size 20x30), at (7, 29), rotated: 1
+Item 10 (item size 2x2) placed on sheet 4 (sheet size 20x30), at (7, 0), rotated: 0
+Item 11 (item size 9x5) placed on sheet 4 (sheet size 20x30), at (7, 11), rotated: 1
+Item 12 (item size 2x1) placed on sheet 4 (sheet size 20x30), at (7, 3), rotated: 0
+Item 13 (item size 1x4) placed on sheet 4 (sheet size 20x30), at (7, 4), rotated: 1
+Item 14 (item size 5x6) placed on sheet 4 (sheet size 20x30), at (7, 5), rotated: 0
+Item 15 (item size 6x6) placed on sheet 4 (sheet size 20x30), at (12, 11), rotated: 0
+Item 16 (item size 2x6) placed on sheet 4 (sheet size 20x30), at (12, 0), rotated: 1
+Item 17 (item size 5x4) placed on sheet 4 (sheet size 20x30), at (12, 17), rotated: 0
+Item 18 (item size 1x6) placed on sheet 4 (sheet size 20x30), at (12, 5), rotated: 0
+Item 19 (item size 8x8) placed on sheet 4 (sheet size 20x30), at (12, 21), rotated: 0
+Item 20 (item size 5x3) placed on sheet 4 (sheet size 20x30), at (12, 2), rotated: 0
