@@ -43,22 +43,27 @@ We need also auxiliary variables that count the number of crossings at position 
 I ended up with including two types of such variables - one integer with count of crossings,
 and the second - binary, for each position and possible link between the components.
 
+```Python
 var c {1..card(COMPONENTS)} >= 0, <= card(COMPONENTS); # Number of crossings
 var b {1..card(COMPONENTS), (i, j) in LINKS} binary; # Binary variable for crossings
+```
 
 **Constraints**
 
 There should be a constraint to enforce different position for each component. This is a non-linear constraint, but AMPL could handle it.
 It might be interesting to explore CP solvers that support a globel 'All different' constraint.
 
+```Python
 # Unique positions
 
 subject to Unique_Positions {i in COMPONENTS, j in COMPONENTS: i < j}:
 x[i] != x[j];
+```
 
 Then we need an auxiliary constraint to count the number of crossings. I ended up with using the AMPL's logical constraints feature.
 This turned out to be quite clear:
 
+```Python
 # Logical conditions for crossings
 
 subject to Crossing_Condition1 {k in 1..card(COMPONENTS), (i, j) in LINKS}:
@@ -70,6 +75,7 @@ or
 
 subject to Count_Crossings {k in 1..card(COMPONENTS)}:
 c[k] = sum {(i, j) in LINKS} b[k, i, j];
+```
 
 **Objective**
 The task stated that the maximum number of crossings must be minimized, but I think that the sum of crossings is a more relevant option.
