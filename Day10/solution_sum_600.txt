@@ -1,0 +1,18 @@
+Solving instance: Day10/instance_clean.txt
+Max number of crossings: 5
+Component 1 placed at position 11
+Component 2 placed at position 16
+Component 3 placed at position 8
+Component 4 placed at position 10
+Component 5 placed at position 1
+Component 6 placed at position 3
+Component 7 placed at position 2
+Component 8 placed at position 6
+Component 9 placed at position 9
+Component 10 placed at position 5
+Component 11 placed at position 4
+Component 12 placed at position 15
+Component 13 placed at position 7
+Component 14 placed at position 14
+Component 15 placed at position 13
+Component 16 placed at position 12

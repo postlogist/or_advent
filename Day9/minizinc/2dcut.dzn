@@ -1,0 +1,11 @@
+% Number of items and sheets
+n_items = 20;
+n_sheets = 6;
+
+% Item dimensions (widths and heights)
+widths = [1, 2, 6, 4, 8, 2, 7, 3, 1, 2, 9, 2, 1, 5, 6, 2, 5, 1, 8, 5];
+heights = [6, 8, 5, 9, 7, 8, 5, 1, 4, 2, 5, 1, 4, 6, 6, 6, 4, 6, 8, 3];
+
+% Sheet dimensions (widths and heights)
+sheet_widths = [20, 10, 10, 20, 10, 10];
+sheet_heights = [20, 30, 10, 30, 20, 40];

@@ -1,0 +1,35 @@
+reset;
+option solver highsa;
+param mip_gap := 0.01;
+param time_limit := 600;
+option scip_options ("mipgap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 time_limit=" & time_limit);
+option highs_options ("threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option show_stats 1;
+
+model Day10/day10.mod;
+param instance symbolic := "Day10/instance_clean.txt";
+param solution symbolic := "Day10/solution.txt";
+
+read num_components < (instance);
+read num_links < (instance);
+
+let LINKS := {};
+
+param o;
+param d;
+
+for {i in 1 .. num_links} {
+    read o < (instance);
+    read d < (instance);
+    let LINKS := LINKS union {(o, d)};
+}
+objective Sum_Crossings;
+#objective Max_Crossings;
+solve;
+
+display Max_Crossings;
+display x;
+
+printf "Solving instance: %s\n", instance > (solution);
+printf "Max number of crossings: %d\n", Max_Crossings >> (solution);
+printf {i in COMPONENTS} "Component %d placed at position %d\n", i, x[i] >> (solution);
