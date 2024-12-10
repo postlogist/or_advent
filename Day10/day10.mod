@@ -13,9 +13,12 @@ var b {1..card(COMPONENTS), (i, j) in LINKS} binary;    # Binary variable for cr
 subject to Unique_Positions {i in COMPONENTS, j in COMPONENTS: i < j}:
     x[i] != x[j];
 
+/* didn't work
+
 # Try to improve the LB
 subject to SumOfPositions:
     sum {k in 1..num_components} x[k] == (num_components * (num_components + 1) / 2);  # the sum of the positions should be always the sum of series of 1..num_components
+*/
 
 # Logical conditions for crossings
 subject to Crossing_Condition1 {k in 1..card(COMPONENTS), (i, j) in LINKS}:
