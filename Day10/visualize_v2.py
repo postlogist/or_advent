@@ -46,11 +46,6 @@ def visualize_solution(num_components, connections, positions, max_crossings, ou
     ax.set_ylim(-1, 1 + len(connections) * 0.1)
     ax.axis("off")
 
-    # Draw vertical lines for components
-    for pos in positions.values():
-        ax.axvline(x=pos, color="lightgray",
-                   linestyle="--", linewidth=0.5, zorder=0)
-
     # Draw connections as arcs
     for conn in connections:
         comp1, comp2 = conn
@@ -81,6 +76,12 @@ def visualize_solution(num_components, connections, positions, max_crossings, ou
         )
 
     # Add max crossings as text
+    # plt.text(
+    #     0.5, 1.2, f"Max crossings: {max_crossings}",
+    #     transform=ax.transAxes,
+    #     fontsize=12, ha="left", va="center", color="red"
+    # )
+
     plt.title(f"Max crossings: {max_crossings}")
 
     # Save the plot to a file
