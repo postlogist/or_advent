@@ -1,0 +1,68 @@
+reset;
+option solver highsa;
+param mip_gap := 0.01;
+param time_limit := 3600;
+option scip_options ("mipgap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 time_limit=" & time_limit);
+option highs_options ("alg:start=1 threads=8 timing=1 pre:solve=off outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option cplex_options ("mipgap=" & mip_gap & " display=1 timing=1 mipdisplay=3 timelimit="& time_limit);
+
+option gcg_options ("gap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 benders-enabled=1 mode=1 time_limit=" & time_limit);
+
+option show_stats 1;
+
+model Day12/day12mtz.mod;
+param instance symbolic := "Day12/instance_clean.txt";
+param solution symbolic := "Day12/solution.txt";
+
+read num_cities < (instance);
+#read num_links < (instance);
+
+#let LINKS := {};
+
+for {i in 1 .. num_cities, j in 1 .. num_cities} {
+    read c[i, j] < (instance);
+}
+
+# Warm start
+option presolve 0;
+option mipstart 1; 
+param warm_start_file symbolic := "Day12/2726.txt";
+param route {i in 1 .. num_cities + 1};
+read {i in 1 .. num_cities + 1} route[i] < (warm_start_file);
+
+# Reset all routing vars.
+for {i in N, j in N} {
+    let x[i,j] := 0;
+}
+
+# Set initial route variables
+for {k in 1..num_cities} {
+    let x[route[k], route[k+1]] := 1;
+}
+
+solve;
+
+#display c;
+
+printf "Number of cities: %d\n", num_cities > (solution);
+printf "Total Distance: %d\n", Total_Distance  >> (solution);
+
+param current;
+# Consider starting city is 1
+let current := 1;
+
+printf "Route: %d", current >> (solution); 
+
+for {k in 1..num_cities - 1} {
+    # Найдём следующий город j, для которого x[current,j] = 1
+    # Предполагается, что решение гарантирует уникальный такой j
+    for {j in N} {
+        if x[current,j] > 0.5 then {
+            printf " -> %d", j >> (solution);
+            let current := j;
+            break;
+        }
+    }
+}
+printf "\n">> (solution);
+
