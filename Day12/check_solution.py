@@ -1,104 +1,76 @@
 import os
 
 
-def read_instance(filename):
-    dimension = None
-    matrix = []
-    start_reading_matrix = False
-
-    with open(filename, 'r') as f:
-        for line in f:
-            line = line.strip()
-
-            # Читаем размерность
-            if line.startswith('DIMENSION'):
-                parts = line.split(':')
-                if len(parts) > 1:
-                    dimension = int(parts[1].strip())
-
-            # Как только находим EDGE_WEIGHT_SECTION, начинаем читать матрицу
-            elif line.startswith('EDGE_WEIGHT_SECTION'):
-                start_reading_matrix = True
-                continue
-
-            elif start_reading_matrix:
-                # Игнорируем пустые и комментные строки
-                if not line or line.startswith('#'):
-                    continue
-
-                # Преобразуем строку в список чисел
-                row = list(map(int, line.split()))
-
-                # Проверяем, что в строке ровно DIMENSION чисел
-                if dimension is not None and len(row) != dimension:
-                    raise ValueError(
-                        f"Ожидается {dimension} значений в строке матрицы, получено: {
-                            len(row)}"
-                    )
-
-                matrix.append(row)
-
-                # Если считали все DIMENSION строк
-                if dimension is not None and len(matrix) == dimension:
-                    break
-
-    # Проверка корректности размера матрицы
-    if dimension is None or len(matrix) != dimension:
-        raise ValueError(
-            "Некорректный формат матрицы или не совпадает количество строк с DIMENSION.")
-
-    return matrix
+def read_instance(file_path):
+    with open(file_path, 'r') as f:
+        lines = f.readlines()
+        num_cities = int(lines[0].strip())
+        # Flatten the matrix data into a single list of integers
+        matrix_data = list(
+            map(int, [token for token in ' '.join(lines[1:]).split() if token.isdigit()]))
+        # Create a square matrix based on the number of cities
+        distance_matrix = [
+            matrix_data[i * num_cities:(i + 1) * num_cities]
+            for i in range(num_cities)
+        ]
+    return num_cities, distance_matrix
 
 
-def read_solution(filename):
-    route = []
-    with open(filename, 'r') as f:
-        for line in f:
-            line = line.strip()
-            if line.startswith('Route:'):
-                # Формат: Route: 1 -> 198 -> 35 -> ...
-                # Нужно извлечь числа
-                parts = line.split(':', 1)
-                if len(parts) > 1:
-                    route_part = parts[1].strip()
-                    # Разделим по '->'
-                    route_str = route_part.split('->')
-                    # Очистим пробелы и превратим в числа
-                    route = [int(r.strip())-1 for r in route_str]
-                break
-    if not route:
-        raise ValueError("Не удалось прочитать маршрут из файла solution.txt")
-    return route
+def read_solution(file_path):
+    with open(file_path, 'r') as f:
+        lines = f.readlines()
+        num_cities = int(lines[0].split(':')[1].strip())
+        total_distance = int(lines[1].split(':')[1].strip())
+        route = list(map(int, lines[2].split(':')[1].strip().split('->')))
+    return num_cities, total_distance, route
 
 
-def calculate_route_distance(matrix, route):
-    # Предполагается, что индекс города в route начинается с 1, а в матрице с 0.
-    # matrix[i][j] - расстояние от города i+1 к j+1.
+def calculate_route_distance(route, distance_matrix):
     total_distance = 0
-    for i in range(len(route)-1):
-        from_city = route[i] - 1
-        to_city = route[i+1] - 1
-        total_distance += matrix[from_city][to_city]
-
-    # Добавляем переход от последнего города к первому
-    last_city = route[-1] - 1
-    first_city = route[0] - 1
-    total_distance += matrix[last_city][first_city]
-
+    for i in range(len(route) - 1):
+        total_distance += distance_matrix[route[i] - 1][route[i + 1] - 1]
+    # Добавляем расстояние возвращения в начальный город
+    total_distance += distance_matrix[route[-1] - 1][route[0] - 1]
     return total_distance
 
 
-if __name__ == "__main__":
-    # Замените 'instance.txt' и 'solution.txt' на нужные вам пути к файлам
-    os.chdir("Day12")
-    instance_file = 'instance.txt'
+def calculate_route_distance(route, distance_matrix):
+    total_distance = 0
+    for i in range(len(route) - 1):
+        total_distance += distance_matrix[route[i] - 1][route[i + 1] - 1]
+    # Return to the initial city
+    total_distance += distance_matrix[route[-1] - 1][route[0] - 1]
+    return total_distance
+
+
+def main():
+    instance_file = 'instance_clean.txt'
     solution_file = 'solution.txt'
 
-    # Читаем данные
-    matrix = read_instance(instance_file)
-    route = read_solution(solution_file)
-    for i in range(len(matrix)):
-        print(i, len(matrix[i]))
-    # Вычисляем длину
-    dist = calculate_route_distance(matrix, route)
-    print(f"Computed total distance: {dist}")
+    # Read data
+    num_cities, distance_matrix = read_instance(instance_file)
+    sol_num_cities, sol_total_distance, route = read_solution(solution_file)
+
+    # for i in range(len(distance_matrix)):
+    #     print(i+1, len(distance_matrix[i]))
+
+    # Checking number of cities
+    if num_cities != sol_num_cities:
+        print("Error: the number of cities in solution differs from the instance")
+        return
+
+    calculated_distance = calculate_route_distance(route, distance_matrix)
+
+    # Output
+    print(f"Calculated distance: {calculated_distance}")
+    print(f"Distance from the solution: {sol_total_distance}")
+
+    if calculated_distance == sol_total_distance:
+        print("Solution is valid.")
+    else:
+        print("Solution is invalid.")
+
+
+if __name__ == "__main__":
+    os.chdir("Day12")
+    main()
