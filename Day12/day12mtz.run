@@ -54,8 +54,8 @@ let current := 1;
 printf "Route: %d", current >> (solution); 
 
 for {k in 1..num_cities - 1} {
-    # Найдём следующий город j, для которого x[current,j] = 1
-    # Предполагается, что решение гарантирует уникальный такой j
+    # Find the next city j for which x[current, j] = 1
+    # It is assumed that the solution guarantees a unique such j
     for {j in N} {
         if x[current,j] > 0.5 then {
             printf " -> %d", j >> (solution);

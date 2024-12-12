@@ -1,7 +1,7 @@
-# P12: let's serve those orders 
-
+# P12: let's serve those orders
 
 ## 🧠 The problem
+
 Now it's time to deliver! 🚚
 
 Remember all the orders we received yesterday at the warehouse?
@@ -18,7 +18,6 @@ Can you help me solve this problem? 🧩
 
 Link to the [post](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7272880408151666689-SC6Z?utm_source=share&utm_medium=member_desktop)
 
-
 🎯 Challenge time:
 Since this is a well-known problem in the literature, let’s make it a mini competition 🎉:
 
@@ -33,3 +32,9 @@ Let's see who rocks it! 🎸
 
 This challenge is about to documenting and sharing so we all can improve the way we think about optimization problems, not about actually solving all the 24 problems in 24 days. Don't feel forced to compete here.
 
+# Solution
+
+Total distance: 2720
+Running time: 600 sec for heuristic, 1400 sec for MIP.
+
+I used ortools solver for VRP with Tabu Search first. This produced a solution with objective 2726. Then I used this solution as a warm start for a MIP model with MTZ formulation in AMPL. Highs solved this to optimality in 1400 sec. Not sure, if the warm start actually worked though.
