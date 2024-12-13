@@ -111,7 +111,7 @@ search_parameters = pywrapcp.DefaultRoutingSearchParameters()
 # Option 2: Local Search, 30 sec: 2752 # GUIDED_LOCAL_SEARCH #2729 SIMULATED_ANNEALING #2727 TABU_SEARCH
 search_parameters.local_search_metaheuristic = (
     routing_enums_pb2.LocalSearchMetaheuristic.TABU_SEARCH)
-search_parameters.time_limit.seconds = 600
+search_parameters.time_limit.seconds = 1800
 search_parameters.log_search = True
 
 """

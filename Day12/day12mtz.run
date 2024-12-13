@@ -3,7 +3,8 @@ option solver highsa;
 param mip_gap := 0.01;
 param time_limit := 3600;
 option scip_options ("mipgap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 time_limit=" & time_limit);
-option highs_options ("alg:start=1 threads=8 timing=1 pre:solve=off outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+#option highs_options ("alg:start=1 threads=8 timing=1 pre:solve=off outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option highs_options ("alg:start=1 threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
 option cplex_options ("mipgap=" & mip_gap & " display=1 timing=1 mipdisplay=3 timelimit="& time_limit);
 
 option gcg_options ("gap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 benders-enabled=1 mode=1 time_limit=" & time_limit);
@@ -22,7 +23,7 @@ read num_cities < (instance);
 for {i in 1 .. num_cities, j in 1 .. num_cities} {
     read c[i, j] < (instance);
 }
-
+/*
 # Warm start
 option presolve 0;
 option mipstart 1; 
@@ -39,7 +40,7 @@ for {i in N, j in N} {
 for {k in 1..num_cities} {
     let x[route[k], route[k+1]] := 1;
 }
-
+*/
 solve;
 
 #display c;
