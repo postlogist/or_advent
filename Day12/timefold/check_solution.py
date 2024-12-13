@@ -23,7 +23,7 @@ def read_solution2(file_path):
         total_distance = int(lines[1].split(':')[1].strip())
         # print(lines[2].split(', '))
         route = list(
-            map(lambda x: int(x)+1, lines[2].split(', ')))
+            map(lambda x: int(x), lines[2].split(', ')))
     return num_cities, total_distance, route
 
 
@@ -39,18 +39,10 @@ def read_solution(file_path):
 def calculate_route_distance(route, distance_matrix):
     total_distance = 0
     for i in range(len(route) - 1):
-        total_distance += distance_matrix[route[i] - 1][route[i + 1] - 1]
+        total_distance += distance_matrix[route[i]][route[i + 1]]
+        print(route[i + 1])
     # Добавляем расстояние возвращения в начальный город
-    total_distance += distance_matrix[route[-1] - 1][route[0] - 1]
-    return total_distance
-
-
-def calculate_route_distance(route, distance_matrix):
-    total_distance = 0
-    for i in range(len(route) - 1):
-        total_distance += distance_matrix[route[i] - 1][route[i + 1] - 1]
-    # Return to the initial city
-    total_distance += distance_matrix[route[-1] - 1][route[0] - 1]
+    total_distance += distance_matrix[route[-1]][route[0]]
     return total_distance
 
 
@@ -83,5 +75,5 @@ def main():
 
 
 if __name__ == "__main__":
-#    os.chdir("Day12")
+    #    os.chdir("Day12")
     main()
