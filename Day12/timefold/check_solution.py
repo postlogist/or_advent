@@ -40,9 +40,12 @@ def calculate_route_distance(route, distance_matrix):
     total_distance = 0
     for i in range(len(route) - 1):
         total_distance += distance_matrix[route[i]][route[i + 1]]
-        print(route[i + 1])
+        print(f"{route[i]}->{route[i + 1]}: {distance_matrix[route[i]]
+              [route[i + 1]]}, total: {total_distance}")
     # Добавляем расстояние возвращения в начальный город
     total_distance += distance_matrix[route[-1]][route[0]]
+    print(f"{route[-1]}->{route[0]}: {distance_matrix[route[-1]]
+          [route[0]]}, total: {total_distance}")
     return total_distance
 
 
