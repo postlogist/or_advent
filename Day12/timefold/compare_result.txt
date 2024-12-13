@@ -1,0 +1,3 @@
+Calculated distance: 2752
+Distance from the solution: 2719
+Solution is invalid.
