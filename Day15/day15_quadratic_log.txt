@@ -1,0 +1,147 @@
+ampl: include "Day15/day15_quadratic.run";
+
+100 variables, all nonlinear
+1 constraint, all linear; 100 nonzeros
+        1 inequality constraint
+1 nonlinear objective; 100 nonzeros.
+
+HiGHS 1.8.1:   alg:start = 1
+  tech:threads = 8
+  tech:timing = 1
+  tech:outlev = 1
+  tech:miploglev = 2
+  alg:parallel = on
+  mip:gap = 0.01
+  lim:time = 3600
+Running HiGHS 1.7.1 (git hash: 43329e5): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 5e+01]
+  Cost   [1e+00, 1e+02]
+  Bound  [1e+00, 1e+00]
+  RHS    [2e+03, 2e+03]
+ERROR:   Cannot solve MIQP problems with HiGHS
+  Error -1 for call Highs_run(lp())
+TotalProfit = 0
+
+BudgetConstraint.body = 0
+
+ampl: include "Day15/day15_quadratic.run";
+
+100 variables, all nonlinear
+1 constraint, all linear; 100 nonzeros
+        1 inequality constraint
+1 nonlinear objective; 100 nonzeros.
+
+SCIP 9.0.0:   lim:gap = 0.01
+  tech:outlev = 1
+  tech:timing = 1
+  tech:outlev-native = 3
+  lim:time = 3600
+feasible solution found by trivial heuristic after 0.0 seconds, objective value 0.000000e+00
+presolving:
+(round 1, fast)       0 del vars, 0 del conss, 0 add conss, 0 chg bounds, 17 chg sides, 17 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 2, exhaustive) 0 del vars, 0 del conss, 3750 add conss, 0 chg bounds, 17 chg sides, 0 chg coeffs, 3751 upgd conss, 0 impls, 0 clqs
+(round 3, fast)       3750 del vars, 3750 del conss, 3750 add conss, 0 chg bounds, 17 chg sides, 0 chg coeffs, 3751 upgd conss, 0 impls, 7500 clqs
+   (0.0s) probing: 51/3850 (1.3%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (0.0s) probing aborted: 50/50 successive totally useless probings
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) no symmetry present (symcode time: 0.00)
+presolving (4 rounds: 4 fast, 2 medium, 2 exhaustive):
+ 3750 deleted vars, 3750 deleted constraints, 3750 added constraints, 0 tightened bounds, 0 added holes, 17 changed sides, 0 changed coefficients
+ 0 implications, 7500 cliques
+presolved problem has 3850 variables (3850 bin, 0 int, 0 impl, 0 cont) and 3751 constraints
+      1 constraints of type <knapsack>
+   3750 constraints of type <and>
+transformed objective value is always integral (scale: 1)
+Presolving Time: 0.00
+transformed 1/1 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+p 0.0s|     1 |     0 |     0 |     - |  clique|   0 |3850 |3751 |7501 |   0 |  0 |   0 |   0 | 1.921650e+05 | 1.885760e+05 |   1.90%| unknown
+  0.0s|     1 |     0 |   656 |     - |    65M |   0 |3850 |1520 |7501 |   0 |  0 |   0 |   0 | 1.905940e+05 | 1.885760e+05 |   1.07%| unknown
+r 0.0s|     1 |     0 |   656 |     - |shifting|   0 |3850 |1521 |2770 |   0 |  0 |   1 |   0 | 1.905940e+05 | 1.886540e+05 |   1.03%| unknown
+L 0.0s|     1 |     0 |   656 |     - |undercov|   0 |3850 |1521 |2770 |   0 |  0 |   1 |   0 | 1.905940e+05 | 1.890590e+05 |   0.81%| unknown
+  0.0s|     1 |     0 |   656 |     - |    66M |   0 |3850 |1521 |2770 |   0 |  0 |   1 |   0 | 1.905940e+05 | 1.890590e+05 |   0.81%| unknown
+
+SCIP Status        : solving was interrupted [gap limit reached]
+Solving Time (sec) : 0.00
+Solving Nodes      : 1
+Primal Bound       : +1.89059000000000e+05 (4 solutions)
+Dual Bound         : +1.90594000000000e+05
+Gap                : 0.81 %
+No dual solution available.
+SCIP 9.0.0: gap limit
+656 simplex iterations
+1 branching nodes
+Setup time = 0.045894s
+Solver time = 0.432053s
+Total time = 0.477971s
+absmipgap=1535, relmipgap=0.00811916
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+TotalProfit = 189059
+
+BudgetConstraint.body = 2466
+
+ampl: include "Day15/day15_quadratic.run";
+
+100 variables, all nonlinear
+1 constraint, all linear; 100 nonzeros
+        1 inequality constraint
+1 nonlinear objective; 100 nonzeros.
+
+SCIP 9.0.0:   lim:gap = 0.001
+  tech:outlev = 1
+  tech:timing = 1
+  tech:outlev-native = 3
+  lim:time = 3600
+feasible solution found by trivial heuristic after 0.0 seconds, objective value 0.000000e+00
+presolving:
+(round 1, fast)       0 del vars, 0 del conss, 0 add conss, 0 chg bounds, 17 chg sides, 17 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 2, exhaustive) 0 del vars, 0 del conss, 3750 add conss, 0 chg bounds, 17 chg sides, 0 chg coeffs, 3751 upgd conss, 0 impls, 0 clqs
+(round 3, fast)       3750 del vars, 3750 del conss, 3750 add conss, 0 chg bounds, 17 chg sides, 0 chg coeffs, 3751 upgd conss, 0 impls, 7500 clqs
+   (0.0s) probing: 51/3850 (1.3%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (0.0s) probing aborted: 50/50 successive totally useless probings
+   (0.0s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.0s) no symmetry present (symcode time: 0.00)
+presolving (4 rounds: 4 fast, 2 medium, 2 exhaustive):
+ 3750 deleted vars, 3750 deleted constraints, 3750 added constraints, 0 tightened bounds, 0 added holes, 17 changed sides, 0 changed coefficients
+ 0 implications, 7500 cliques
+presolved problem has 3850 variables (3850 bin, 0 int, 0 impl, 0 cont) and 3751 constraints
+      1 constraints of type <knapsack>
+   3750 constraints of type <and>
+transformed objective value is always integral (scale: 1)
+Presolving Time: 0.00
+transformed 1/1 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+p 0.0s|     1 |     0 |     0 |     - |  clique|   0 |3850 |3751 |7501 |   0 |  0 |   0 |   0 | 1.921650e+05 | 1.885760e+05 |   1.90%| unknown
+  0.0s|     1 |     0 |   656 |     - |    65M |   0 |3850 |1520 |7501 |   0 |  0 |   0 |   0 | 1.905940e+05 | 1.885760e+05 |   1.07%| unknown
+r 0.0s|     1 |     0 |   656 |     - |shifting|   0 |3850 |1521 |2770 |   0 |  0 |   1 |   0 | 1.905940e+05 | 1.886540e+05 |   1.03%| unknown
+L 1.0s|     1 |     0 |   656 |     - |undercov|   0 |3850 |1521 |2770 |   0 |  0 |   1 |   0 | 1.905940e+05 | 1.890590e+05 |   0.81%| unknown
+  1.0s|     1 |     0 |   656 |     - |    66M |   0 |3850 |1521 |2770 |   0 |  0 |   1 |   0 | 1.905940e+05 | 1.890590e+05 |   0.81%| unknown
+  1.0s|     1 |     0 |   692 |     - |    66M |   0 |3850 |1521 |2148 |   0 |  0 |   1 |   0 | 1.890590e+05 | 1.890590e+05 |   0.00%| unknown
+  1.0s|     1 |     0 |   692 |     - |    66M |   0 |3850 |1521 |2148 |   0 |  0 |   1 |   0 | 1.890590e+05 | 1.890590e+05 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 1.00
+Solving Nodes      : 1
+Primal Bound       : +1.89059000000000e+05 (4 solutions)
+Dual Bound         : +1.89059000000000e+05
+Gap                : 0.00 %
+WARNING: No dual information available when presolving was performed.
+SCIP 9.0.0: optimal solution; objective 189059
+692 simplex iterations
+1 branching nodes
+Setup time = 0.044528s
+Solver time = 0.435331s
+Total time = 0.479878s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+TotalProfit = 189059
+
+BudgetConstraint.body = 2466
