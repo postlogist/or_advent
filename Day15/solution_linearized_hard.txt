@@ -1,0 +1,6 @@
+Number of products: 100
+Selected for promo: 30
+Total Profit: 18749
+Promo spend: 246 (out of 246)
+Promoted products: 
+1 5 7 16 18 19 20 25 26 28 32 37 41 42 55 59 61 63 67 68 71 72 74 78 81 83 84 87 89 100 

@@ -13,7 +13,7 @@ option show_stats 1;
 
 model Day15/day15_quadratic.mod;
 param instance symbolic := "Day15/instance_clean.txt";
-param solution symbolic := "Day15/solution_quadratic.txt";
+param solution symbolic := "Day15/solution_quadratic_hard.txt";
 
 
 read num_products < (instance);
@@ -38,8 +38,7 @@ display BudgetConstraint.body;
 printf "Number of products: %d\n", num_products > (solution);
 printf "Selected for promo: %d\n", sum {i in PRODUCTS } promote[i] >> (solution);
 printf "Total Profit: %d\n", TotalProfit  >> (solution);
-printf "Promo spend: %d", BudgetConstraint >> (solution); 
+printf "Promo spend: %d (out of %d)\n", BudgetConstraint.body, budget >> (solution); 
 printf "Promoted products: \n"  >> (solution); 
 printf {i in PRODUCTS : promote[i] > 0.1} "%d ", i >> (solution); 
 printf "\n">> (solution);
-
