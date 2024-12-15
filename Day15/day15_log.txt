@@ -1,0 +1,61 @@
+HiGHS 1.8.1:   alg:start = 1
+  tech:threads = 8
+  tech:timing = 1
+  tech:outlev = 1
+  tech:miploglev = 2
+  alg:parallel = on
+  mip:gap = 0.01
+  lim:time = 3600
+Running HiGHS 1.7.1 (git hash: 43329e5): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 5e+01]
+  Cost   [1e+00, 1e+02]
+  Bound  [1e+00, 1e+00]
+  RHS    [1e+00, 2e+03]
+Presolving model
+14851 rows, 5050 cols, 34750 nonzeros  0s
+14851 rows, 5050 cols, 34750 nonzeros  0s
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   14851 rows
+   5050 cols (5050 binary, 0 integer, 0 implied int., 0 continuous)
+   34750 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   192165          -inf                 inf        0      0      0         0     0.3s
+ T       0       0         0   0.00%   192165          189059             1.64%        0      0      0      5261     1.3s
+
+Solving report
+  Status            Optimal
+  Primal bound      189059
+  Dual bound        189059
+  Gap               0% (tolerance: 1%)
+  Solution status   feasible
+                    189059 (objective)
+                    0 (bound viol.)
+                    1.15241149956e-13 (int. viol.)
+                    0 (row viol.)
+  Timing            1.34 (total)
+                    0.05 (presolve)
+                    0.00 (postsolve)
+  Nodes             1
+  LP iterations     5261 (total)
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+HiGHS 1.8.1: optimal solution; objective 189059
+5261 simplex iterations
+1 branching nodes
+Setup time = 0.061568s
+Solver time = 1.352153s
+Total time = 1.413742s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+TotalProfit = 189059
+
+BudgetConstraint.body = 2466

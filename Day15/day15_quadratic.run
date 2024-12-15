@@ -1,0 +1,45 @@
+reset;
+option solver scipa;
+param mip_gap := 0.001;
+param time_limit := 3600;
+option scip_options ("mipgap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 time_limit=" & time_limit);
+#option highs_options ("alg:start=1 threads=8 timing=1 pre:solve=off outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option highs_options ("alg:start=1 threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option cplex_options ("mipgap=" & mip_gap & " display=1 timing=1 mipdisplay=3 timelimit="& time_limit);
+
+option gcg_options ("gap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 benders-enabled=1 mode=1 time_limit=" & time_limit);
+
+option show_stats 1;
+
+model Day15/day15_quadratic.mod;
+param instance symbolic := "Day15/instance_clean.txt";
+param solution symbolic := "Day15/solution_quadratic.txt";
+
+
+read num_products < (instance);
+
+# reading direct and synergy effects
+for {i in PRODUCTS} {
+    read profit[i] < (instance);
+    for {j in PRODUCTS : i < j} {
+        read synergy[i, j] < (instance);
+    }    
+}
+
+read budget < (instance);
+
+read {i in PRODUCTS} cost[i] < (instance);
+
+solve;
+
+display TotalProfit;
+display BudgetConstraint.body;
+
+printf "Number of products: %d\n", num_products > (solution);
+printf "Selected for promo: %d\n", sum {i in PRODUCTS } promote[i] >> (solution);
+printf "Total Profit: %d\n", TotalProfit  >> (solution);
+printf "Promo spend: %d", BudgetConstraint >> (solution); 
+printf "Promoted products: \n"  >> (solution); 
+printf {i in PRODUCTS : promote[i] > 0.1} "%d ", i >> (solution); 
+printf "\n">> (solution);
+

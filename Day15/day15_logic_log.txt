@@ -1,0 +1,70 @@
+ampl: include "Day15/day15_logic.run";
+
+5050 variables, all nonlinear
+1 algebraic constraint, all linear; 100 nonzeros
+        1 inequality constraint
+9900 logical constraints
+1 linear objective; 3821 nonzeros.
+
+HiGHS 1.8.1:   alg:start = 1
+  tech:threads = 8
+  tech:timing = 1
+  tech:outlev = 1
+  tech:miploglev = 2
+  alg:parallel = on
+  mip:gap = 0.01
+  lim:time = 3600
+Running HiGHS 1.7.1 (git hash: 43329e5): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 5e+01]
+  Cost   [1e+00, 1e+02]
+  Bound  [1e+00, 1e+00]
+  RHS    [1e+00, 2e+03]
+Presolving model
+19801 rows, 10000 cols, 44650 nonzeros  0s
+14851 rows, 5050 cols, 34750 nonzeros  0s
+14851 rows, 5050 cols, 34750 nonzeros  0s
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   14851 rows
+   5050 cols (5050 binary, 0 integer, 0 implied int., 0 continuous)
+   34750 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   192165          -inf                 inf        0      0      0         0     0.4s
+ T       0       0         0   0.00%   192165          189059             1.64%        0      0      0      5661     1.6s
+
+Solving report
+  Status            Optimal
+  Primal bound      189059
+  Dual bound        189059
+  Gap               0% (tolerance: 1%)
+  Solution status   feasible
+                    189059 (objective)
+                    0 (bound viol.)
+                    7.32747196253e-15 (int. viol.)
+                    0 (row viol.)
+  Timing            1.59 (total)
+                    0.13 (presolve)
+                    0.00 (postsolve)
+  Nodes             1
+  LP iterations     5661 (total)
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+HiGHS 1.8.1: optimal solution; objective 189059
+5661 simplex iterations
+1 branching nodes
+Setup time = 0.121673s
+Solver time = 1.604216s
+Total time = 1.725909s
+
+suffix time OUT;
+suffix time_setup OUT;
+suffix time_solver OUT;
+TotalProfit = 189059
+
+BudgetConstraint.body = 2466
