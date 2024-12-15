@@ -137,9 +137,10 @@ def find_best_route(arcs, demand, time_limit=1800, improvement_limit=300):
 
     best_route = None
     best_cost = float('inf')
+    first_solution_found = False
 
     def branch_and_bound(route, visited, current_cost, remaining_weight):
-        nonlocal best_route, best_cost, last_improvement_time
+        nonlocal best_route, best_cost, last_improvement_time, first_solution_found
 
         # Check time limits
         if time.time() - start_time > time_limit:
@@ -149,11 +150,15 @@ def find_best_route(arcs, demand, time_limit=1800, improvement_limit=300):
 
         # If all clients are visited and back to the warehouse
         if route[-1] == warehouse and visited == set(clients + [warehouse]):
+            if not first_solution_found:
+                first_solution_found = True
+                print(f"First solution found at {
+                      time.time() - start_time:.2f}s: {route} with cost {current_cost}")
             if current_cost < best_cost:
                 best_cost = current_cost
                 best_route = route[:]
                 last_improvement_time = time.time()
-                print(f"New best route at {
+                print(f"Improved solution at {
                       last_improvement_time - start_time:.2f}s: {best_route} with cost {best_cost}")
             return
 
@@ -166,8 +171,8 @@ def find_best_route(arcs, demand, time_limit=1800, improvement_limit=300):
                 continue  # Skip already visited clients
             a, b, c = arcs[route[-1]][next_node]
             segment_cost = -a * remaining_weight**2 + b * remaining_weight + c
-            print(f"Testing route: {
-                  route + [next_node]}, cost: {current_cost + segment_cost}")
+            # Commented out trace print
+            # print(f"Testing route: {route + [next_node]}, cost: {current_cost + segment_cost}")
             branch_and_bound(
                 route + [next_node],
                 visited | {next_node},

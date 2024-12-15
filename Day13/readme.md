@@ -47,4 +47,6 @@ To fix the issues, I removed the loops and for 'dead end' customers added an out
 
 Here's the resulting network and solution.
 
-There are not so many possible routes, so I coded a depth-first branch and bound search procedure. It
+![](./network_solution.png)
+
+There are not so many possible routes, so I coded a depth-first branch and bound search procedure. It solves the problem instantly.
