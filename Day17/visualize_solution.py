@@ -11,6 +11,10 @@ def load_data(filepath):
     with open(filepath, 'r') as file:
         data = file.read()
 
+    # Extract total penalty
+    penalty_match = re.search(r'Total penalty:\s*(\d+)', data)
+    total_penalty = int(penalty_match.group(1)) if penalty_match else 0
+
     # Extract Landing list data
     landing_section = re.search(
         r'Landing list:\s*\(landing, earliest, target, latest\)([\s\S]*?)\n\n', data)
@@ -25,7 +29,7 @@ def load_data(filepath):
     safety_matrix = [list(map(int, re.findall(r'\d+', line)))
                      for line in safety_lines]
 
-    return landings, np.array(safety_matrix)
+    return landings, np.array(safety_matrix), total_penalty
 
 
 def determine_sequence(landings, safety_matrix):
@@ -38,7 +42,7 @@ def determine_sequence(landings, safety_matrix):
     return sequence, landings
 
 
-def plot_gantt(landings, safety_matrix, sequence):
+def plot_gantt(landings, safety_matrix, sequence, total_penalty):
     """
     Plot Gantt chart for the landings.
     """
@@ -75,7 +79,8 @@ def plot_gantt(landings, safety_matrix, sequence):
     ax.set_yticklabels([f'Plane {landing[0]}' for landing in landings])
     ax.set_xlabel('Time')
     ax.set_ylabel('Planes')
-    ax.set_title('Landing Schedule Gantt Chart')
+    ax.set_title(
+        f'Landing Schedule Gantt Chart (Total Penalty: {total_penalty})')
     ax.grid(True)
 
     # Add legend
@@ -89,9 +94,9 @@ def plot_gantt(landings, safety_matrix, sequence):
 def main():
     os.chdir('Day17')
     filepath = 'solution.txt'
-    landings, safety_matrix = load_data(filepath)
+    landings, safety_matrix, total_penalty = load_data(filepath)
     sequence, sorted_landings = determine_sequence(landings, safety_matrix)
-    plot_gantt(sorted_landings, safety_matrix, sequence)
+    plot_gantt(sorted_landings, safety_matrix, sequence, total_penalty)
     print("Gantt chart saved as solution.png")
 
 

@@ -50,3 +50,8 @@ Constraints:
 
 - Ensure safety gap between planned landing times
 - Bounds for L
+
+# Results
+
+The optimal landing schedule:
+![](./solution.png)
