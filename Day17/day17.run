@@ -1,0 +1,59 @@
+reset;
+
+param mip_gap := 0.01;
+
+param instance symbolic := "Day17/instance_clean.txt";
+param solution symbolic := "Day17/solution.txt";
+
+model 'Day17/day17.mod';
+
+# Reading number of tasks, links, crews and time limit
+read n < (instance);
+
+for {i in 1..n} {
+    read a[i] < (instance); #appearance time
+    read e[i] < (instance); #earliest landing time
+    read t[i] < (instance); #target landing time
+    read l[i] < (instance); #latest landing time
+    read c_early[i] < (instance); # unit cost early landing
+    read c_late[i] < (instance); # unit cost late landing
+    read { j in 1 .. n} g[i, j] < (instance); #safety gap
+}
+
+param time_limit := 300;
+
+option solver highsa;
+option scip_options ("mipgap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 time_limit=" & time_limit);
+#option highs_options ("alg:start=1 threads=8 timing=1 pre:solve=off outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option highs_options ("alg:start=1 threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option cplex_options ("mipgap=" & mip_gap & " display=1 timing=1 mipdisplay=3 timelimit="& time_limit);
+
+option gcg_options ("gap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 benders-enabled=1 mode=1 time_limit=" & time_limit);
+
+option show_stats 1;
+
+
+
+solve;
+
+# Output
+display TotalPenalty;
+display L, e, t, l;
+
+
+printf "Solving instance %s\n", instance > (solution);
+printf "Total penalty: %d\n\n", TotalPenalty >> (solution);
+
+# Display list of planes with landing time
+printf "Landing list: (landing, earliest, target, latest)\n" >> (solution);
+for {i in 1..n} {
+    printf "%d %d %d %d %d \n", i, L[i], e[i], t[i], l[i] >> (solution);
+}
+
+printf "\n\nSafety gaps:\n"  >> (solution);
+for {i in 1..n} {
+    for {j in 1..n} {
+        printf "%5d ", g[i,j] >> (solution);        
+    }
+    printf "\n" >> (solution);
+}

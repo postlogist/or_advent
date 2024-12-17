@@ -1,0 +1,128 @@
+reset;
+
+param mip_gap := 0.01;
+
+param instance symbolic := "Day16/instance_clean.txt";
+param solution symbolic := "Day16/solution.txt";
+
+
+# Reading number of tasks, links, crews and time limit
+param num_tasks;
+param num_links; # added a number of links to be able to read them with AMPL's read command
+param num_crews;
+param time_limit;
+
+
+read num_tasks < (instance);
+read num_links < (instance);
+read num_crews < (instance);
+read time_limit < (instance);
+
+option solver highsa;
+option scip_options ("mipgap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 time_limit=" & time_limit);
+#option highs_options ("alg:start=1 threads=8 timing=1 pre:solve=off outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option highs_options ("alg:start=1 threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option cplex_options ("mipgap=" & mip_gap & " display=1 timing=1 mipdisplay=3 timelimit="& time_limit);
+
+option gcg_options ("gap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 benders-enabled=1 mode=1 time_limit=" & time_limit);
+
+option show_stats 1;
+
+model 'Day16/day16.mod';
+
+# read in task parameters
+for {t in TASKS} {
+    read fixed_cost[t], start_time[t], end_time[t] < (instance);
+}
+
+
+# read in transitions
+
+let LINKS := {};
+param a;
+param b;
+/*
+for {l in 1.. num_links} {
+    read a, b < (instance) ;
+    let LINKS := LINKS union {(a, b)}; 
+    read transition_time[a, b]  < (instance);
+    display l, a, b, transition_time[a, b];
+}
+*/
+/*
+# immediately reachable nodes from task i
+let {i in TASKS} REACHABLE[i] := setof {(i, j) in LINKS} j;
+
+
+#max iterations
+param iteration_limit;
+param updated;
+let iteration_limit := num_links;
+repeat {
+    let updated := 0;
+    for {i in TASKS, k in REACHABLE[i]} {
+        let REACHABLE[i] :=  REACHABLE[i] union {j in REACHABLE[k]};
+        let updated := 1;
+        let iteration_limit := iteration_limit - 1;
+    }
+    if updated == 0 then break;
+} until iteration_limit <= 0;
+
+display REACHABLE;
+
+*/
+solve;
+
+# Output
+#display x;
+display TotalCrews;
+
+printf "Solving instance %s\n", instance > (solution);
+printf "Total crews used: %d\n", TotalCrews >> (solution);
+
+# Display list of crews with tasks assigned to them
+printf "\nTasks assigned to each crew:\n"  >> (solution);
+for {c in CREWS} {
+    if sum {i in TASKS, s in STEPS} x[i, c, s] > 0.9 then {
+        printf "Crew %s: ", c  >> (solution);
+        for {i in TASKS, s in STEPS:  x[i, c, s] >= 0.9} {
+            printf "%s ", i  >> (solution);
+        }
+        printf "\n" >> (solution);
+    }
+}
+
+# Display list of tasks with their assigned crew
+printf "Tasks assignment to crews [task, start, end, team]\n" >> (solution);
+printf {i in TASKS, c in CREWS, s in STEPS: x[i, c, s] >= 0.9} "%d %d %d %d\n", i, start_time[i], end_time[i], c >> (solution);
+
+
+/*
+read num_products < (instance);
+
+# reading direct and synergy effects
+for {i in PRODUCTS} {
+    read profit[i] < (instance);
+    for {j in PRODUCTS : i < j} {
+        read synergy[i, j] < (instance);
+    }    
+}
+
+read budget < (instance);
+
+read {i in PRODUCTS} cost[i] < (instance);
+#display cost;
+solve;
+
+display TotalProfit;
+display BudgetConstraint.body;
+
+printf "Number of products: %d\n", num_products > (solution);
+printf "Selected for promo: %d\n", sum {i in PRODUCTS } promote[i] >> (solution);
+printf "Total Profit: %d\n", TotalProfit  >> (solution);
+printf "Promo spend: %d (out of %d)\n", BudgetConstraint.body, budget >> (solution); 
+printf "Promoted products: \n"  >> (solution); 
+printf {i in PRODUCTS : promote[i] > 0.1} "%d ", i >> (solution); 
+printf "\n">> (solution);
+
+*/

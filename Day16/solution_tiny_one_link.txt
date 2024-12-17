@@ -1,0 +1,12 @@
+Solving instance Day16/instance_clean.txt
+Total crews used: 3
+
+Tasks assigned to each crew:
+Crew 1: 3 
+Crew 2: 4 
+Crew 3: 1 2 
+Tasks assignment to crews [task, start, end, team]
+1 0 3 3
+2 3 5 3
+3 5 7 1
+4 0 4 2
