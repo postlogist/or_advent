@@ -2,13 +2,16 @@ reset;
 
 param mip_gap := 0.01;
 
-param instance symbolic := "Day17/instance_clean.txt";
+#param instance symbolic := "Day17/instance_clean.txt";
+param instance symbolic := "Day17/instances/airland13.txt";
 param solution symbolic := "Day17/solution.txt";
+param mystic;
 
 model 'Day17/day17.mod';
 
 # Reading number of tasks, links, crews and time limit
 read n < (instance);
+#read mystic < (instance);
 
 for {i in 1..n} {
     read a[i] < (instance); #appearance time

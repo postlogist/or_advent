@@ -29,12 +29,21 @@ subject to DeviationBelow{i in 1..n}:
     Ub[i] >= t[i] - L[i];
 
 # Constraints
-
+/*
 subject to SafetyGap{i in 1..n, j in i+1..n}: 
     L[j] >= L[i] + g[i, j] - (1 - y[i, j]) * (l[j] - e[i]);
     
 subject to SafetyGapReverse{i in 1..n, j in i+1..n}:
-    L[i] >= L[j] + g[j, i] - y[i, j] * (l[i] - e[j]);
+    L[i] >= L[j] + g[j, i] - y[i, j] * (l[i] - e[j]);  #don't work
+*/
+subject to SafetyGap{i in 1..n, j in i+1..n}: 
+    (y[i, j] == 1) ==>
+        (L[j] >= L[i] + g[i, j]);
+    
+
+subject to SafetyGapReverse{i in 1..n, j in i+1..n}:
+    (y[i, j] == 0) ==>
+        (L[i] >= L[j] + g[j, i]);
 
 
 /*# Enforce mutual exclusivity of landing order
