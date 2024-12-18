@@ -3,7 +3,7 @@ reset;
 param mip_gap := 0.01;
 
 #param instance symbolic := "Day17/instance_clean.txt";
-param instance symbolic := "Day17/instances/airland13.txt";
+param instance symbolic := "Day17/instance.txt";
 param solution symbolic := "Day17/solution.txt";
 param mystic;
 
