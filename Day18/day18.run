@@ -1,0 +1,52 @@
+reset;
+option solver highsa;
+param mip_gap := 0.01;
+param time_limit := 300;
+option scip_options ("mipgap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 time_limit=" & time_limit);
+#option highs_options ("alg:start=1 threads=8 timing=1 pre:solve=off outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option highs_options ("alg:start=1 threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option cplex_options ("mipgap=" & mip_gap & " display=1 timing=1 mipdisplay=3 timelimit="& time_limit);
+
+option gcg_options ("gap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 benders-enabled=1 mode=1 time_limit=" & time_limit);
+
+option show_stats 1;
+
+model Day18/day18.mod;
+param instance symbolic := "Day18/instance.txt";
+param solution symbolic := "Day18/solution.txt";
+param num_edges;
+
+read N < (instance);
+read num_edges < (instance);
+
+let EDGES := {};
+param a;
+param b;
+for {i in 1 .. num_edges} {
+    read a < (instance);
+    read b < (instance);
+    let EDGES := EDGES union {(a, b), (b, a)};
+    read cost[a, b] < (instance);
+    let cost[b, a] := cost[a, b];
+}
+
+param num_hubs;
+
+read num_hubs < (instance);
+
+let HUBS := {};
+for {i in 1 .. num_hubs} {
+    read a < (instance);
+    let HUBS := HUBS union {a};
+}
+
+solve;
+
+printf "Solving instance: %s\n\n", (instance) > (solution); 
+printf "Number of nodes: %d\n", N >> (solution);
+printf "Total cost: %d\n", TotalCost  >> (solution);
+
+printf "Selected edges:\n" >> (solution);
+
+printf {(i, j) in EDGES: x[i, j] > 0.1} "%d %d %d\n", i, j, cost[i, j] >> (solution);
+

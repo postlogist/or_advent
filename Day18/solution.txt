@@ -1,0 +1,24 @@
+Solving instance: Day18/instance.txt
+
+Number of nodes: 50
+Total cost: 82
+Selected edges:
+7 29 7
+18 28 1
+43 18 1
+20 7 3
+20 27 2
+48 20 2
+21 12 7
+20 22 2
+22 21 2
+22 43 7
+27 34 4
+28 24 5
+29 33 7
+33 35 3
+36 49 9
+22 41 8
+41 36 2
+41 47 7
+47 37 3
