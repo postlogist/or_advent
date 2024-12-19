@@ -68,6 +68,7 @@ $$ \sum*{(i, j) \in \text{EDGES}} x[i, j] + \sum*{(j, i) \in \text{EDGES}} x[j, 
 
 3. Tree Structure
    TreeConstraint: Ensures the tree property by ensuring the total number of included edges equals the number of used nodes minus one:
+
    $$ \sum*{(i, j) \in \text{EDGES}} x[i, j] = \sum*{i \in \text{NODES}} y[i] - 1$$
 
 4. Flow-Based Connectivity
@@ -76,12 +77,15 @@ $$ \sum*{(i, j) \in \text{EDGES}} x[i, j] + \sum*{(j, i) \in \text{EDGES}} x[j, 
 $$\sum_{(source\_hub, j) \in \text{EDGES}} \text{flow}[source\_hub, j] - \sum_{(j, source\_hub) \in \text{EDGES}} \text{flow}[j, source\_hub] = \text{card}(\text{HUBS}) - 1$$
 
 FlowConservationOthers: Enforces flow conservation for non-hub nodes (flow into a node equals flow out of it):
+
 $$ \sum*{(j, i) \in \text{EDGES}} \text{flow}[j, i] = \sum*{(i, j) \in \text{EDGES}} \text{flow}[i, j] \quad \forall i \in \text{NODES} \setminus \text{HUBS} $$
 
-FlowToHubs: Ensures each hub (except the source*hub) has a net inflow of exactly one unit of flow:
-$$ \sum*{(j, h) \in \text{EDGES}} \text{flow}[j, h] - \sum\_{(h, j) \in \text{EDGES}} \text{flow}[h, j] = 1 \quad \forall h \in \text{HUBS} \setminus \{ \text{source_hub} \} $$
+FlowToHubs: Ensures each hub (except the source\*hub) has a net inflow of exactly one unit of flow:
+
+$$ \sum\*{(j, h) \in \text{EDGES}} \text{flow}[j, h] - \sum\_{(h, j) \in \text{EDGES}} \text{flow}[h, j] = 1 \quad \forall h \in \text{HUBS} \setminus \{ \text{source_hub} \} $$
 
 FlowCapacity: Restricts flow on an edge to exist only if the edge is included in the solution:
+
 $$ \text{flow}[i, j] \leq (\text{card}(\text{HUBS}) - 1) \cdot x[i, j] \quad \forall (i, j) \in \text{EDGES} $$
 
 5. Edge-Node Relationship
@@ -90,6 +94,7 @@ $$ \text{flow}[i, j] \leq (\text{card}(\text{HUBS}) - 1) \cdot x[i, j] \quad \fo
 $$x[i, j] \leq y[j]$$
 
 IncludeEdge2: If an edge (i, j) is included, node i must be used:
+
 $$x[j, i] \leq y[i]$$
 
 6. Unidirectional Edges
@@ -105,3 +110,7 @@ Tree Structure: The tree constraint and flow-based structure prevent cycles and 
 Edge-Node Relationship: Constraints ensure consistency between edge inclusion and node activation.
 Cost Minimization: The objective function minimizes the total edge connection costs over the solution.
 By combining flow-based connectivity with tree property enforcement, this formulation guarantees a minimum-cost, acyclic graph that connects all HUBS.
+
+## Solution
+
+![](./network_graph.png)
