@@ -23,6 +23,9 @@ Here you can find an instance of this problem.
 
 PS: if costs are close, how will you decide between multiple solutions?
 
+
+Link to the [post](https://www.linkedin.com/posts/borjamenendezmoreno_operationsresearch-activity-7275054734628040705-0ewx)
+
 # Analysis
 
 This model implements a flow-based connectivity approach for solving the **Minimum Cost Steiner Tree Problem**. The goal is to find a minimum-cost subgraph that connects a subset of **hub nodes**, while ensuring connectivity, adhering to tree properties, and satisfying various constraints.
