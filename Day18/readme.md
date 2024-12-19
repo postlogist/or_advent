@@ -61,7 +61,7 @@ The **Steiner Tree Problem** involves:
 
 ## Objective
 
-### Minimize Total Cost
+Minimize Total Cost
 
 The objective function minimizes the total cost of the edges included in the solution:
 
@@ -71,43 +71,43 @@ $$ \text{minimize} \; \text{TotalCost} = \sum\_{(i, j) \in \text{EDGES}} \text{c
 
 ## Constraints
 
-### 1. Hub Connectivity
+1. Hub Connectivity
 
 **`ConnectHubs`**: Ensures that all nodes in the hub set are included in the solution:
 
 $$ y[h] = 1 \quad \forall h \in \text{HUBS} $$
 
-### 2. Node-Edge Relationship
+2. Node-Edge Relationship
 
 **`NodeUsage`**: Ensures that if a node is used (`y[i] = 1`), then at least one edge incident to it must be included:
 
-$$ \sum*{(i, j) \in \text{EDGES}} x[i, j] + \sum*{(j, i) \in \text{EDGES}} x[j, i] \geq y[i] \quad \forall i \in \text{NODES} $$
+$$ \sum_{(i, j) \in \text{EDGES}} x[i, j] + \sum_{(j, i) \in \text{EDGES}} x[j, i] \geq y[i] \quad \forall i \in \text{NODES} $$
 
-### 3. Tree Structure
+3. Tree Structure
 
 **`TreeConstraint`**: Ensures the tree property by ensuring the total number of included edges equals the number of used nodes minus one:
 
-$$ \sum*{(i, j) \in \text{EDGES}} x[i, j] = \sum*{i \in \text{NODES}} y[i] - 1 $$
+$$ \sum_{(i, j) \in \text{EDGES}} x[i, j] = \sum_{i \in \text{NODES}} y[i] - 1 $$
 
-### 4. Flow-Based Connectivity
+4. Flow-Based Connectivity
 
 **`FlowConservationSource`**: Ensures that the flow originating from the source hub equals the total number of hubs minus one:
 
-$$ \sum*{(source_hub, j) \in \text{EDGES}} \text{flow}[source\_hub, j] - \sum*{(j, source_hub) \in \text{EDGES}} \text{flow}[j, source\_hub] = \text{card}(\text{HUBS}) - 1 $$
+$$ \sum_{(source_hub, j) \in \text{EDGES}} \text{flow}[source\_hub, j] - \sum_{(j, source_hub) \in \text{EDGES}} \text{flow}[j, source\_hub] = \text{card}(\text{HUBS}) - 1 $$
 
 **`FlowConservationOthers`**: Enforces flow conservation for non-hub nodes (flow into a node equals flow out of it):
 
-$$ \sum*{(j, i) \in \text{EDGES}} \text{flow}[j, i] = \sum*{(i, j) \in \text{EDGES}} \text{flow}[i, j] \quad \forall i \in \text{NODES} \setminus \text{HUBS} $$
+$$ \sum_{(j, i) \in \text{EDGES}} \text{flow}[j, i] = \sum_{(i, j) \in \text{EDGES}} \text{flow}[i, j] \quad \forall i \in \text{NODES} \setminus \text{HUBS} $$
 
 **`FlowToHubs`**: Ensures each hub (except the `source_hub`) has a net inflow of exactly one unit of flow:
 
-$$ \sum*{(j, h) \in \text{EDGES}} \text{flow}[j, h] - \sum*{(h, j) \in \text{EDGES}} \text{flow}[h, j] = 1 \quad \forall h \in \text{HUBS} \setminus \{ \text{source_hub} \} $$
+$$ \sum_{(j, h) \in \text{EDGES}} \text{flow}[j, h] - \sum_{(h, j) \in \text{EDGES}} \text{flow}[h, j] = 1 \quad \forall h \in \text{HUBS} \setminus \{ \text{source_hub} \} $$
 
 **`FlowCapacity`**: Restricts flow on an edge to exist only if the edge is included in the solution:
 
 $$ \text{flow}[i, j] \leq (\text{card}(\text{HUBS}) - 1) \cdot x[i, j] \quad \forall (i, j) \in \text{EDGES} $$
 
-### 5. Edge-Node Relationship
+5. Edge-Node Relationship
 
 **`IncludeEdge1`**: If an edge `(i, j)` is included, node `j` must be used:
 
@@ -117,7 +117,7 @@ $$ x[i, j] \leq y[j] $$
 
 $$ x[i, j] \leq y[i] $$
 
-### 6. Unidirectional Edges
+6. Unidirectional Edges
 
 **`OneDirection`**: Ensures edges are considered only in one direction:
 
@@ -125,7 +125,7 @@ $$ x[i, j] + x[j, i] \leq 1 \quad \forall (i, j) \in \text{EDGES} $$
 
 ---
 
-## Overall Logic
+Overall Logic
 
 The model constructs a cost-optimal tree subgraph that connects all specified hub nodes (`HUBS`) while ensuring:
 
