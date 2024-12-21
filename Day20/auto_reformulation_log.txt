@@ -1,0 +1,19 @@
+Manual:
+Presolving model
+1267552 rows, 423176 cols, 2958852 nonzeros  1s
+1267552 rows, 423176 cols, 2958852 nonzeros  49s
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   1267552 rows
+   423176 cols (423176 binary, 0 integer, 0 implied int., 0 continuous)
+   2958852 nonzeros
+
+
+
+auotmatic:
+Solving MIP model with:
+   328302 rows
+   328926 cols (328926 binary, 0 integer, 0 implied int., 0 continuous)
+   986102 nonzeros
+

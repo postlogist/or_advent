@@ -20,10 +20,11 @@ var start_time {j in JOBS, s in STAGES} >= 0, <= bigM; # Start time of a job at 
 
 var end_time {j in JOBS, s in STAGES} >= 0, <= bigM; # End time of a job at a stage
 
-var makespan; # Total production time
+#var makespan; # Total production time
 
 # Binary variable for modeling job execution order
 var y {JOBS, JOBS, STAGES} binary;
+#var y {JOBS, JOBS} binary;
 
 # Objective function
 #minimize Makespan: makespan;
@@ -35,18 +36,48 @@ subject to CompletionTime {j in JOBS, s in STAGES}:
 
 subject to sequence {j in JOBS, s in STAGES: s < n_stages-1}:
     start_time[j, s + 1] >= end_time[j, s];
-/*
+
+
 subject to no_overlap1 {(i,j) in JOBS cross JOBS, s in STAGES : i != j}:
     end_time[i, s] <= start_time[j, s] + bigM  * (1 - y[i, j, s]); #H[s]
 
 subject to no_overlap2 {(i,j) in JOBS cross JOBS, s in STAGES: i != j}:    
     end_time[j, s] <= start_time[i, s] + bigM * y[i, j, s]; #H[s]
+
+/*
+subject to no_overlap1 {(i,j) in JOBS cross JOBS, s in STAGES : i != j}:
+    end_time[i, s] <= start_time[j, s] + bigM  * (1 - y[i, j]); #H[s]
+
+subject to no_overlap2 {(i,j) in JOBS cross JOBS, s in STAGES: i != j}:    
+    end_time[j, s] <= start_time[i, s] + bigM * y[i, j]; #H[s]
 */
 
+/*
 subject to MachineDecoonflict {(i,j) in JOBS cross JOBS, s in STAGES : i != j}:
     (end_time[i, s] <= start_time[j, s] or end_time[j, s] <= start_time[i, s])
     and not
     (end_time[i, s] <= start_time[j, s] and end_time[j, s] <= start_time[i, s]);
+*/
 
+/*
 subject to finish_time {j in JOBS}:
     makespan >= end_time[j, n_stages-1];
+*/
+
+
+# Either i or j is the first job
+subject to Symmetry {(i,j) in JOBS cross JOBS, s in STAGES : i != j}:
+    y[i, j, s] = 1 - y[j, i, s];
+
+/*
+# Same sequence for all stages
+subject to SameSequence {(i,j) in JOBS cross JOBS, s in STAGES : i != j}:
+    y[i, j, s] = y[i, j, 0];
+
+*/
+
+/*
+# Either i or j is the first job
+subject to Symmetry {(i,j) in JOBS cross JOBS: i != j}:
+    y[i, j] = 1 - y[j, i];
+*/

@@ -1,0 +1,30 @@
+Solving instance: Day20/instance.txt
+
+Total Distance: 5401030
+Assignments:
+Facility 1: location 23
+Facility 2: location 1
+Facility 3: location 2
+Facility 4: location 11
+Facility 5: location 18
+Facility 6: location 8
+Facility 7: location 6
+Facility 8: location 26
+Facility 9: location 21
+Facility 10: location 12
+Facility 11: location 19
+Facility 12: location 3
+Facility 13: location 20
+Facility 14: location 9
+Facility 15: location 24
+Facility 16: location 15
+Facility 17: location 7
+Facility 18: location 14
+Facility 19: location 5
+Facility 20: location 13
+Facility 21: location 22
+Facility 22: location 4
+Facility 23: location 25
+Facility 24: location 10
+Facility 25: location 16
+Facility 26: location 17
