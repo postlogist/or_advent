@@ -1,0 +1,39 @@
+reset;
+option solver highsa;
+param mip_gap := 0.01;
+param time_limit := 180;
+option scip_options ("mipgap=" & mip_gap & " acc:_expr=1 outlev=1 timing=1 outlev-native=3 time_limit=" & time_limit);
+#option highs_options ("alg:start=1 threads=8 timing=1 pre:solve=off outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option highs_options ("cvt:prod=7 threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+#option highs_options ("threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option cplex_options ("mipgap=" & mip_gap & " display=1 timing=1 mipdisplay=3 timelimit="& time_limit);
+
+option gcg_options ("gap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 benders-enabled=1 mode=1 time_limit=" & time_limit);
+
+option show_stats 1;
+
+model Day21/day21.mod;
+data Day21/day21.dat;
+param instance symbolic := "Day21/instance_table.txt";
+param solution symbolic := "Day21/solution.txt";
+
+
+read {i in FACILITIES, j in ENTITIES} distance[i, j] < (instance);
+
+
+solve;
+
+display SumMinDistances;
+
+printf "Solving instance: %s\n\n", (instance) > (solution); 
+printf "Sum of min distances: %d\n", SumMinDistances >> (solution);
+
+printf "Assignments:\n" >> (solution);
+
+
+for {i in FACILITIES: y[i] > 0.1} {
+    printf "Facility %s serves entities: ", i  >> (solution);
+    printf {j in ENTITIES : x[i, j] > 0.1 } "%s ", j >> (solution);
+    printf "\n" >> (solution);
+}
+

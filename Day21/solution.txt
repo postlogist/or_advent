@@ -1,0 +1,29 @@
+Solving instance: Day21/instance_table.txt
+
+Sum of min distances: 610
+Assignments:
+Facility f16 serves entities: c16 c21 c31 c35 c113 c173 c185 c186 
+Facility f26 serves entities: c22 c46 c51 c52 c91 c104 c147 c192 
+Facility f30 serves entities: c20 c30 c66 c68 c108 c117 c149 c180 
+Facility f37 serves entities: c53 c55 c56 c107 c126 c144 c159 c161 
+Facility f38 serves entities: c45 c59 c64 c96 c97 c120 c130 c157 
+Facility f42 serves entities: c9 c15 c58 c80 c86 c88 c136 c160 
+Facility f57 serves entities: c29 c42 c54 c84 c143 c145 c150 c162 
+Facility f68 serves entities: c19 c26 c40 c100 c142 c151 c167 c195 
+Facility f87 serves entities: c8 c33 c60 c92 c106 c122 c169 c178 
+Facility f89 serves entities: c2 c5 c41 c49 c77 c89 c133 c153 
+Facility f92 serves entities: c14 c25 c112 c118 c135 c141 c166 c168 
+Facility f98 serves entities: c7 c37 c61 c98 c105 c123 c184 c194 
+Facility f102 serves entities: c43 c48 c67 c76 c81 c188 c191 c196 
+Facility f120 serves entities: c10 c27 c32 c38 c50 c127 c137 c163 
+Facility f124 serves entities: c0 c6 c24 c39 c63 c155 c183 c197 
+Facility f125 serves entities: c1 c11 c23 c34 c82 c85 c129 c134 
+Facility f138 serves entities: c3 c36 c95 c103 c116 c119 c139 c172 
+Facility f144 serves entities: c13 c57 c75 c79 c102 c189 c190 c193 
+Facility f150 serves entities: c18 c72 c109 c131 c140 c152 c182 c199 
+Facility f152 serves entities: c4 c17 c62 c83 c125 c158 c174 c179 
+Facility f168 serves entities: c73 c78 c111 c115 c146 c154 c164 c177 
+Facility f172 serves entities: c28 c44 c47 c69 c90 c121 c175 c176 
+Facility f173 serves entities: c71 c87 c93 c94 c110 c138 c187 c198 
+Facility f180 serves entities: c65 c74 c114 c132 c148 c156 c170 c181 
+Facility f197 serves entities: c12 c70 c99 c101 c124 c128 c165 c171 
