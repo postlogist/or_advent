@@ -43,3 +43,5 @@ Share your thoughs in my [post](https://www.linkedin.com/posts/borjamenendezmore
 ## Analysis
 
 I re-purposed the model from P19. It already allowed to change the sequence of jobs at each machine. Now I added the ability to use different machines at each stage.
+
+![](./solution_abz5.png)
