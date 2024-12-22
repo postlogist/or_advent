@@ -1,0 +1,45 @@
+reset;
+option solver highsa;
+param mip_gap := 0.01;
+param time_limit := 300;
+option scip_options ("mipgap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 time_limit=" & time_limit);
+#option highs_options ("alg:start=1 threads=8 timing=1 pre:solve=off outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option highs_options ("alg:start=1 threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option cplex_options ("mipgap=" & mip_gap & " display=1 timing=1 mipdisplay=3 timelimit="& time_limit);
+
+option gcg_options ("gap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 benders-enabled=1 mode=1 time_limit=" & time_limit);
+
+option show_stats 1;
+
+model Day22/day22.mod;
+param instance_name symbolic := "abz5";
+param instance symbolic := "Day22/instance_" & instance_name & ".txt";
+param solution symbolic := "Day22/solution_" & instance_name & ".txt";
+
+read n_jobs < (instance);
+read n_stages < (instance);
+
+
+for {j in JOBS} {
+    for {s in STAGES} {
+        read machine_required[j, s] < (instance);
+        read p[j, s] < (instance);
+    }
+}
+
+
+solve;
+
+display Makespan;
+
+printf "Solving instance: %s\n\n", (instance_name) > (solution); 
+printf "Makespan: %d\n", Makespan >> (solution);
+
+printf "Job schedule (job, stage, machine, start, end):\n" >> (solution);
+
+for {j in JOBS} {
+    for {s in STAGES} {
+        printf "%d %d %d %d %d\n", j, s, machine_required[j, s], start_time[j, s], end_time[j, s] >> (solution);
+    }
+};
+
