@@ -10,7 +10,7 @@ option cplex_options ("mipgap=" & mip_gap & " display=1 timing=1 mipdisplay=3 ti
 option gcg_options ("gap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 benders-enabled=1 mode=1 time_limit=" & time_limit);
 
 option show_stats 1;
-
+param dummy;
 model Day23/day23.mod;
 param instance_name symbolic := "instance";
 param instance symbolic := "Day23/" & instance_name & ".txt";
@@ -21,6 +21,8 @@ read num_select < (instance);
 
 
 for {i in PRODUCTS, j in PRODUCTS: i < j} {
+        read dummy < (instance);
+        read dummy < (instance);
         read distance[i,j] < (instance);
 }
 
@@ -35,7 +37,6 @@ printf "Maximum min distance: %.1f\n", max_min_dist >> (solution);
 printf "Products selected:\n" >> (solution);
 
 for {i in PRODUCTS : select[i] > 0.1} {
-        printf "%d, min distance: %.1f \n", i, if i < num_products - 1 then min {(i, j) in PAIRS : select[j] > 0.1} distance[i, j] 
-        else min {(j, i) in PAIRS : select[j] > 0.1} distance[j, i]>> (solution);
+        printf "%d, min distance: %.1f \n", i, min {j in PRODUCTS : select[j] > 0.1 and i !=j } (if (i < j) then distance[i, j] else distance[j, i]) >> (solution);
 };
 

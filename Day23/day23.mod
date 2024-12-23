@@ -22,7 +22,7 @@ subject to select_count:
     sum{i in PRODUCTS} select[i] = num_select;
 
 # Min distance constraint
-subject to min_distance_constraint{(i,j) in PAIRS}:
-    min_dist <= distance[i,j] + M * (2 - select[i] - select[j]);
+subject to min_distance_constraint{(i, j) in PAIRS}:
+    min_dist <= distance[i,j]  + M * (2 - select[i] - select[j]);
 #(select[i] == 1 and select[j] == 1) ==> 
 #    (min_dist <= distance[i,j]); #didn't work

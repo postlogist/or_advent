@@ -38,12 +38,13 @@ Constraints:
 ```
 Solving instance: instance
 
-Maximum min distance: 152.9
+Maximum min distance: 180.1
 Products selected:
-4, min distance: 152.9
-5, min distance: 164.9
-14, min distance: 164.4
-20, min distance: 156.4
-26, min distance: 154.6
-29, min distance: 152.9
+3, min distance: 180.1
+8, min distance: 184.3
+16, min distance: 180.1
+19, min distance: 182.3
+26, min distance: 180.3
+28, min distance: 200.5
+
 ```
