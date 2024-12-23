@@ -1,0 +1,41 @@
+reset;
+option solver highsa;
+param mip_gap := 0.01;
+param time_limit := 300;
+option scip_options ("mipgap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 time_limit=" & time_limit);
+#option highs_options ("alg:start=1 threads=8 timing=1 pre:solve=off outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option highs_options ("alg:start=1 threads=8 timing=1 outlev=1 miploglev=2 parallel=on  mip_rel_gap=" & mip_gap & " time_limit=" & time_limit );
+option cplex_options ("mipgap=" & mip_gap & " display=1 timing=1 mipdisplay=3 timelimit="& time_limit);
+
+option gcg_options ("gap=" & mip_gap & " outlev=1 timing=1 outlev-native=3 benders-enabled=1 mode=1 time_limit=" & time_limit);
+
+option show_stats 1;
+
+model Day23/day23.mod;
+param instance_name symbolic := "instance";
+param instance symbolic := "Day23/" & instance_name & ".txt";
+param solution symbolic := "Day23/solution_" & instance_name & ".txt";
+
+read num_products < (instance);
+read num_select < (instance);
+
+
+for {i in PRODUCTS, j in PRODUCTS: i < j} {
+        read distance[i,j] < (instance);
+}
+
+
+solve;
+
+display max_min_dist;
+
+printf "Solving instance: %s\n\n", (instance_name) > (solution); 
+printf "Maximum min distance: %d\n", max_min_dist >> (solution);
+
+printf "Products selected:\n" >> (solution);
+
+for {i in PRODUCTS : select[i] > 0.1} {
+        printf "%d, min distance: %f \n", i, if i < num_products - 1 then min {(i, j) in PAIRS : select[j] > 0.1} distance[i, j] 
+        else min {(j, i) in PAIRS : select[j] > 0.1} distance[j, i]>> (solution);
+};
+

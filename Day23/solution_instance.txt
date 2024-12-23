@@ -1,0 +1,10 @@
+Solving instance: instance
+
+Maximum min distance: 152
+Products selected:
+4, min distance: 152.854710 
+5, min distance: 164.931260 
+14, min distance: 164.433900 
+20, min distance: 156.444060 
+26, min distance: 154.577650 
+29, min distance: 152.854710 
