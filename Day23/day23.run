@@ -30,12 +30,12 @@ solve;
 display max_min_dist;
 
 printf "Solving instance: %s\n\n", (instance_name) > (solution); 
-printf "Maximum min distance: %d\n", max_min_dist >> (solution);
+printf "Maximum min distance: %.1f\n", max_min_dist >> (solution);
 
 printf "Products selected:\n" >> (solution);
 
 for {i in PRODUCTS : select[i] > 0.1} {
-        printf "%d, min distance: %f \n", i, if i < num_products - 1 then min {(i, j) in PAIRS : select[j] > 0.1} distance[i, j] 
+        printf "%d, min distance: %.1f \n", i, if i < num_products - 1 then min {(i, j) in PAIRS : select[j] > 0.1} distance[i, j] 
         else min {(j, i) in PAIRS : select[j] > 0.1} distance[j, i]>> (solution);
 };
 

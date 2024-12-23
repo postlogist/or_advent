@@ -35,11 +35,15 @@ Constraints:
 
 ## Results
 
-Maximum min distance: 152
+'''
+Solving instance: instance
+
+Maximum min distance: 152.9
 Products selected:
-4, min distance: 152.854710
-5, min distance: 164.931260
-14, min distance: 164.433900
-20, min distance: 156.444060
-26, min distance: 154.577650
-29, min distance: 152.854710
+4, min distance: 152.9
+5, min distance: 164.9
+14, min distance: 164.4
+20, min distance: 156.4
+26, min distance: 154.6
+29, min distance: 152.9
+'''
