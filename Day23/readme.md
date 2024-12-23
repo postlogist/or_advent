@@ -35,7 +35,7 @@ Constraints:
 
 ## Results
 
-'''
+```
 Solving instance: instance
 
 Maximum min distance: 152.9
@@ -46,4 +46,4 @@ Products selected:
 20, min distance: 156.4
 26, min distance: 154.6
 29, min distance: 152.9
-'''
+```
