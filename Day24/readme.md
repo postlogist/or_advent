@@ -393,4 +393,5 @@ Active sleighs: 50
 Total time: 10800 minutes
 Total load: 595320
 Total demand: 595320
+
 ```
