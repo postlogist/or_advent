@@ -43,6 +43,7 @@ Constraints:
 
 Solution after 5 mins with Tabu Search heuristic:
 
+```
 Sleigh 1: Load 12420
 Santa's depot 0: Time 420
 Child 174: Time 482 [420, 1080] Demand 4710
@@ -392,3 +393,4 @@ Active sleighs: 50
 Total time: 10800 minutes
 Total load: 595320
 Total demand: 595320
+```
